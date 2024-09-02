@@ -1,0 +1,524 @@
+<stallionsden>
+<!-- File Cabinet Short -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortBrownRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortGreenRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortBlueRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortGreyRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortBlackRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortAllRandomLootHelper']"></remove>
+<!-- File Cabinet Tall -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallBrownRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallGreenRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallBlueRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallGreyRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallBlackRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallAllRandomLootHelper']"></remove>
+<!-- Lockers Short -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersShortRandomLootHelper']"></remove>
+<!-- Lockers Tall -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersTallRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersTallDoubleRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixLinkRandomLootHelper']"></remove>
+
+<remove xpath="/blockplaceholders/placeholder[@name='cntCashRegisterRandomLootHelper']"></remove>
+<!-- TOOL BOX -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelperWhite']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelperRed']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelperYellow']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelperGreen']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelperBlue']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelperGrey']"></remove>
+<!-- TOOL BOX OFFSET -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxOffsetRandomLootHelperWhite']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxOffsetRandomLootHelperRed']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxOffsetRandomLootHelperYellow']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxOffsetRandomLootHelperGreen']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxOffsetRandomLootHelperBlue']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxOffsetRandomLootHelperGrey']"></remove>
+<!-- ROLLING TOOL BOX -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelperWhite']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelperRed']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelperYellow']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelperGreen']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelperBlue']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelperGrey']"></remove>
+<!-- LUGGAGE -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntLuggageMediumRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLuggageBigRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLuggagePileARandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLuggagePileBRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCabinetBottomRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCupboardCabinetRedTopLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCabinetOldBottomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCupboardCabinetOldTopLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntNightstandRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntNightstandWallRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntMedicineCabinetFaucetRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntMedicineCabinetClosedRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntPillCaseRandomLootHelper']"></remove>
+<!-- WOOD DESK -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskWoodRandomLootHelper']"></remove>
+<!-- METAL DESK -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalWhiteRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalBrownRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalRedRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalOrangeRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalYellowRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalGreenRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalBlueRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalPurpleRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalGreyRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalBlackRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalPinkRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDeskMetalArmyGreenRandomLootHelper']"></remove>
+<!-- MINI BEVERAGE COOLER -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntMiniBeverageCoolerRandomLootHelper']"></remove>
+<!-- MINI BEVERAGE COOLER UNDER COUNTER -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntMiniBeverageCoolerUnderCounterRandomLootHelper']"></remove>
+<!-- DUMPSTER -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntDumpsterRandomLootHelper']"></remove>
+<!-- DUMPSTER WITH FLIES -->
+<remove xpath="/blockplaceholders/placeholder[@name='cntDumpsterFliesRandomLootHelper']"></remove>
+
+
+	<append xpath="/blockplaceholders">
+	<placeholder name="cntNightstandRandomLootHelper">
+		<block name="cntNightstandOpen" prob=".50"/>
+		<block name="cntNightstandLocked" prob=".10"/>
+		<block name="cntNightstandClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntNightstandWallRandomLootHelper">
+		<block name="cntNightstandWallOpen" prob=".50"/>
+		<block name="cntNightstandWallLocked" prob=".10"/>
+		<block name="cntNightstandWallClosed" prob=".40"/>
+	</placeholder>
+	<!-- File Cabinet Short -->
+	<!-- Default_Yellow -->
+	<placeholder name="cntFileCabinetShortRandomLootHelper">
+		<block name="cntFileCabinetShortOpen" prob=".50"/>
+		<block name="cntFileCabinetShortLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosed" prob=".40"/>
+	</placeholder>
+	<!-- Brown -->
+	<placeholder name="cntFileCabinetShortBrownRandomLootHelper">
+		<block name="cntFileCabinetShortOpenBrown" prob=".50"/>
+		<block name="cntFileCabinetShortBrownLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedBrown" prob=".40"/>
+	</placeholder>
+	<!-- Green -->
+	<placeholder name="cntFileCabinetShortGreenRandomLootHelper">
+		<block name="cntFileCabinetShortOpenGreen" prob=".50"/>
+		<block name="cntFileCabinetShortGreenLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedGreen" prob=".40"/>
+	</placeholder>
+	<!-- Blue -->
+	<placeholder name="cntFileCabinetShortBlueRandomLootHelper">
+		<block name="cntFileCabinetShortOpenBlue" prob=".50"/>
+		<block name="cntFileCabinetShortBlueLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedBlue" prob=".40"/>
+	</placeholder>
+	<!-- Grey -->
+	<placeholder name="cntFileCabinetShortGreyRandomLootHelper">
+		<block name="cntFileCabinetShortOpenGrey" prob=".50"/>
+		<block name="cntFileCabinetShortGreyLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedGrey" prob=".40"/>
+	</placeholder>
+	<!-- Black -->
+	<placeholder name="cntFileCabinetShortBlackRandomLootHelper">
+		<block name="cntFileCabinetShortOpenBlack" prob=".50"/>
+		<block name="LcntFileCabinetShortBlackLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedBlack" prob=".40"/>
+	</placeholder>
+	<!-- All_File_Cabinet_Short -->
+	<placeholder name="cntFileCabinetShortAllRandomLootHelper">
+		<block name="cntFileCabinetShortOpen" prob=".50"/>
+		<block name="cntLockersShortLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosed" prob=".40"/>
+
+		<block name="cntFileCabinetShortOpenBrown" prob=".50"/>
+		<block name="cntFileCabinetShortBrownLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedBrown" prob=".40"/>
+
+		<block name="cntFileCabinetShortOpenGreen" prob=".50"/>
+		<block name="cntFileCabinetShortGreenLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedGreen" prob=".40"/>
+
+		<block name="cntFileCabinetShortOpenBlue" prob=".50"/>
+		<block name="cntFileCabinetShortBlueLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedBlue" prob=".40"/>
+
+		<block name="cntFileCabinetShortOpenGrey" prob=".50"/>
+		<block name="cntFileCabinetShortGreyLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedGrey" prob=".40"/>
+
+		<block name="cntFileCabinetShortOpenBlack" prob=".50"/>
+		<block name="LcntFileCabinetShortBlackLocked" prob=".10"/>
+		<block name="cntFileCabinetShortClosedBlack" prob=".40"/>
+	</placeholder>
+	<!-- File Cabinet Tall -->
+	<!-- Default_Yellow -->
+	<placeholder name="cntFileCabinetTallRandomLootHelper">
+		<block name="cntFileCabinetTallOpen" prob=".50"/>
+		<block name="cntFileCabinetTallLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosed" prob=".40"/>
+	</placeholder>
+	<!-- Brown -->
+	<placeholder name="cntFileCabinetTallBrownRandomLootHelper">
+		<block name="cntFileCabinetTallOpenBrown" prob=".50"/>
+		<block name="cntFileCabinetTallClosedBrownLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedBrown" prob=".40"/>
+	</placeholder>
+	<!-- Green -->
+	<placeholder name="cntFileCabinetTallGreenRandomLootHelper">
+		<block name="cntFileCabinetTallOpenGreen" prob=".50"/>
+		<block name="cntFileCabinetTallGreenLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedGreen" prob=".40"/>
+	</placeholder>
+	<!-- Blue -->
+	<placeholder name="cntFileCabinetTallBlueRandomLootHelper">
+		<block name="cntFileCabinetTallOpenBlue" prob=".50"/>
+		<block name="cntFileCabinetTallBlueLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedBlue" prob=".40"/>
+	</placeholder>
+	<!-- Grey -->
+	<placeholder name="cntFileCabinetTallGreyRandomLootHelper">
+		<block name="cntFileCabinetTallOpenGrey" prob=".50"/>
+		<block name="cntFileCabinetTallGreyLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedGrey" prob=".40"/>
+	</placeholder>
+	<!-- Black -->
+	<placeholder name="cntFileCabinetTallBlackRandomLootHelper">
+		<block name="cntFileCabinetTallOpenBlack" prob=".50"/>
+		<block name="cntFileCabinetTallBlackLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedBlack" prob=".40"/>
+	</placeholder>
+	<!-- All_File_Cabinet_Tall -->
+	<placeholder name="cntFileCabinetTallAllRandomLootHelper">
+		<block name="cntFileCabinetTallOpen" prob=".50"/>
+		<block name="cntFileCabinetTallLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosed" prob=".40"/>
+
+		<block name="cntFileCabinetTallOpenBrown" prob=".50"/>
+		<block name="cntFileCabinetTallClosedBrownLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedBrown" prob=".40"/>
+
+		<block name="cntFileCabinetTallOpenGreen" prob=".50"/>
+		<block name="cntFileCabinetTallClosedGreenLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedGreen" prob=".40"/>
+
+		<block name="cntFileCabinetTallOpenBlue" prob=".50"/>
+		<block name="cntFileCabinetTallClosedBlueLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedBlue" prob=".40"/>
+
+		<block name="cntFileCabinetTallOpenGrey" prob=".50"/>
+		<block name="cntFileCabinetTallClosedGreyLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedGrey" prob=".40"/>
+
+		<block name="cntFileCabinetTallOpenBlack" prob=".50"/>
+		<block name="cntFileCabinetTallClosedBlackLocked" prob=".10"/>
+		<block name="cntFileCabinetTallClosedBlack" prob=".40"/>
+	</placeholder>
+	
+	<!-- Lockers Short -->
+	<placeholder name="cntLockersShortRandomLootHelper">
+		<block name="cntLockersShortOpen" prob=".50"/>
+		<block name="cntLockersShortLocked" prob=".10"/>
+		<block name="cntLockersShortClosed" prob=".40"/>
+	</placeholder>		
+	<placeholder name="cntLockersTallRandomLootHelper">
+		<block name="cntLockersTallOpen" prob=".50"/>
+		<block name="cntLockersTallLocked" prob=".10"/>
+		<block name="cntLockersTallClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntLockersTallDoubleRandomLootHelper">
+		<block name="cntLockersTallDoubleOpen" prob=".50"/>
+		<block name="cntLockersTallDoubleLocked" prob=".10"/>
+		<block name="cntLockersTallDoubleClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntLockersTallMixRandomLootHelper">
+		<block name="cntLockersTallMixOpen" prob=".50"/>
+		<block name="cntLockersTallMixLocked" prob=".10"/>
+		<block name="cntLockersTallMixClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntLockersTallMixLinkRandomLootHelper">
+		<block name="cntLockersTallMixLinkOpen" prob=".50"/>
+		<block name="cntLockersTallMixLinkLocked" prob=".10"/>
+		<block name="cntLockersTallMixLinkClosed" prob=".40"/>
+	</placeholder>
+	<!-- CASH REGISTER -->
+	<placeholder name="cntCashRegisterRandomLootHelper">
+		<block name="air" prob="0.05"/>
+		<block name="cntCashRegisterEmpty" prob=".50"/>
+		<block name="cntCashRegisterLocked" prob=".10"/>
+		<block name="cntCashRegister" prob=".40"/>
+	</placeholder>
+	<!-- TOOL BOX -->	
+		<!-- *** TOOL_BOXES -->
+	<placeholder name="cntToolBoxRandomLootHelperWhite">
+		<block name="cntToolBoxOpenWhite" prob=".50"/>
+		<block name="cntToolBoxWhiteLocked" prob=".10"/>
+		<block name="cntToolBoxClosedWhite" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxRandomLootHelperRed">
+		<block name="cntToolBoxOpenRed" prob=".50"/>
+		<block name="cntToolBoxRedLocked" prob=".10"/>
+		<block name="cntToolBoxClosedRed" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxRandomLootHelperYellow">
+		<block name="cntToolBoxOpenYellow" prob=".50"/>
+		<block name="cntToolBoxYellowLocked" prob=".10"/>
+		<block name="cntToolBoxClosedYellow" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxRandomLootHelperGreen">
+		<block name="cntToolBoxOpenGreen" prob=".50"/>
+		<block name="cntToolBoxGreenLocked" prob=".10"/>
+		<block name="cntToolBoxClosedGreen" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxRandomLootHelperBlue">
+		<block name="cntToolBoxOpenBlue" prob=".50"/>
+		<block name="cntToolBoxBlueLocked" prob=".10"/>
+		<block name="cntToolBoxClosedBlue" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxRandomLootHelperGrey">
+		<block name="cntToolBoxOpenGrey" prob=".50"/>
+		<block name="cntToolBoxGreyLocked" prob=".10"/>
+		<block name="cntToolBoxClosedGrey" prob=".40"/>
+	</placeholder>	
+	<!-- TOOL BOX OFFSET -->
+	<placeholder name="cntToolBoxOffsetRandomLootHelperWhite">
+		<block name="cntToolBoxOffsetOpenWhite" prob=".50"/>
+		<block name="cntToolBoxOffsetWhiteLocked" prob=".10"/>
+		<block name="cntToolBoxOffsetClosedWhite" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxOffsetRandomLootHelperRed">
+		<block name="cntToolBoxOffsetOpenRed" prob=".50"/>
+		<block name="cntToolBoxOffsetRedLocked" prob=".10"/>
+		<block name="cntToolBoxOffsetClosedRed" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxOffsetRandomLootHelperYellow">
+		<block name="cntToolBoxOffsetOpenYellow" prob=".50"/>
+		<block name="cntToolBoxOffsetYellowLocked" prob=".10"/>
+		<block name="cntToolBoxOffsetClosedYellow" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxOffsetRandomLootHelperGreen">
+		<block name="cntToolBoxOffsetOpenGreen" prob=".50"/>
+		<block name="cntToolBoxOffsetGreenLocked" prob=".10"/>
+		<block name="cntToolBoxOffsetClosedGreen" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxOffsetRandomLootHelperBlue">
+		<block name="cntToolBoxOffsetOpenBlue" prob=".50"/>
+		<block name="cntToolBoxOffsetBlueLocked" prob=".10"/>
+		<block name="cntToolBoxOffsetClosedBlue" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntToolBoxOffsetRandomLootHelperGrey">
+		<block name="cntToolBoxOffsetOpenGrey" prob=".50"/>
+		<block name="cntToolBoxOffsetGreyLocked" prob=".10"/>
+		<block name="cntToolBoxOffsetClosedGrey" prob=".40"/>
+	</placeholder>		
+	<!-- ROLLING TOOL BOX -->
+	<placeholder name="cntRollingToolBoxRandomLootHelperWhite">
+		<block name="cntRollingToolBoxOpenWhite" prob=".50"/>
+		<block name="cntRollingToolBoxWhiteLocked" prob=".10"/>
+		<block name="cntRollingToolBoxClosedWhite" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntRollingToolBoxRandomLootHelperRed">
+		<block name="cntRollingToolBoxOpenRed" prob=".50"/>
+		<block name="cntRollingToolBoxRedLocked" prob=".10"/>
+		<block name="cntRollingToolBoxClosedRed" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntRollingToolBoxRandomLootHelperYellow">
+		<block name="cntRollingToolBoxOpenYellow" prob=".50"/>
+		<block name="cntRollingToolBoxYellowLocked" prob=".10"/>
+		<block name="cntRollingToolBoxClosedYellow" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntRollingToolBoxRandomLootHelperGreen">
+		<block name="cntRollingToolBoxOpenGreen" prob=".50"/>
+		<block name="cntRollingToolBoxGreenLocked" prob=".10"/>
+		<block name="cntRollingToolBoxClosedGreen" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntRollingToolBoxRandomLootHelperBlue">
+		<block name="cntRollingToolBoxOpenBlue" prob=".50"/>
+		<block name="cntRollingToolBoxBlueLocked" prob=".10"/>
+		<block name="cntRollingToolBoxClosedBlue" prob=".40"/>
+	</placeholder>	
+	<placeholder name="cntRollingToolBoxRandomLootHelperGrey">
+		<block name="cntRollingToolBoxOpenGrey" prob=".50"/>
+		<block name="cntRollingToolBoxGreyLocked" prob=".10"/>
+		<block name="cntRollingToolBoxClosedGrey" prob=".40"/>
+	</placeholder>
+	<!-- LUGGAGE -->
+	<placeholder name="cntLuggageMediumRandomLootHelper">
+		<block name="cntLuggageMediumOpen" prob=".50"/>
+		<block name="cntLuggageMediumLocked" prob=".10"/>
+		<block name="cntLuggageMediumClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntLuggageBigRandomLootHelper">
+		<block name="cntLuggageBigOpen" prob=".50"/>
+		<block name="cntLuggageBigLocked" prob=".10"/>
+		<block name="cntLuggageBigClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntLuggagePileARandomLootHelper">
+		<block name="cntLuggagePileAOpen" prob=".50"/>
+		<block name="cntLuggagePileALocked" prob=".10"/>
+		<block name="cntLuggagePileAClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntLuggagePileBRandomLootHelper">
+		<block name="cntLuggagePileBOpen" prob=".50"/>
+		<block name="cntLuggagePileBLocked" prob=".10"/>
+		<block name="cntLuggagePileBClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntCabinetBottomRandomLootHelper">
+		<block name="cntCabinetBottomOpen" prob=".50"/>
+		<block name="cntCabinetBottomLocked" prob=".10"/>
+		<block name="cntCabinetBottom" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntCupboardCabinetRedTopLootHelper">
+		<block name="cntCupboardCabinetRedTopOpen" prob=".50"/>
+		<block name="cntCupboardCabinetRedTopLocked" prob=".10"/>
+		<block name="cntCupboardCabinetRedTopClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntCabinetOldBottomLootHelper">
+		<block name="cntCabinetOldBottomOpen" prob=".50"/>
+		<block name="cntCabinetOldBottomLocked" prob=".10"/>
+		<block name="cntCabinetOldBottom" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntCupboardCabinetOldTopLootHelper">
+		<block name="cntCupboardCabinetOldTopOpen" prob=".50"/>
+		<block name="cntCupboardCabinetOldTopLocked" prob=".10"/>
+		<block name="cntCupboardCabinetOldTopClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntMedicineCabinetFaucetRandomLootHelper">
+		<block name="cntMedicineCabinetFaucetOpen" prob=".50"/>
+		<block name="cntMedicineCabinetFaucetLocked" prob=".10"/>
+		<block name="cntMedicineCabinetFaucetClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntMedicineCabinetClosedRandomLootHelper">
+		<block name="cntMedicineCabinetOpen" prob=".50"/>
+		<block name="cntMedicineCabinetLocked" prob=".10"/>
+		<block name="cntMedicineCabinetClosed" prob=".40"/>
+	</placeholder>
+	<placeholder name="cntPillCaseRandomLootHelper">
+		<block name="cntPillCaseEmpty" prob=".50"/>
+		<block name="cntPillCaseLocked" prob=".10"/>
+		<block name="cntPillCaseClosed" prob=".40"/>
+	</placeholder>
+	<!-- WOOD DESK -->
+	<placeholder name="cntDeskWoodRandomLootHelper">
+		<block name="cntDeskWoodEmpty" prob=".50"/>
+		<block name="cntDeskWoodLocked" prob=".10"/>
+		<block name="cntDeskWoodFull" prob=".40"/>
+	</placeholder>
+	<!-- METAL DESK -->
+	<!-- White -->
+	<placeholder name="cntDeskMetalWhiteRandomLootHelper">
+		<block name="cntDeskMetalEmptyWhite" prob=".50"/>
+		<block name="cntMetalDeskWhiteLocked" prob=".10"/>
+		<block name="cntDeskMetalFullWhite" prob=".40"/>
+	</placeholder>
+<!-- Brown -->
+	<placeholder name="cntDeskMetalBrownRandomLootHelper">
+		<block name="cntDeskMetalEmptyBrown" prob=".50"/>
+		<block name="cntMetalDeskBrownLocked" prob=".10"/>
+		<block name="cntDeskMetalFullBrown" prob=".40"/>
+	</placeholder>
+<!-- Red -->
+	<placeholder name="cntDeskMetalRedRandomLootHelper">
+		<block name="cntDeskMetalEmptyRed" prob=".50"/>
+		<block name="cntMetalDeskRedLocked" prob=".10"/>
+		<block name="cntDeskMetalFullRed" prob=".40"/>
+	</placeholder>
+<!-- Orange -->
+	<placeholder name="cntDeskMetalOrangeRandomLootHelper">
+		<block name="cntDeskMetalEmptyOrange" prob=".50"/>
+		<block name="cntMetalDeskOrangeLocked" prob=".10"/>
+		<block name="cntDeskMetalFullOrange" prob=".40"/>
+	</placeholder>
+<!-- Yellow -->
+	<placeholder name="cntDeskMetalYellowRandomLootHelper">
+		<block name="cntDeskMetalEmptyYellow" prob=".50"/>
+		<block name="cntMetalDeskYellowLocked" prob=".10"/>
+		<block name="cntDeskMetalFullYellow" prob=".40"/>
+	</placeholder>
+<!-- Green -->
+	<placeholder name="cntDeskMetalGreenRandomLootHelper">
+		<block name="cntDeskMetalEmptyGreen" prob=".50"/>
+		<block name="cntMetalDeskGreenLocked" prob=".10"/>
+		<block name="cntDeskMetalFullGreen" prob=".40"/>
+	</placeholder>
+<!-- Blue -->
+	<placeholder name="cntDeskMetalBlueRandomLootHelper">
+		<block name="cntDeskMetalEmptyBlue" prob=".50"/>
+		<block name="cntMetalDeskBlueLocked" prob=".10"/>
+		<block name="cntDeskMetalFullBlue" prob=".40"/>
+	</placeholder>
+<!-- Purple -->
+	<placeholder name="cntDeskMetalPurpleRandomLootHelper">
+		<block name="cntDeskMetalEmptyPurple" prob=".50"/>
+		<block name="cntMetalDeskPurpleLocked" prob=".10"/>
+		<block name="cntDeskMetalFullPurple" prob=".40"/>
+	</placeholder>
+<!-- Grey -->
+	<placeholder name="cntDeskMetalGreyRandomLootHelper">
+		<block name="cntDeskMetalEmptyGrey" prob=".50"/>
+		<block name="cntMetalDeskGreyLocked" prob=".10"/>
+		<block name="cntDeskMetalFullGrey" prob=".40"/>
+	</placeholder>
+<!-- Black -->
+	<placeholder name="cntDeskMetalBlackRandomLootHelper">
+		<block name="cntDeskMetalEmptyBlack" prob=".50"/>
+		<block name="cntMetalDeskBlackLocked" prob=".10"/>
+		<block name="cntDeskMetalFullBlack" prob=".40"/>
+	</placeholder>
+<!-- Pink -->
+	<placeholder name="cntDeskMetalPinkRandomLootHelper">
+		<block name="cntDeskMetalEmptyPink" prob=".50"/>
+		<block name="cntMetalDeskPinkLocked" prob=".10"/>
+		<block name="cntDeskMetalFullPink" prob=".40"/>
+	</placeholder>
+<!-- ArmyGreen -->
+	<placeholder name="cntDeskMetalArmyGreenRandomLootHelper">
+		<block name="cntDeskMetalEmptyArmyGreen" prob=".50"/>
+		<block name="cntMetalDeskArmyGreenLocked" prob=".10"/>
+		<block name="cntDeskMetalFullArmyGreen" prob=".40"/>
+	</placeholder>
+	</append>
+	
+	<!-- New blockplaceholders -->	
+	<append xpath="/blockplaceholders">
+	<placeholder name="cntDumpsterRandomLootHelper">		
+		<block name="cntDumpsterLocked" prob=".10"/>
+		<block name="cntDumpsterBrownLocked" prob=".10"/>
+		<block name="cntDumpsterBlueLocked" prob=".10"/>
+		<block name="cntDumpsterGreyLocked" prob=".10"/>
+		<block name="cntDumpster" prob=".80"/>
+	</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+	<placeholder name="cntDumpsterFliesRandomLootHelper">		
+		<block name="cntDumpsterFliesLocked" prob=".10"/>
+		<block name="cntDumpsterFliesBrownLocked" prob=".10"/>
+		<block name="cntDumpsterFliesBlueLocked" prob=".10"/>
+		<block name="cntDumpsterFliesGreyLocked" prob=".10"/>
+		<block name="cntDumpsterFlies" prob=".80"/>
+	</placeholder>
+	
+		<!-- *** MINI_BEVERAGE_COOLER -->
+	<placeholder name="cntMiniBeverageCoolerRandomLootHelper">
+		<block name="cntMiniBeverageCoolerEmpty" prob=".50"/>
+		<block name="cntMiniBeverageCoolerLocked" prob=".10"/>
+		<block name="cntMiniBeverageCooler" prob=".40"/>
+	</placeholder>
+
+	<placeholder name="cntMiniBeverageCoolerUnderCounterRandomLootHelper">
+		<block name="cntMiniBeverageCoolerUnderCounterEmpty" prob=".50"/>
+		<block name="cntMiniBeverageCoolerUnderCounterLocked" prob=".10"/>
+		<block name="cntMiniBeverageCoolerUnderCounter" prob=".40"/>
+	</placeholder>
+	
+	
+	</append>
+	<!-- New blockplaceholders -->
+</stallionsden>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="stallionsdens_Weapon_Ammo_Capacity_Increaser_V1" />
+  <Author value="Stallionsden" />
+  <Description value="This modlet increases the ammo capacity of all weapons before the magazines are applied." />
+  <DisplayName value="Stallionsden Weapons" />
+  <Version value="1.1.1.0" />
+  <Website value="" />
+</xml>

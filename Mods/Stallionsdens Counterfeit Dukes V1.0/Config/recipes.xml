@@ -1,0 +1,8 @@
+<Stallionsden>
+	<append xpath="/recipes">		
+		<recipe name="casinoCoin" count="1" craft_area="forge" craft_time="25" is_trackable="false" craft_tool="toolForgeCrucible">
+	        <ingredient name="unit_brass" count="10"/>
+	        <ingredient name="unit_clay" count="10"/>	        
+		</recipe>		
+	</append>	
+</Stallionsden>

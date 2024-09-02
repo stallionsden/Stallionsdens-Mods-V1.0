@@ -1,0 +1,13 @@
+<stallionsden>
+<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
+<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" target="self" cvar="whispererSet" operation="set" value="0"/>
+<triggered_effect trigger="onSelfRespawn" action="ModifyCVar" target="self" cvar="whispererSet" operation="set" value="0"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]">
+	<drop event="Harvest" name="foodRottingFlesh" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,2"/> <!-- animalBoar -->
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="0,1"/>
+	<drop event="Harvest" name="zombieSkin" tag="butcherHarvest" count="0,1"/>
+</append>
+</stallionsden>

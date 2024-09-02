@@ -1,0 +1,1234 @@
+<stallionsden>
+
+<append xpath="/blocks">
+	<block name="cntDumpsterLocked">
+	<property name="Extends" value="cntDumpster" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpster"/> 
+	<property name="CustomIconTint" value="5A7372"/>
+	<property name="TintColor" value="5A7372"/>
+	<property name="Model" value="@:Entities/LootContainers/dumpsterPrefab.prefab"/> 
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="dumpster"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.25"/>	
+	<property name="DowngradeBlock" value="cntDumpster"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+	<block name="cntDumpsterBrownLocked">
+	<property name="Extends" value="cntDumpster" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpster"/> 
+	<property name="CustomIconTint" value="73665A"/>
+	<property name="TintColor" value="73665A"/>
+	<property name="Model" value="@:Entities/LootContainers/dumpsterPrefab.prefab"/> 
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="dumpster"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.25"/>	
+	<property name="DowngradeBlock" value="cntDumpsterBrown"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+	<block name="cntDumpsterBlueLocked">
+	<property name="Extends" value="cntDumpster" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpster"/>
+	<property name="CustomIconTint" value="5A6773"/>
+	<property name="TintColor" value="5A6773"/>
+	<property name="Model" value="@:Entities/LootContainers/dumpsterPrefab.prefab"/> 
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="dumpster"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.25"/>	
+	<property name="DowngradeBlock" value="cntDumpsterBlue"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+	<block name="cntDumpsterGreyLocked">
+	<property name="Extends" value="cntDumpster" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpster"/>
+	<property name="CustomIconTint" value="6A6A6A"/>
+	<property name="TintColor" value="6A6A6A"/>
+	<property name="Model" value="@:Entities/LootContainers/dumpsterPrefab.prefab"/> 
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="dumpster"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.25"/>	
+	<property name="DowngradeBlock" value="cntDumpsterGrey"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+	<block name="cntDumpsterFliesLocked">
+	<property name="Extends" value="cntDumpsterFlies" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpsterFlies"/>
+	<property name="CustomIconTint" value="5A7372"/>
+	<property name="TintColor" value="5A7372"/>
+	<property name="Model" value="@:Entities/LootContainers/dumpster_fliesPrefab.prefab"/> 
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="dumpster"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="15"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDumpsterFlies"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+	<block name="cntDumpsterFliesBrownLocked">
+	<property name="Extends" value="cntDumpsterFlies" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpsterFlies"/>
+	<property name="CustomIconTint" value="73665A"/>
+	<property name="TintColor" value="73665A"/>
+	<property name="Model" value="@:Entities/LootContainers/dumpster_fliesPrefab.prefab"/> 
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="dumpster"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="15"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDumpsterFliesBrown"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+	<block name="cntDumpsterFliesBlueLocked">
+	<property name="Extends" value="cntDumpsterFlies" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpsterFlies"/>
+	<property name="CustomIconTint" value="5A6773"/>
+	<property name="TintColor" value="5A6773"/>
+	<property name="Model" value="@:Entities/LootContainers/dumpster_fliesPrefab.prefab"/> 
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="dumpster"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="15"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDumpsterFliesBlue"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+	<block name="cntDumpsterFliesGreyLocked">
+	<property name="Extends" value="cntDumpsterFlies" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpsterFlies"/>
+	<property name="CustomIconTint" value="6A6A6A"/>
+	<property name="TintColor" value="6A6A6A"/>
+	<property name="Model" value="@:Entities/LootContainers/dumpster_fliesPrefab.prefab"/> 
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="dumpster"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="15"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDumpsterFliesGrey"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+</append>
+	
+	<append xpath="/blocks/block[@name='cntWoodenChestClosed']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='cntWoodenChestRottenClosed']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="5"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>	
+		
+<!-- to be random chance of being locked -->
+<append xpath="/blocks/block[@name='cntOldWestChestClosed']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="10"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+		
+<append xpath="/blocks/block[@name='cntWoodenChestMilitaryClosed']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="10"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<insertAfter xpath="/blocks/block[@name='cntFileCabinetShortOpen']">
+	<!-- Default_Yellow -->
+	<block name="cntFileCabinetShortLocked">
+	<property name="Extends" value="cntFileCabinetShortRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetShortClosed"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_short_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetShortClosed"/>
+	</block>
+	<!-- Brown -->
+	<block name="cntFileCabinetShortBrownLocked">
+	<property name="Extends" value="cntFileCabinetShortRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetShortClosed"/>
+	<property name="CustomIconTint" value="A08E77"/>
+	<property name="TintColor" value="A08E77"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_short_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetShortClosedBrown"/>
+	</block>
+	<!-- Green -->
+	<block name="cntFileCabinetShortGreenLocked">
+	<property name="Extends" value="cntFileCabinetShortRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetShortClosed"/>
+	<property name="CustomIconTint" value="595E4A"/>
+	<property name="TintColor" value="595E4A"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_short_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetShortClosedGreen"/>
+	</block>
+	<!-- Blue -->
+	<block name="cntFileCabinetShortBlueLocked">
+	<property name="Extends" value="cntFileCabinetShortRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetShortClosed"/>
+	<property name="CustomIconTint" value="8899A2"/>
+	<property name="TintColor" value="8899A2"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_short_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetShortClosedBlue"/>
+	</block>
+	<!-- Grey -->
+	<block name="cntFileCabinetShortGreyLocked">
+	<property name="Extends" value="cntFileCabinetShortRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetShortClosed"/>
+	<property name="CustomIconTint" value="8C8C8A"/>
+	<property name="TintColor" value="8C8C8A"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_short_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetShortClosedGrey"/>
+	</block>
+	<!-- Black -->
+	<block name="cntFileCabinetShortBlackLocked">
+	<property name="Extends" value="cntFileCabinetShortRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetShortClosed"/>
+	<property name="CustomIconTint" value="333333"/>
+	<property name="TintColor" value="333333"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_short_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetShortClosedBlack"/>
+	</block>
+</insertAfter>			
+
+<insertAfter xpath="/blocks/block[@name='cntFileCabinetTallOpen']">	
+	<!-- Default_Yellow -->
+	<block name="cntFileCabinetTallLocked">
+	<property name="Extends" value="cntFileCabinetTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetTallClosed"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_tall_closedPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetTallClosed"/>
+	</block>
+	<!-- Brown -->
+	<block name="cntFileCabinetTallClosedBrownLocked">
+	<property name="Extends" value="cntFileCabinetTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetTallClosed"/>
+	<property name="CustomIconTint" value="A08E77"/>
+	<property name="TintColor" value="A08E77"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_tall_closedPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetTallClosedBrown"/>
+	</block>
+	<!-- Green -->
+	<block name="cntFileCabinetTallClosedGreenLocked">
+	<property name="Extends" value="cntFileCabinetTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetTallClosed"/>
+	<property name="CustomIconTint" value="595E4A"/>
+	<property name="TintColor" value="595E4A"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_tall_closedPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetTallClosedGreen"/>
+	</block>
+	<!-- Blue -->
+	<block name="cntFileCabinetTallClosedBlueLocked">
+	<property name="Extends" value="cntFileCabinetTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetTallClosed"/>
+	<property name="CustomIconTint" value="8899A2"/>
+	<property name="TintColor" value="8899A2"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_tall_closedPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetTallClosedBlue"/>
+	</block>
+	<!-- Grey -->
+	<block name="cntFileCabinetTallClosedGreyLocked">
+	<property name="Extends" value="cntFileCabinetTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetTallClosed"/>
+	<property name="CustomIconTint" value="8C8C8A"/>
+	<property name="TintColor" value="8C8C8A"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_tall_closedPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetTallClosedGrey"/>
+	</block>
+	<!-- Black -->
+	<block name="cntFileCabinetTallClosedBlackLocked">
+	<property name="Extends" value="cntFileCabinetTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetTallClosed"/>
+	<property name="CustomIconTint" value="333333"/>
+	<property name="TintColor" value="333333"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="@:Entities/LootContainers/filecabinet_tall_closedPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="fileCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetTallClosedBlack"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersShortOpen']">	
+	<block name="cntLockersShortLocked">
+	<property name="Extends" value="cntLockersShortOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersShortClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/locker_ver3_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="lockers"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersShortClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersTallOpen']">	
+	<block name="cntLockersTallLocked">
+	<property name="Extends" value="cntLockersShortOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersTallClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/locker_ver1_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="lockers"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersTallClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersTallDoubleOpen']">	
+	<block name="cntLockersTallDoubleLocked">
+	<property name="Extends" value="cntLockersTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersTallDoubleClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/locker_ver2_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="lockers"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersTallDoubleClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersTallMixOpen']">	
+	<block name="cntLockersTallMixLocked">
+	<property name="Extends" value="cntLockersTallClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersTallMixClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/locker_ver4_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="lockers"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersTallMixClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersTallMixLinkOpen']">	
+	<block name="cntLockersTallMixLinkLocked">
+	<property name="Extends" value="cntLockersTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersTallMixLinkClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/locker_ver5_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="lockers"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersTallMixLinkClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntCashRegisterEmpty']">	
+	<block name="cntCashRegisterLocked">
+	<property name="Extends" value="cntCashRegisterEmpty" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCashRegister"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/cashRegisterClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="cashRegister"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCashRegister"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntToolBoxOpenGrey']">	
+	<!-- WHITE -->
+	<block name="cntToolBoxWhiteLocked">
+	<property name="Extends" value="cntToolBoxOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="999999"/>
+	<property name="TintColor" value="999999"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxClosedWhite"/>
+	</block>
+	<!-- RED -->
+	<block name="cntToolBoxRedLocked">
+	<property name="Extends" value="cntToolBoxOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="7F6868"/>
+	<property name="TintColor" value="7F6868"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxClosedRed"/>
+	</block>
+	<!-- YELLOW -->
+	<block name="cntToolBoxYellowLocked">
+	<property name="Extends" value="cntToolBoxOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="A09772"/>
+	<property name="TintColor" value="A09772"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxClosedYellow"/>
+	</block>
+	<!-- GREEN -->
+	<block name="cntToolBoxGreenLocked">
+	<property name="Extends" value="cntToolBoxOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="7C8E7F"/>
+	<property name="TintColor" value="7C8E7F"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxClosedGreen"/>
+	</block>
+	<!-- BLUE -->
+	<block name="cntToolBoxBlueLocked">
+	<property name="Extends" value="cntToolBoxOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="73858D"/>
+	<property name="TintColor" value="73858D"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxClosedBlue"/>
+	</block>
+	<!-- GREY -->
+	<block name="cntToolBoxGreyLocked">
+	<property name="Extends" value="cntToolBoxOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="747474"/>
+	<property name="TintColor" value="747474"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxClosedGrey"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntToolBoxOffsetOpenGrey']">	
+	<!-- WHITE -->
+	<block name="cntToolBoxOffsetWhiteLocked">
+	<property name="Extends" value="cntToolBoxOffsetOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="999999"/>
+	<property name="TintColor" value="999999"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="ModelOffset" value="0,0.5,-0.25"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxOffsetClosedWhite"/>
+	</block>
+	<!-- RED -->
+	<block name="cntToolBoxOffsetRedLocked">
+	<property name="Extends" value="cntToolBoxOffsetOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="7F6868"/>
+	<property name="TintColor" value="7F6868"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="ModelOffset" value="0,0.5,-0.25"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxOffsetClosedRed"/>
+	</block>
+	<!-- YELLOW -->
+	<block name="cntToolBoxOffsetYellowLocked">
+	<property name="Extends" value="cntToolBoxOffsetOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="A09772"/>
+	<property name="TintColor" value="A09772"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="ModelOffset" value="0,0.5,-0.25"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxOffsetClosedYellow"/>
+	</block>
+	<!-- GREEN -->
+	<block name="cntToolBoxOffsetGreenLocked">
+	<property name="Extends" value="cntToolBoxOffsetOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="7C8E7F"/>
+	<property name="TintColor" value="7C8E7F"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="ModelOffset" value="0,0.5,-0.25"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxOffsetClosedGreen"/>
+	</block>
+	<!-- BLUE -->
+	<block name="cntToolBoxOffsetBlueLocked">
+	<property name="Extends" value="cntToolBoxOffsetOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="73858D"/>
+	<property name="TintColor" value="73858D"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="ModelOffset" value="0,0.5,-0.25"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxOffsetClosedBlue"/>
+	</block>
+	<!-- GREY -->
+	<block name="cntToolBoxOffsetGreyLocked">
+	<property name="Extends" value="cntToolBoxOffsetOpenWhite"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CustomIconTint" value="747474"/>
+	<property name="TintColor" value="747474"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/metalToolBoxClosedPrefab.prefab"/>
+	<property name="ModelOffset" value="0,0.5,-0.25"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="toolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxOffsetClosedGrey"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntRollingToolBoxOpenGrey']">	
+	<!-- White -->
+	<block name="cntRollingToolBoxWhiteLocked">
+	<property name="Extends" value="cntToolBoxClosedWhite"/>
+	<property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+	<property name="CustomIconTint" value="999999"/>
+	<property name="TintColor" value="999999"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/rollingToolChestClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="rollingToolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntRollingToolBoxClosedWhite"/>
+	</block>
+	<!-- RED -->
+	<block name="cntRollingToolBoxRedLocked">
+	<property name="Extends" value="cntToolBoxClosedWhite"/>
+	<property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+	<property name="CustomIconTint" value="7F6868"/>
+	<property name="TintColor" value="7F6868"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/rollingToolChestClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="rollingToolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntRollingToolBoxClosedRed"/>
+	</block>
+	<!-- YELLOW -->
+	<block name="cntRollingToolBoxYellowLocked">
+	<property name="Extends" value="cntToolBoxClosedWhite"/>
+	<property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+	<property name="CustomIconTint" value="A09772"/>
+	<property name="TintColor" value="A09772"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/rollingToolChestClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="rollingToolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntRollingToolBoxClosedYellow"/>
+	</block>
+	<!-- GREEN -->
+	<block name="cntRollingToolBoxGreenLocked">
+	<property name="Extends" value="cntToolBoxClosedWhite"/>
+	<property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+	<property name="CustomIconTint" value="7C8E7F"/>
+	<property name="TintColor" value="7C8E7F"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/rollingToolChestClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="rollingToolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntRollingToolBoxClosedGreen"/>
+	</block>
+	<!-- BLUE -->
+	<block name="cntRollingToolBoxBlueLocked">
+	<property name="Extends" value="cntToolBoxClosedWhite"/>
+	<property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+	<property name="CustomIconTint" value="73858D"/>
+	<property name="TintColor" value="73858D"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/rollingToolChestClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="rollingToolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntRollingToolBoxClosedBlue"/>
+	</block>
+	<!-- GREY -->
+	<block name="cntRollingToolBoxGreyLocked">
+	<property name="Extends" value="cntToolBoxClosedWhite"/>
+	<property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+	<property name="CustomIconTint" value="747474"/>
+	<property name="TintColor" value="747474"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/rollingToolChestClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="rollingToolBox"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntRollingToolBoxClosedGrey"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLuggageMediumOpen']">	
+	<block name="cntLuggageMediumLocked">
+	<property name="Extends" value="cntLuggageMediumOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLuggageMediumClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/luggageMediumClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="luggage"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLuggageMediumClosed"/>
+</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLuggageBigOpen']">	
+	<block name="cntLuggageBigLocked">
+	<property name="Extends" value="cntLuggageMediumClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLuggageBigClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/luggageBigClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="luggage"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLuggageBigClosed"/>
+</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileAOpen']">	
+	<block name="cntLuggagePileALocked">
+	<property name="Extends" value="cntLuggageMediumClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLuggagePileAClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/luggagePileClosedAPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="luggage"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="3"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLuggagePileAClosed"/>
+</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileBOpen']">	
+	<block name="cntLuggagePileBLocked">
+	<property name="Extends" value="cntLuggageMediumClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLuggagePileBClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/luggagePileClosedBPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="luggage"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="3"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLuggagePileBClosed"/>
+</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntCabinetBottomRandomLootHelper']">	
+	<block name="cntCabinetBottomLocked">
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCabinetBottom"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="cupboard"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCabinetBottom"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen']">	
+	<block name="cntCupboardCabinetRedTopLocked">
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCupboardCabinetRedTopClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="cupboard"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCupboardCabinetRedTopClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen']">	
+	<block name="cntCabinetOldBottomLocked">
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCabinetOldBottom"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="cupboard"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCabinetOldBottom"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen']">	
+	<block name="cntCupboardCabinetOldTopLocked">
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCupboardCabinetOldTopClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="cupboard"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCupboardCabinetOldTopClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntNightstandOpen']">	
+	<block name="cntNightstandLocked">
+	<property name="Extends" value="cntNightstandRandomLootHelper"/>
+	<property name="CustomIcon" value="cntNightstandClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/nightStand_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="nightstand"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntNightstandClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntNightstandWallOpen']">	
+	<block name="cntNightstandWallLocked">
+	<property name="Extends" value="cntNightstandWallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntNightstandClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/nightStandWall_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="nightstand"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntNightstandWallClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">	
+	<block name="cntMedicineCabinetFaucetLocked">
+	<property name="Extends" value="cntMedicineCabinetFaucetOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntMedicineCabinetFaucetClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/medicine_cabinet_closed_faucetPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="medicineCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntMedicineCabinetFaucetClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen']">	
+	<block name="cntMedicineCabinetLocked">
+	<property name="Extends" value="cntMedicineCabinetOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntMedicineCabinetClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/medicine_cabinet_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="medicineCabinet"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntMedicineCabinetClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntPillCaseEmpty']">	
+	<block name="cntPillCaseLocked">
+	<property name="Extends" value="cntPillCaseEmpty"/>
+	<property name="CustomIcon" value="cntPillCaseClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="@:Entities/LootContainers/pill_case_closedPrefab.prefab"/> <property name="HandleFace" value="South"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="popnpillsShelves"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntPillCaseClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDeskWoodEmpty']">	
+	<block name="cntDeskWoodLocked">
+	<property name="Extends" value="cntDeskWoodFull"/>
+	<property name="CustomIcon" value="cntDeskWoodFull"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/LootContainers/deskWoodFullPrefab.prefab"/>
+	<property name="MultiBlockDim" value="2,1,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="81"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="AllowedRotations" value="No45"/>
+	<property name="Path" value="solid"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="FuelValue" value="300"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="woodenDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskWoodFull"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDeskMetalEmptyArmyGreen']">	
+	<!-- WHITE -->
+	<block name="cntMetalDeskWhiteLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="A09F94"/>
+	<property name="TintColor" value="A09F94"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullWhite"/>
+	</block>
+	<!-- BROWN -->
+	<block name="cntMetalDeskBrownLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="826850"/>
+	<property name="TintColor" value="826850"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullBrown"/>
+	</block>
+	<!-- RED -->
+	<block name="cntMetalDeskRedLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="824841"/>
+	<property name="TintColor" value="824841"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullRed"/>
+	</block>
+	<!-- ORANGE -->
+	<block name="cntMetalDeskOrangeLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="8A654D"/>
+	<property name="TintColor" value="8A654D"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullOrange"/>
+	</block>
+	<!-- YELLOW -->
+	<block name="cntMetalDeskYellowLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="7D7246"/>
+	<property name="TintColor" value="7D7246"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullYellow"/>
+	</block>
+	<!-- GREEN -->
+	<block name="cntMetalDeskGreenLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="5B725D"/>
+	<property name="TintColor" value="5B725D"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullGreen"/>
+	</block>
+	<!-- BLUE -->
+	<block name="cntMetalDeskBlueLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="526872"/>
+	<property name="TintColor" value="526872"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullBlue"/>
+	</block>
+	<!-- PURPLE -->
+	<block name="cntMetalDeskPurpleLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="5D5272"/>
+	<property name="TintColor" value="5D5272"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullPurple"/>
+	</block>
+	<!-- GREY -->
+	<block name="cntMetalDeskGreyLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="505050"/>
+	<property name="TintColor" value="505050"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullGrey"/>
+	</block>
+	<!-- BLACK -->
+	<block name="cntMetalDeskBlackLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="000000"/>
+	<property name="TintColor" value="000000"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullBlack"/>
+	</block>
+	<!-- PINK -->
+	<block name="cntMetalDeskPinkLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="867585"/>
+	<property name="TintColor" value="867585"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullPink"/>
+	</block>
+	<!-- ARMY GREEN -->
+	<block name="cntMetalDeskArmyGreenLocked">
+	<property name="Extends" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIcon" value="cntDeskMetalFullWhite"/>
+	<property name="CustomIconTint" value="394931"/>
+	<property name="TintColor" value="394931"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="metalDesk"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDeskMetalFullArmyGreen"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDeskMetalEmptyArmyGreen']">	
+	<!-- MINI BEVERAGE COOLER -->
+	<block name="cntMiniBeverageCoolerLocked">
+	<property name="Extends" value="cntMiniBeverageCooler"/>
+	<property name="CustomIcon" value="cntDeskcntMiniBeverageCooler"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/Commercial/miniBeverageCoolerPrefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="beerCooler"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntMiniBeverageCooler"/>
+	</block>
+	<!-- MINI BEVERAGE COOLER UNDER COUNTER -->
+	<block name="cntMiniBeverageCoolerUnderCounterLocked">
+	<property name="Extends" value="cntMiniBeverageCooler"/>
+	<property name="CustomIcon" value="cntMiniBeverageCooler"/>
+	<property name="ModelOffset" value="0,0,-1"/>
+	<property name="Model" value="Entities/Commercial/miniBeverageCoolerUnderCounterPrefab"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="beerCooler"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntMiniBeverageCoolerUnderCounter"/>
+	</block>
+</insertAfter>
+<!-- to be random chance of being locked -->
+
+
+</stallionsden>

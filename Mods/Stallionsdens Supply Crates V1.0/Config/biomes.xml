@@ -1,0 +1,36 @@
+<stallionsden>
+	<append xpath="/worldgeneration/biomes/biome[@name='snow']/decorations">
+			<decoration type="block" blockname="supplyPalletMilitaryA" prob ="0.00001"/>
+			<decoration type="block" blockname="supplyPalletMilitaryCRandomHelper" prob ="0.0001"/>
+	</append>	
+	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+			<decoration type="block" blockname="supplyPalletMilitaryDRandomHelper" prob ="0.0001"/>
+	</append>
+	<append xpath="/worldgeneration/biomes/biome[@name='desert']/decorations">
+			<decoration type="block" blockname="supplyPalletMilitaryBRandomHelper" prob ="0.0001"/>
+	</append>	
+	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations">
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0001"/>
+	</append>			
+	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
+			<decoration type="block" blockname="supplyPalletMilitaryCRandomHelper" prob ="0.0001"/>
+	</append>
+	<append xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']">
+	<blockontop blockname="supplyPalletMilitaryA" prob="0.00005" />
+	<blockontop blockname="supplyPalletMilitaryBRandomHelper" prob="0.000003" />
+	<blockontop blockname="supplyPalletMilitaryCRandomHelper" prob="0.000003" />
+	<blockontop blockname="supplyPalletMilitaryDRandomHelper" prob="0.000003" />
+	</append>
+	<append xpath="/worldgeneration/pois/poi[@name='Road Gravel']">
+	<blockontop blockname="SupplyContainerRandomHelper" prob="0.00003" />
+	<blockontop blockname="supplyPalletMilitaryA" prob="0.00005" />
+	<blockontop blockname="supplyPalletMilitaryBRandomHelper" prob="0.000003" />
+	<blockontop blockname="supplyPalletMilitaryCRandomHelper" prob="0.000003" />
+	<blockontop blockname="supplyPalletMilitaryDRandomHelper" prob="0.000003" />
+	</append>		
+	<append xpath="/worldgeneration/biomes/biome[@name='underwater']/decorations">
+			<decoration type="block" blockname="cntAmmoPileSmall" prob ="0.0001"/>
+			<decoration type="block" blockname="cntAmmoPileMedium" prob ="0.0001"/>
+			<decoration type="block" blockname="cntAmmoPileLarge" prob ="0.0001"/>
+	</append>
+</stallionsden>

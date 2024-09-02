@@ -1,0 +1,119 @@
+<stallionsden>
+<append xpath="/items/item[@name='resourceRockSmallBundle']">
+<property name="EconomicValue" value="120"/>
+</append>
+
+<append xpath="/items/item[@name='resourceWoodBundle']">
+<property name="EconomicValue" value="80"/>
+</append>
+
+<append xpath="/items/item[@name='resourcePotassiumNitratePowderBundle']">
+<property name="EconomicValue" value="170"/>
+</append>
+
+<append xpath="/items/item[@name='resourceLeadBundle']">
+<property name="EconomicValue" value="170"/>
+</append>
+
+<append xpath="/items/item[@name='resourceCoalBundle']">
+<property name="EconomicValue" value="170"/>
+</append>
+
+<append xpath="/items/item[@name='resourceOilShaleBundle']">
+<property name="EconomicValue" value="200"/>
+</append>
+
+<append xpath="/items/item[@name='thrownGrenade']">
+<property name="EconomicValue" value="100"/>
+</append>
+
+<append xpath="/items/item[@name='unit_iron']">
+<property name="EconomicValue" value="75"/>
+</append>
+
+<append xpath="/items/item[@name='unit_brass']">
+<property name="EconomicValue" value="85"/>
+</append>
+
+<append xpath="/items/item[@name='unit_lead']">
+<property name="EconomicValue" value="75"/>
+</append>
+
+<append xpath="/items/item[@name='unit_glass']">
+<property name="EconomicValue" value="45"/>
+</append>
+
+<append xpath="/items/item[@name='unit_stone']">
+<property name="EconomicValue" value="35"/>
+</append>
+
+<append xpath="/items/item[@name='unit_clay']">
+<property name="EconomicValue" value="25"/>
+</append>
+
+
+<!-- Tools that are unsellable made by TFP --> <!-- added by Renejant -->
+
+<append xpath="items/item[@name='meleeToolRepairT0StoneAxe']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='meleeToolRepairT0TazasStoneAxe']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='meleeToolShovelT0StoneShovel']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='meleeWpnBladeT0BoneKnife']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='meleeWpnClubT0WoodenClub']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='meleeWpnSpearT0StoneSpear']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='meleeWpnSledgeT0StoneSledgehammer']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='gunBowT0PrimitiveBow']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='vehicleMinibikePlaceable']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='medicalBloodBag']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='foodShamSandwich']">         <!--- why the hell is this unsellable, while all other food items are sellable, seems unlogic to me -->
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='drinkJarRiverWater']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='drinkJarGrandpasForgettingElixir']">
+<property name="SellableToTrader" value="true"/>
+<property name="EconomicValue" value="2000"/>       <!--- changed economic value, so it is more logic and not too overpowered when selling -->
+</append>
+
+<append xpath="items/item[@name='resourceBone']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<append xpath="items/item[@name='toolForgeCrucible']">
+<property name="SellableToTrader" value="true"/>
+</append>
+
+<!-- end of edit by Renejant -->
+</stallionsden>

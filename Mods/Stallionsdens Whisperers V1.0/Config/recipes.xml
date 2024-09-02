@@ -1,0 +1,47 @@
+<stallionsden>
+<append xpath="/recipes">
+<recipe name="whispererHelmet" count="1" craft_time="2500" craft_area="chemistryStation" >
+	<ingredient name="foodRottingFlesh" count="25"/>
+	<ingredient name="zombieSkin" count="264"/>
+	<item name="resourceSewingKit" count="10" />
+	<ingredient name="medicalBloodBag" count="5"/>
+	<ingredient name="armorAssassinHelmet" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+	</recipe>
+
+<recipe name="whispererOutfit" count="1" craft_time="4000" craft_area="chemistryStation" >
+	<ingredient name="foodRottingFlesh" count="40"/>
+	<ingredient name="zombieSkin" count="1250"/>
+	<item name="resourceSewingKit" count="50" />
+	<ingredient name="medicalBloodBag" count="20"/>
+	<ingredient name="armorAssassinOutfit" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="whispererGloves" count="1" craft_time="1800" craft_area="chemistryStation" >
+	<ingredient name="foodRottingFlesh" count="10"/>
+	<ingredient name="zombieSkin" count="75"/>
+	<item name="resourceSewingKit" count="15" />
+	<ingredient name="medicalBloodBag" count="9"/>
+	<ingredient name="armorAssassinGloves" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="whispererBoots" count="1" craft_time="1800" craft_area="chemistryStation" >
+	<ingredient name="foodRottingFlesh" count="12"/>
+	<ingredient name="zombieSkin" count="188"/>
+	<item name="resourceSewingKit" count="15" />
+	<ingredient name="medicalBloodBag" count="8"/>
+	<ingredient name="armorAssassinBoots" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+</append>
+</stallionsden>

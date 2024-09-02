@@ -1,0 +1,49 @@
+<COMPOPACK>
+ <insertAfter xpath="/gamestages/spawner[last()]">	
+			  <!-- Groups -->
+	<group name="Moose" spawner="Moose"/>
+	<group name="deer" spawner="deer"/>
+	<group name="Hare" spawner="Hare"/>
+	<group name="Hen" spawner="Hen"/>
+	<group name="pig" spawner="pig"/>
+	<group name="python" spawner="python"/>
+	
+	
+	  <!-- Individual Zombie Spawners -->
+	<spawner name="Moose">
+		<gamestage stage="1">
+			<spawn group="Moose" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="deer">
+		<gamestage stage="1">
+			<spawn group="deer" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="Hare">
+		<gamestage stage="1">
+			<spawn group="Hare" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="Hen">
+		<gamestage stage="1">
+			<spawn group="Hen" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="pig">
+		<gamestage stage="1">
+			<spawn group="pig" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>
+
+	<spawner name="python">
+		<gamestage stage="1">
+			<spawn group="python" num="1" maxAlive="1" duration="10"/>
+		</gamestage>
+	</spawner>  						
+ </insertAfter>	        
+</COMPOPACK>

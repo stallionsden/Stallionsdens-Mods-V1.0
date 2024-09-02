@@ -1,0 +1,1161 @@
+<stallionsden>
+
+	<append xpath="/blockplaceholders">
+<!-- BROWN BOXES -->
+		<placeholder name="palletBrownBoxesBase">
+			<block name="palletBrownBoxesBaseEmpty" prob=".66"/>
+			<block name="palletBrownBoxesBaseFull" prob=".33"/>
+		</placeholder>
+	</append>
+	
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBrownBoxesTile">
+			<block name="palletBrownBoxesTileEmpty" prob=".66"/>
+			<block name="palletBrownBoxesTileFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBrownBoxesTop">
+			<block name="palletBrownBoxesTopEmpty" prob=".66"/>
+			<block name="palletBrownBoxesTopFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBrownBoxesTopSmall">
+			<block name="palletBrownBoxesSmallFull" prob=".66"/>
+			<block name="palletBrownBoxesSmallEmpty" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBrownBoxesLoose">
+			<block name="palletBrownBoxesLooseEmpty" prob=".66"/>
+			<block name="palletBrownBoxesLooseFull" prob=".33"/>
+		</placeholder>
+	</append>
+<!-- BROWN BOXES -->
+<!-- BRICKS -->
+<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksBase">
+			<block name="palletBricksBaseEmpty" prob=".66"/>
+			<block name="palletBricksBaseFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksTile">
+			<block name="palletBricksTileEmpty" prob=".66"/>
+			<block name="palletBricksTileFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksTop">
+			<block name="palletBricksTopEmpty" prob=".66"/>
+			<block name="palletBricksTopFull" prob=".33"/>
+		</placeholder>
+	</append>
+	
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksPartial1">
+			<block name="palletBricksPartial1Empty" prob=".66"/>
+			<block name="palletBricksPartial1Full" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksPartial2">
+			<block name="palletBricksPartial2Empty" prob=".66"/>
+			<block name="palletBricksPartial2Full" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksLoose">
+			<block name="palletBricksLooseEmpty" prob=".66"/>
+			<block name="palletBricksLooseFull" prob=".33"/>
+		</placeholder>
+	</append>
+<!-- BRICKS -->
+<!-- BRICKS BROWN-->
+<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksBaseBrown">
+			<block name="palletBricksBaseBrownEmpty" prob=".66"/>
+			<block name="palletBricksBaseBrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksTileBrown">
+			<block name="palletBricksTileBrownEmpty" prob=".66"/>
+			<block name="palletBricksTileBrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksTopBrown">
+			<block name="palletBricksTopBrownEmpty" prob=".66"/>
+			<block name="palletBricksTopBrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+	
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksPartial1Brown">
+			<block name="palletBricksPartial1BrownEmpty" prob=".66"/>
+			<block name="palletBricksPartial1BrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksPartial2Brown">
+			<block name="palletBricksPartial2BrownEmpty" prob=".66"/>
+			<block name="palletBricksPartial2BrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksLooseBrown">
+			<block name="palletBricksLooseBrownEmpty" prob=".66"/>
+			<block name="palletBricksLooseBrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+<!-- BRICKS BROWN-->
+<!-- BRICKS RED-->
+<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksBaseRed">
+			<block name="palletBricksBaseRedEmpty" prob=".66"/>
+			<block name="palletBricksBaseRedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksTileRed">
+			<block name="palletBricksTileRedEmpty" prob=".66"/>
+			<block name="palletBricksTileRedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksTopRed">
+			<block name="palletBricksTopRedEmpty" prob=".66"/>
+			<block name="palletBricksTopRedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksPartial1Red">
+			<block name="palletBricksPartial1RedEmpty" prob=".66"/>
+			<block name="palletBricksPartial1RedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksPartial2Red">
+			<block name="palletBricksPartial2RedEmpty" prob=".66"/>
+			<block name="palletBricksPartial2RedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksLooseRed">
+			<block name="palletBricksLooseRedEmpty" prob=".66"/>
+			<block name="palletBricksLooseRedFull" prob=".33"/>
+		</placeholder>
+	</append>
+<!-- BRICKS RED-->
+<!-- BRICKS ORANGE-->
+<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksBaseOrange">
+			<block name="palletBricksBaseOrangeEmpty" prob=".66"/>
+			<block name="palletBricksBaseOrangeFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksTileOrange">
+			<block name="palletBricksTileOrangeEmpty" prob=".66"/>
+			<block name="palletBricksTileOrangeFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksTopOrange">
+			<block name="palletBricksTopOrangeEmpty" prob=".66"/>
+			<block name="palletBricksTopOrangeFull" prob=".33"/>
+		</placeholder>
+	</append>
+	
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksPartial1Orange">
+			<block name="palletBricksPartial1OrangeEmpty" prob=".66"/>
+			<block name="palletBricksPartial1OrangeFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksPartial2Orange">
+			<block name="palletBricksPartial2OrangeEmpty" prob=".66"/>
+			<block name="palletBricksPartial2OrangeFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBricksLooseOrange">
+			<block name="palletBricksLooseOrangeEmpty" prob=".66"/>
+			<block name="palletBricksLooseOrangeFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BRICKS ORANGE-->
+<!-- TARP WHITE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseWhite">
+			<block name="palletTarpBaseWhiteEmpty" prob=".66"/>
+			<block name="palletTarpBaseWhiteFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileWhite">
+			<block name="palletTarpTileWhiteEmpty" prob=".66"/>
+			<block name="palletTarpTileWhiteFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP WHITE -->
+<!-- TARP BROWN -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseBrown">
+			<block name="palletTarpBaseBrownEmpty" prob=".66"/>
+			<block name="palletTarpBaseBrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileBrown">
+			<block name="palletTarpTileBrownEmpty" prob=".66"/>
+			<block name="palletTarpTileBrownFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP BROWN -->
+<!-- TARP RED -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseRed">
+			<block name="palletTarpBaseRedEmpty" prob=".66"/>
+			<block name="palletTarpBaseRedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileRed">
+			<block name="palletTarpTileRedEmpty" prob=".66"/>
+			<block name="palletTarpTileRedFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP RED -->
+<!-- TARP ORANGE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseOrange">
+			<block name="palletTarpBaseOrangeEmpty" prob=".66"/>
+			<block name="palletTarpBaseOrangeFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileOrange">
+			<block name="palletTarpTileOrangeEmpty" prob=".66"/>
+			<block name="palletTarpTileOrangeFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP ORANGE -->
+<!-- TARP YELLOW -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseYellow">
+			<block name="palletTarpBaseYellowEmpty" prob=".66"/>
+			<block name="palletTarpBaseYellowFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileYellow">
+			<block name="palletTarpTileYellowEmpty" prob=".66"/>
+			<block name="palletTarpTileYellowFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP YELLOW -->
+<!-- TARP GREEN -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseGreen">
+			<block name="palletTarpBaseGreenEmpty" prob=".66"/>
+			<block name="palletTarpBaseGreenFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileGreen">
+			<block name="palletTarpTileGreenEmpty" prob=".66"/>
+			<block name="palletTarpTileGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP GREEN -->
+<!-- TARP BLUE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseBlue">
+			<block name="palletTarpBaseBlueEmpty" prob=".66"/>
+			<block name="palletTarpBaseBlueFull" prob=".33"/>
+		</placeholder>
+		</append>
+	
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileBlue">
+			<block name="palletTarpTileBlueEmpty" prob=".66"/>
+			<block name="palletTarpTileBlueFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP BLUE -->
+<!-- TARP PURPLE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBasePurple">
+			<block name="palletTarpBasePurpleEmpty" prob=".66"/>
+			<block name="palletTarpBasePurpleFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTilePurple">
+			<block name="palletTarpTilePurpleEmpty" prob=".66"/>
+			<block name="palletTarpTilePurpleFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP PURPLE -->
+<!-- TARP GREY -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseGrey">
+			<block name="palletTarpBaseGreyEmpty" prob=".66"/>
+			<block name="palletTarpBaseGreyFull" prob=".33"/>
+		</placeholder>		
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileGrey">
+			<block name="palletTarpTileGreyEmpty" prob=".66"/>
+			<block name="palletTarpTileGreyFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP GREY -->
+<!-- TARP BLACK -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseBlack">
+			<block name="palletTarpBaseBlackEmpty" prob=".66"/>
+			<block name="palletTarpBaseBlackFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileBlack">
+			<block name="palletTarpTileBlackEmpty" prob=".66"/>
+			<block name="palletTarpTileBlackFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP BLACK -->
+<!-- TARP PINK -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBasePink">
+			<block name="palletTarpBasePinkEmpty" prob=".66"/>
+			<block name="palletTarpBasePinkFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTilePink">
+			<block name="palletTarpTilePinkEmpty" prob=".66"/>
+			<block name="palletTarpTilePinkFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP PINK -->
+<!-- TARP ARMY GREEN -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpBaseArmyGreen">
+			<block name="palletTarpBaseArmyGreenEmpty" prob=".66"/>
+			<block name="palletTarpBaseArmyGreenFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletTarpTileArmyGreen">
+			<block name="palletTarpTileArmyGreenEmpty" prob=".66"/>
+			<block name="palletTarpTileArmyGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- TARP ARMY GREEN -->
+<!-- PALLET CANS -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletCans">
+			<block name="palletCansEmpty" prob=".66"/>
+			<block name="palletCansFull" prob=".33"/>
+		</placeholder>
+	</append>
+<!-- PALLET CANS -->
+<!-- PALLETS MILITARY AMMO CANS-->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletCartonMilitaryBase">
+			<block name="palletCartonMilitaryBaseEmpty" prob=".66"/>
+			<block name="palletCartonMilitaryBaseFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletCartonMilitaryCap">
+			<block name="palletCartonMilitaryCapEmpty" prob=".66"/>
+			<block name="palletCartonMilitaryCapFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletCartonMilitaryTile">
+			<block name="palletCartonMilitaryTileEmpty" prob=".66"/>
+			<block name="palletCartonMilitaryTileFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletCartonMilitaryTileCovered">
+			<block name="palletCartonMilitaryTileCoveredEmpty" prob=".66"/>
+			<block name="palletCartonMilitaryTileCoveredFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- PALLETS MILITARY AMMO CANS-->
+<!-- COW_FEED -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagCowFeedBaseFull">
+			<block name="palletBagCowFeedBase01Empty" prob=".66"/>
+			<block name="palletBagCowFeedBase01Full" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagCowFeedTile">
+			<block name="palletBagCowFeedTileEmpty" prob=".66"/>
+			<block name="palletBagCowFeedTileFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagCowFeedBaseMed">
+			<block name="palletBagCowFeedBaseMedEmpty" prob=".66"/>
+			<block name="palletBagCowFeedBaseMedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagCowFeedCapMed">
+			<block name="palletBagCowFeedCapMedEmpty" prob=".66"/>
+			<block name="palletBagCowFeedCapMedFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagCowFeedCapSml">
+			<block name="palletBagCowFeedCapSmlEmpty" prob=".66"/>
+			<block name="palletBagCowFeedCapSmlFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagCowFeedSingleBent">
+			<block name="palletBagCowFeedSingleBentEmpty" prob=".66"/>
+			<block name="palletBagCowFeedSingleBentFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagCowFeedSingleFlat">
+			<block name="palletBagCowFeedSingleFlatEmpty" prob=".66"/>
+			<block name="palletBagCowFeedSingleFlatFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- COW_FEED -->
+<!-- FLOUR -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFlourBaseFull">
+			<block name="palletBagFlourBase01Empty" prob=".66"/>
+			<block name="palletBagFlourBase01Full" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFlourTile">
+			<block name="palletBagFlourTileEmpty" prob=".66"/>
+			<block name="palletBagFlourTileFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFlourBaseMed">
+			<block name="palletBagFlourBaseMedEmpty" prob=".66"/>
+			<block name="palletBagFlourBaseMedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFlourCapMed">
+			<block name="palletBagFlourCapMedEmpty" prob=".66"/>
+			<block name="palletBagFlourCapMedFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFlourCapSml">
+			<block name="palletBagFlourCapSmlEmpty" prob=".66"/>
+			<block name="palletBagFlourCapSmlFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFlourSingleBent">
+			<block name="palletBagFlourSingleBentEmpty" prob=".66"/>
+			<block name="palletBagFlourSingleBentFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFlourSingleFlat">
+			<block name="palletBagFlourSingleFlatEmpty" prob=".66"/>
+			<block name="palletBagFlourSingleFlatFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- FLOUR -->
+<!-- SAND -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagSandBaseFull">
+			<block name="palletBagSandBase01Empty" prob=".66"/>
+			<block name="palletBagSandBase01Full" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagSandTile">
+			<block name="palletBagSandTileEmpty" prob=".66"/>
+			<block name="palletBagSandTileFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagSandBaseMed">
+			<block name="palletBagSandBaseMedEmpty" prob=".66"/>
+			<block name="palletBagSandBaseMedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagSandCapMed">
+			<block name="palletBagSandCapMedEmpty" prob=".66"/>
+			<block name="palletBagSandCapMedFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagSandCapSml">
+			<block name="palletBagSandCapSmlEmpty" prob=".66"/>
+			<block name="palletBagSandCapSmlFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagSandSingleBent">
+			<block name="palletBagSandSingleBentEmpty" prob=".66"/>
+			<block name="palletBagSandSingleBentFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagSandSingleFlat">
+			<block name="palletBagSandSingleFlatEmpty" prob=".66"/>
+			<block name="palletBagSandSingleFlatFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- SAND -->
+<!-- CONCRETE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagConcreteBaseFull">
+			<block name="palletBagConcreteBase01Empty" prob=".66"/>
+			<block name="palletBagConcreteBase01Full" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagConcreteTile">
+			<block name="palletBagConcreteTileEmpty" prob=".66"/>
+			<block name="palletBagConcreteTileFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagConcreteBaseMed">
+			<block name="palletBagConcreteBaseMedEmpty" prob=".66"/>
+			<block name="palletBagConcreteBaseMedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagConcreteCapMed">
+			<block name="palletBagConcreteCapMedEmpty" prob=".66"/>
+			<block name="palletBagConcreteCapMedFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagConcreteCapSml">
+			<block name="palletBagConcreteCapSmlEmpty" prob=".66"/>
+			<block name="palletBagConcreteCapSmlFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagConcreteSingleBent">
+			<block name="palletBagConcreteSingleBentEmpty" prob=".66"/>
+			<block name="palletBagConcreteSingleBentFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagConcreteSingleFlat">
+			<block name="palletBagConcreteSingleFlatEmpty" prob=".66"/>
+			<block name="palletBagConcreteSingleFlatFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- CONCRETE -->
+<!-- FERTILIZER -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFertilizerBaseFull">
+			<block name="palletBagFertilizerBase01Empty" prob=".66"/>
+			<block name="palletBagFertilizerBase01Full" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFertilizerTile">
+			<block name="palletBagFertilizerTileEmpty" prob=".66"/>
+			<block name="palletBagFertilizerTileFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFertilizerBaseMed">
+			<block name="palletBagFertilizerBaseMedEmpty" prob=".66"/>
+			<block name="palletBagFertilizerBaseMedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFertilizerCapMed">
+			<block name="palletBagFertilizerCapMedEmpty" prob=".66"/>
+			<block name="palletBagFertilizerCapMedFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFertilizerCapSml">
+			<block name="palletBagFertilizerCapSmlEmpty" prob=".66"/>
+			<block name="palletBagFertilizerCapSmlFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFertilizerSingleBent">
+			<block name="palletBagFertilizerSingleBentEmpty" prob=".66"/>
+			<block name="palletBagFertilizerSingleBentFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagFertilizerSingleFlat">
+			<block name="palletBagFertilizerSingleFlatEmpty" prob=".66"/>
+			<block name="palletBagFertilizerSingleFlatFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- FERTILIZER -->
+<!-- BLANK WHITE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullWhite">
+			<block name="palletBagBlankBaseWhiteEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseWhiteFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileWhite">
+			<block name="palletBagBlankTileWhiteEmpty" prob=".66"/>
+			<block name="palletBagBlankTileWhiteFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedWhite">
+			<block name="palletBagBlankBaseMedWhiteEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedWhiteFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedWhite">
+			<block name="palletBagBlankCapMedWhiteEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedWhiteFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlWhite">
+			<block name="palletBagBlankCapSmlWhiteEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlWhiteFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentWhite">
+			<block name="palletBagBlankSingleBentWhiteEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentWhiteFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatWhite">
+			<block name="palletBagBlankSingleFlatWhiteEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatWhiteFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK WHITE -->
+<!-- BLANK BROWN -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullBrown">
+			<block name="palletBagBlankBaseBrownEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseBrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileBrown">
+			<block name="palletBagBlankTileBrownEmpty" prob=".66"/>
+			<block name="palletBagBlankTileBrownFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedBrown">
+			<block name="palletBagBlankBaseMedBrownEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedBrownFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedBrown">
+			<block name="palletBagBlankCapMedBrownEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedBrownFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlBrown">
+			<block name="palletBagBlankCapSmlBrownEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlBrownFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentBrown">
+			<block name="palletBagBlankSingleBentBrownEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentBrownFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatBrown">
+			<block name="palletBagBlankSingleFlatBrownEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatBrownFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK BROWN -->
+<!-- BLANK RED -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullRed">
+			<block name="palletBagBlankBaseRedEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseRedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileRed">
+			<block name="palletBagBlankTileRedEmpty" prob=".66"/>
+			<block name="palletBagBlankTileRedFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedRed">
+			<block name="palletBagBlankBaseMedRedEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedRedFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedRed">
+			<block name="palletBagBlankCapMedRedEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedRedFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlRed">
+			<block name="palletBagBlankCapSmlRedEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlRedFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentRed">
+			<block name="palletBagBlankSingleBentRedEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentRedFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatRed">
+			<block name="palletBagBlankSingleFlatRedEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatRedFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK RED -->
+<!-- BLANK ORANGE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullOrange">
+			<block name="palletBagBlankBaseOrangeEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseOrangeFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileOrange">
+			<block name="palletBagBlankTileOrangeEmpty" prob=".66"/>
+			<block name="palletBagBlankTileOrangeFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedOrange">
+			<block name="palletBagBlankBaseMedOrangeEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedOrangeFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedOrange">
+			<block name="palletBagBlankCapMedOrangeEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedOrangeFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlOrange">
+			<block name="palletBagBlankCapSmlOrangeEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlOrangeFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentOrange">
+			<block name="palletBagBlankSingleBentOrangeEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentOrangeFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatOrange">
+			<block name="palletBagBlankSingleFlatOrangeEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatOrangeFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK ORANGE -->
+<!-- BLANK YELLOW -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullYellow">
+			<block name="palletBagBlankBaseYellowEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseYellowFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileYellow">
+			<block name="palletBagBlankTileYellowEmpty" prob=".66"/>
+			<block name="palletBagBlankTileYellowFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedYellow">
+			<block name="palletBagBlankBaseMedYellowEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedYellowFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedYellow">
+			<block name="palletBagBlankCapMedYellowEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedYellowFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlYellow">
+			<block name="palletBagBlankCapSmlYellowEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlYellowFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentYellow">
+			<block name="palletBagBlankSingleBentYellowEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentYellowFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatYellow">
+			<block name="palletBagBlankSingleFlatYellowEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatYellowFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK YELLOW -->
+<!-- BLANK GREEN -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullGreen">
+			<block name="palletBagBlankBaseGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseGreenFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileGreen">
+			<block name="palletBagBlankTileGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankTileGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedGreen">
+			<block name="palletBagBlankBaseMedGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedGreenFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedGreen">
+			<block name="palletBagBlankCapMedGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlGreen">
+			<block name="palletBagBlankCapSmlGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentGreen">
+			<block name="palletBagBlankSingleBentGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentGreenFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatGreen">
+			<block name="palletBagBlankSingleFlatGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK GREEN -->
+<!-- BLANK BLUE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullBlue">
+			<block name="palletBagBlankBaseBlueEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseBlueFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileBlue">
+			<block name="palletBagBlankTileBlueEmpty" prob=".66"/>
+			<block name="palletBagBlankTileBlueFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedBlue">
+			<block name="palletBagBlankBaseMedBlueEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedBlueFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedBlue">
+			<block name="palletBagBlankCapMedBlueEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedBlueFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlBlue">
+			<block name="palletBagBlankCapSmlBlueEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlBlueFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentBlue">
+			<block name="palletBagBlankSingleBentBlueEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentBlueFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatBlue">
+			<block name="palletBagBlankSingleFlatBlueEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatBlueFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK BLUE -->
+<!-- BLANK PURPLE -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullPurple">
+			<block name="palletBagBlankBasePurpleEmpty" prob=".66"/>
+			<block name="palletBagBlankBasePurpleFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTilePurple">
+			<block name="palletBagBlankTilePurpleEmpty" prob=".66"/>
+			<block name="palletBagBlankTilePurpleFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedPurple">
+			<block name="palletBagBlankBaseMedPurpleEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedPurpleFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedPurple">
+			<block name="palletBagBlankCapMedPurpleEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedPurpleFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlPurple">
+			<block name="palletBagBlankCapSmlPurpleEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlPurpleFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentPurple">
+			<block name="palletBagBlankSingleBentPurpleEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentPurpleFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatPurple">
+			<block name="palletBagBlankSingleFlatPurpleEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatPurpleFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK PURPLE -->
+<!-- BLANK GREY -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullGrey">
+			<block name="palletBagBlankBaseGreyEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseGreyFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileGrey">
+			<block name="palletBagBlankTileGreyEmpty" prob=".66"/>
+			<block name="palletBagBlankTileGreyFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedGrey">
+			<block name="palletBagBlankBaseMedGreyEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedGreyFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedGrey">
+			<block name="palletBagBlankCapMedGreyEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedGreyFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlGrey">
+			<block name="palletBagBlankCapSmlGreyEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlGreyFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentGrey">
+			<block name="palletBagBlankSingleBentGreyEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentGreyFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatGrey">
+			<block name="palletBagBlankSingleFlatGreyEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatGreyFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK GREY -->
+<!-- BLANK BLACK -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullBlack">
+			<block name="palletBagBlankBaseBlackEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseBlackFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileBlack">
+			<block name="palletBagBlankTileBlackEmpty" prob=".66"/>
+			<block name="palletBagBlankTileBlackFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedBlack">
+			<block name="palletBagBlankBaseMedBlackEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedBlackFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedBlack">
+			<block name="palletBagBlankCapMedBlackEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedBlackFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlBlack">
+			<block name="palletBagBlankCapSmlBlackEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlBlackFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentBlack">
+			<block name="palletBagBlankSingleBentBlackEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentBlackFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatBlack">
+			<block name="palletBagBlankSingleFlatBlackEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatBlackFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK BLACK -->
+<!-- BLANK PINK -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullPink">
+			<block name="palletBagBlankBasePinkEmpty" prob=".66"/>
+			<block name="palletBagBlankBasePinkFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTilePink">
+			<block name="palletBagBlankTilePinkEmpty" prob=".66"/>
+			<block name="palletBagBlankTilePinkFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedPink">
+			<block name="palletBagBlankBaseMedPinkEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedPinkFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedPink">
+			<block name="palletBagBlankCapMedPinkEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedPinkFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlPink">
+			<block name="palletBagBlankCapSmlPinkEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlPinkFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentPink">
+			<block name="palletBagBlankSingleBentPinkEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentPinkFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatPink">
+			<block name="palletBagBlankSingleFlatPinkEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatPinkFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK PINK -->
+<!-- BLANK ARMY GREEN -->		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseFullArmyGreen">
+			<block name="palletBagBlankBaseArmyGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseArmyGreenFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankTileArmyGreen">
+			<block name="palletBagBlankTileArmyGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankTileArmyGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+		
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankBaseMedArmyGreen">
+			<block name="palletBagBlankBaseMedArmyGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankBaseMedArmyGreenFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapMedArmyGreen">
+			<block name="palletBagBlankCapMedArmyGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankCapMedArmyGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankCapSmlArmyGreen">
+			<block name="palletBagBlankCapSmlArmyGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankCapSmlArmyGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleBentArmyGreen">
+			<block name="palletBagBlankSingleBentArmyGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleBentArmyGreenFull" prob=".33"/>
+		</placeholder>
+		</append> 
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBagBlankSingleFlatArmyGreen">
+			<block name="palletBagBlankSingleFlatArmyGreenEmpty" prob=".66"/>
+			<block name="palletBagBlankSingleFlatArmyGreenFull" prob=".33"/>
+		</placeholder>
+		</append>
+<!-- BLANK ARMY GREEN -->
+</stallionsden>

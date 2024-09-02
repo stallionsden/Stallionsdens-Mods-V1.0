@@ -1,0 +1,132 @@
+<stallionsden>
+<append xpath="/lootcontainers">
+<!-- bodyBagBlackFull, bodyBagYellowFull,bodyBagPileFull,bodyBagPileMixFull,bodyBagPairFull,bodyBagPairYellowFull,bodyBagPairMixedFull -->
+<lootcontainer name="bodyBag" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2" loot_quality_template="qualBaseTemplate">
+	<item group="groupFoodTrashCommon" loot_prob_template="med" />
+	<item name="foodRottingFlesh"  loot_prob_template="med"/>
+	<item group="groupJunk" loot_prob_template="med"/>
+	<item group="groupRareAutomotive" loot_prob_template="med"/>
+	<item name="casinoCoin" loot_prob_template="med" />
+	<item name="oldCash" loot_prob_template="med" />
+	<item group="groupGarbage" loot_prob_template="med"/>
+	<item group="groupBackpacks" loot_prob_template="med"/>
+	<item group="groupWeaponsMeleeScaled" loot_prob_template="med"  />
+	<item group="groupWeaponsRangedScaled"  loot_prob_template="med" />
+	<item name="gunBowT3CompoundCrossbow" loot_prob_template="med" />
+	<item name="resourceCloth" loot_prob_template="med" />
+	<item name="resourceBulletCasing" loot_prob_template="med" />	
+	<item group="foodCandy" />
+	</lootcontainer>
+
+<!-- goreBlockHumanCorpse,goreBlockHumanBones -->
+<lootcontainer name="goreBlock" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2" loot_quality_template="qualBaseTemplate">
+	<item group="groupFoodTrashCommon" loot_prob_template="med" />
+	<item name="foodRottingFlesh" loot_prob_template="med" />
+	<item group="groupJunk" loot_prob_template="med"/>
+	<item name="casinoCoin" loot_prob_template="med" />
+	<item name="oldCash" loot_prob_template="med" />
+	<item group="groupGarbage" loot_prob_template="med"/>
+	<item name="resourceCloth" loot_prob_template="med" />
+	<item name="resourceBulletCasing" loot_prob_template="med" />
+	<item group="foodCandy" loot_prob_template="med" />
+	</lootcontainer>
+<!-- goreBlockHumanCorpse,GoreBlockHumanBones -->
+<!-- Miscellaneous Loot -->
+<!-- School Desk -->
+<lootcontainer name="desk" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
+	<item group="groupFoodTrashCommon" loot_prob_template="med" />
+	<item name="foodRottingFlesh" loot_prob_template="med" />
+	<item group="groupJunk" loot_prob_template="med"/>
+	<item name="casinoCoin" loot_prob_template="med" />
+	<item name="oldCash" loot_prob_template="med" />
+	<item group="groupGarbage" loot_prob_template="med"/>
+	<item name="resourceCloth" loot_prob_template="med" />
+	<item group="booksAllScaled" loot_prob_template="med" />
+	<item group="booksRareOnlyScaled" loot_prob_template="med" />
+	<item name="resourcePaper" loot_prob_template="med" />
+	<item group="groupAmmoSmall" loot_prob_template="med" />
+	<item group="groupWeaponsAllScaled" loot_prob_template="med" />
+	</lootcontainer>
+<!--  School Desk -->
+<!-- Picnic Table -->
+ <lootcontainer name="picnicTable" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
+	<item group="cannedfood" loot_prob_template="med" />
+	<item group="groupGrills" loot_prob_template="med" />
+	<item group="groupJunk" loot_prob_template="med"/>
+	<item name="oldCash" loot_prob_template="med" />
+	<item group="groupGarbage" loot_prob_template="med"/>
+	<item name="resourceCloth" loot_prob_template="med" />
+	<item name="resourcePaper" loot_prob_template="med" />	
+</lootcontainer> 
+<!-- Picnic Table -->
+<!-- Couches and Sofas -->
+<lootcontainer name="couch" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
+	<item name="drugVitamins" loot_prob_template="med" />
+	<item group="groupJunk" loot_prob_template="med"/>
+	<item name="oldCash" loot_prob_template="med" />
+	<item group="groupGarbage" loot_prob_template="med" />
+	<item group="foodCandy" loot_prob_template="med" />
+	<item name="resourceCloth" loot_prob_template="med" />
+	<item name="resourcePaper" loot_prob_template="med" />
+	<item name="drugPainkillers" loot_prob_template="med" />
+</lootcontainer>
+<!-- Couches and Sofas -->
+<!-- Park Bench A & B -->
+<lootcontainer name="parkBench" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
+	<item group="groupFoodTrashCommon" loot_prob_template="med" />
+	<item group="booksAllScaled" loot_prob_template="med" />
+	<item group="groupJunk" loot_prob_template="med" />
+	<item group="booksRareOnlyScaled" loot_prob_template="med" />
+	<item name="oldCash" loot_prob_template="med" />
+	<item group="groupGarbage" loot_prob_template="med" />
+	<item group="groupDrinksCommon" loot_prob_template="med" />
+	<item name="resourceCloth" loot_prob_template="med" />
+	<item name="resourcePaper" loot_prob_template="med" />
+	<item name="drinkJarCoffee" loot_prob_template="med" />
+</lootcontainer>
+<!-- Park Bench A & B -->
+<!-- Wild West Wagon -->
+ <lootcontainer name="wildWestWagon" count="1,6" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
+	<item group="groupFoodTrashCommon" loot_prob_template="med" />
+	<item group="perkBooks" loot_prob_template="med" />
+	<item group="groupJunk" loot_prob_template="med" />
+	<item name="casinoCoin" loot_prob_template="med" />
+	<item name="oldCash" loot_prob_template="med" />
+	<item group="groupGarbage" loot_prob_template="med" />
+	<item name="resourceCloth" loot_prob_template="med" />
+	<item name="resourcePaper" loot_prob_template="med" />
+	<item name="drinkJarCoffee" loot_prob_template="med" />
+	<item group="groupMedAmmoMedMed" loot_prob_template="med" />
+	<item group="groupSmallAmmoLowHigh" loot_prob_template="med" />
+	<item group="groupWeaponsAllScaled" loot_prob_template="med" />
+	<item group="dyes"  loot_prob_template="med" />
+	<item group="groupModAllScaled" loot_prob_template="med" />
+	<item group="groupGrills" loot_prob_template="med" />
+	<item group="schematicsModsAndGeneralCommon" loot_prob_template="med" />
+	<item group="schematicsModsAndGeneralRare" loot_prob_template="med" />
+	<item group="rareFoodDrink" loot_prob_template="med" />
+	<item group="booksAllScaled" loot_prob_template="med" />
+	<item group="booksRareOnlyScaled" loot_prob_template="med" />
+	<item group="groupElectricalDevices" loot_prob_template="med" />
+	<item group="cannedfood" loot_prob_template="med" />
+	<item group="seeds" loot_prob_template="med" />
+	<item group="groupDrinksCommon" loot_prob_template="med" />
+	<item group="groupMedicineCabinet" loot_prob_template="med" />
+	<item group="groupRareAutomotive" loot_prob_template="med" />
+	<item group="toolParts" loot_prob_template="med" />
+	<item group="groupRareToolsTiered" loot_prob_template="med" />
+	<item group="rareFoodDrink" loot_prob_template="med" />
+	<item group="groupToolsTiered" loot_prob_template="med" />
+</lootcontainer> 
+<!-- Wild West Wagon -->
+<!-- Ice Machine -->
+<lootcontainer name="iceMachine" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
+	<item group="groupFoodTrashCommon" loot_prob_template="med" />
+	<item group="groupJunk" loot_prob_template="med" />
+	<item name="drinkJarRiverWater" loot_prob_template="med" />
+	<item group="groupGarbage" loot_prob_template="med" />	
+</lootcontainer>
+<!-- Ice Machine -->
+</append>
+
+</stallionsden>

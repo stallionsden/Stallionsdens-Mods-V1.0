@@ -1,0 +1,66 @@
+<stallionsden>
+<append xpath="/blockplaceholders/placeholder[@name='cntForestRandomLootHelper']">
+<block name="supplyPalletMilitaryD" prob="0.20"/>
+<block name="supplyPalletMilitaryA" prob="0.05"/>
+<block name="cntMilitaryGoodsA" prob="0.15"/>
+<block name="air" prob="0.60"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntWastelandRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.35"/>
+<block name="supplyPalletMilitaryA" prob="0.10"/>
+<block name="air" prob="0.55"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntDesertRandomLootHelper']">
+<block name="supplyPalletMilitaryC" prob="0.20"/>
+<block name="supplyPalletMilitaryA" prob="0.05"/>
+<block name="cntMilitaryGoodsB" prob="0.15"/>
+<block name="air" prob="0.60"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntBurntForestRandomLootHelper']">
+<block name="supplyPalletMilitaryB" prob="0.20"/>
+<block name="supplyPalletMilitaryA" prob="0.05"/>
+<block name="cntMilitaryGoodsC" prob="0.15"/>
+<block name="air" prob="0.60"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntStreetRandomLootHelper']">
+<block name="SupplyContainer(Locked)" prob="0.20"/>
+<block name="supplyPalletMilitaryA" prob="0.05"/>
+<block name="cntMilitaryGoodsD" prob="0.15"/>
+<block name="air" prob="0.60"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntYardRandomLootHelper']">
+<block name="supplyPalletMilitaryA" prob="0.30"/>
+<block name="air" prob="0.70"/>
+</append>
+
+<append xpath="/blockplaceholders">
+	<!-- SUPPLY CRATES -->
+	<placeholder name="SupplyContainerRandomHelper">
+		<block name="SupplyContainer(Locked)" prob="0.34"/>
+		<block name="air" prob="0.66"/>		
+	</placeholder>
+	
+	<placeholder name="supplyPalletMilitaryBRandomHelper">
+		<block name="supplyPalletMilitaryB" prob="0.34"/>
+		<block name="air" prob="0.66"/>		
+	</placeholder>
+	
+	<placeholder name="supplyPalletMilitaryCRandomHelper">
+		<block name="supplyPalletMilitaryC" prob="0.34"/>
+		<block name="air" prob="0.66"/>		
+	</placeholder>
+	
+	<placeholder name="supplyPalletMilitaryDRandomHelper">
+		<block name="supplyPalletMilitaryD" prob="0.34"/>
+		<block name="air" prob="0.66"/>		
+	</placeholder>
+
+
+</append>
+
+</stallionsden>

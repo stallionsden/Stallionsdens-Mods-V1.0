@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+SupplyContainer(Locked),blocks,block,,,Locked Supply Container,,
+SupplyContainer(Unlocked),blocks,block,,,Unlocked Supply Container,,
+supplyPalletMilitaryA,blocks,block,,,Military Drop,,
+supplyPalletMilitaryB,blocks,block,,,Military Drop,,
+supplyPalletMilitaryC,blocks,block,,,Military Drop,,
+supplyPalletMilitaryD,blocks,block,,,Military Drop,,

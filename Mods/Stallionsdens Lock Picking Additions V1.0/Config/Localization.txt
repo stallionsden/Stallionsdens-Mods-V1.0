@@ -1,0 +1,72 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+cntNightstandLocked,blocks,block,,,Night Stand,,
+cntNightstandLocked,blocks,block,,,Night Stand,,
+
+cntFileCabinetShortLocked,blocks,block,,,FileCabinet,,
+cntFileCabinetShortBrownLocked,blocks,block,,,FileCabinet,,
+cntFileCabinetShortGreenLocked,blocks,block,,,FileCabinet,,
+cntFileCabinetShortBlueLocked,blocks,block,,,FileCabinet,,
+cntFileCabinetShortGreyLocked,blocks,block,,,FileCabinet,,
+cntFileCabinetShortBlackLocked,blocks,block,,,FileCabinet,,
+
+cntFileCabinetTallLocked,blocks,block,,,File Cabinet,,
+cntFileCabinetTallClosedBrownLocked,blocks,block,,,File Cabinet,,
+cntFileCabinetTallClosedGreenLocked,blocks,block,,,File Cabinet,,
+cntFileCabinetTallClosedBlueLocked,blocks,block,,,File Cabinet,,
+cntFileCabinetTallClosedGreyLocked,blocks,block,,,File Cabinet,,
+cntFileCabinetTallClosedBlackLocked,blocks,block,,,File Cabinet,,
+
+cntLockersShortLocked,blocks,block,,,Lockers,,
+
+cntLockersTallLocked,blocks,block,,,Lockers,,
+cntLockersTallDoubleLocked,blocks,block,,,Lockers,,
+cntLockersTallMixLocked,blocks,block,,,Lockers,,
+cntLockersTallMixLinkLocked,blocks,block,,,Lockers,,
+
+cntCashRegisterLocked,blocks,block,,,Cash Register,,
+
+cntToolBoxLocked,blocks,block,,,Toolbox,,
+
+cntRollingToolBoxLocked,blocks,block,,,Tool Box,,
+
+cntLuggageMediumLocked,blocks,block,,,Luggage,,
+cntLuggageBigLocked,blocks,block,,,Luggage,,
+cntLuggagePileALocked,blocks,block,,,Luggage Pile,,
+cntLuggagePileBLocked,blocks,block,,,Luggage Pile,,
+
+cntMedicineCabinetFaucetLocked,blocks,block,,,Medicine Cabinet,,
+
+cntPillCaseLocked,blocks,block,,,Pill Case,,
+
+cntDeskWoodLocked,blocks,block,,,Wooden Desk,,
+
+cntMetalDeskWhiteLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskBrownLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskRedLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskOrangeLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskYellowLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskGreenLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskBlueLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskPurpleLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskGreyLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskBlackLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskPinkLocked,blocks,block,,,Metal Desk,,
+cntMetalDeskArmyGreenLocked,blocks,block,,,Metal Desk,,
+
+cntMiniBeverageCoolerLocked,blocks,block,,,Mini Beverage Cooler,,
+cntMiniBeverageCoolerUnderCounterLocked,blocks,block,,,Mini Beverage Cooler,,
+
+cntDumpsterLocked,blocks,block,,,Dumpster,,
+cntDumpsterBrownLocked,blocks,block,,,Dumpster,,
+cntDumpsterBlueLocked,blocks,block,,,Dumpster,,
+cntDumpsterGreyLocked,blocks,block,,,Dumpster,,
+
+cntDumpsterFliesLocked,blocks,block,,,Dumpster,,
+cntDumpsterFliesBrownLocked,blocks,block,,,Dumpster,,
+cntDumpsterFliesBlueLocked,blocks,block,,,Dumpster,,
+cntDumpsterFliesGreyLocked,blocks,block,,,Dumpster,,
+
+cntCabinetBottomLocked,blocks,block,,,Cabinet,,
+cntCupboardCabinetRedTopLocked,blocks,block,,,Cupboard,,
+cntCabinetOldBottomLocked,blocks,block,,,Cabinet,,
+cntCupboardCabinetOldTopLocked,blocks,block,,,Cupboard,,

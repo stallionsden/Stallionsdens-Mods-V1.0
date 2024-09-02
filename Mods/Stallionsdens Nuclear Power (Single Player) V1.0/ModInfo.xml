@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <xml>
+  <Name value="Stallionsdens_Nuclear_Power_V1" />
+  <Author value="Stallionsden" />
+  <Description value="Adds power sources to sp that last a long time." />
+  <DisplayName value="Stallionsden Nuclear Power" />
+  <Version value="1.1.1.0" />
+  <Website value="" />
+</xml>

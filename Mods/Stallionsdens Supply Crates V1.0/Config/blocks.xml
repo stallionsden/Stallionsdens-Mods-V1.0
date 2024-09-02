@@ -1,0 +1,179 @@
+<stallionsden>
+		<append xpath="/blocks">
+	<block name="SupplyContainer(Locked)">
+	<property name="CustomIcon" value="cntHardenedChestSecureT5"/>
+	<property name="CustomIconTint" value="86,255,109"/>
+	<property name="Tags" value="safes,door,hardenedSafe"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="supplyResources"/>
+	<property name="DisplayType" value="blockHardenedMulti"/> 
+	<property name="Material" value="Mmetal_hard"/><property name="MaxDamage" value="1000"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/LootContainers/tier5LootChestPrefab.prefab"/>
+	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="MultiBlockDim" value="2,1,1"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="115"/>
+	<property name="PassThroughDamage" value="false"/>
+	<property name="Path" value="solid"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="Place" value="TowardsPlacerInverted"/>	
+	<property class="RepairItems"> 
+	<property name="resourceForgedIron" value="60"/>
+	</property>
+	<property name="DowngradeBlock" value="SupplyContainer(Unlocked)"/>
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>		
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="690"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="DowngradeEvent" value="spawn_zombies_supplies"/>
+	</block>
+	
+	<block name="SupplyContainer(Unlocked)">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes,door,hardenedSafe"/>
+	<property name="CustomIcon" value="cntHardenedChestSecure"/>
+	<property name="DisplayType" value="blockHardenedMulti"/> 
+	<property name="Material" value="Mmetal_hard"/><property name="MaxDamage" value="10000"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/LootContainers/tier5LootChestPrefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="MultiBlockDim" value="2,1,1"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="115"/>
+	<property name="Path" value="solid"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="supplyResources"/>
+	<property class="RepairItems"> <property name="resourceForgedIron" value="60"/> </property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="15,45" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Harvest" name="resourceForgedIron" count="16,24" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceForgedSteel" count="1,2" prob="1" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceSpring" count="2,8" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceMechanicalParts" count="2,10" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="690"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	</block>
+	
+	<block name="SupplyContainerRandomHelper">
+	<property name="Extends" value="SupplyContainer(Locked)"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntHardenedChestSecure"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="Model" value="@:Entities/LootContainers/tier5LootChestPrefab.prefab"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder1" value="B400"/>
+	</block>	
+	
+<!-- *** PALLETS_MILITARY_AMMO_CANS -->
+<block name="supplyPalletMilitaryA">
+	<property name="CustomIcon" value="palletCartonMilitaryBase"/>
+	<property name="CustomIconTint" value="86,255,109"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="GndAlign" value="1"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryBasePrefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="PassThroughDamage" value="false"/>
+	<property name="EconomicValue" value="690"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="supplyPalletMilitaryB">
+	<property name="CustomIcon" value="palletCartonMilitaryCap"/>
+	<property name="CustomIconTint" value="86,255,109"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="supplyResources"/>
+	<property name="Extends" value="supplyPalletMilitaryA"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryCapPrefab"/>
+	<property name="SortOrder2" value="0501"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="PassThroughDamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="690"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="supplyPalletMilitaryBRandomHelper">
+	<property name="Extends" value="supplyPalletMilitaryB"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="palletCartonMilitaryCap"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryCapPrefab"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder1" value="B400"/>
+	</block>
+
+<block name="supplyPalletMilitaryC">
+	<property name="CustomIcon" value="palletCartonMilitaryTile"/>
+	<property name="CustomIconTint" value="86,255,109"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="supplyResources"/>
+	<property name="Extends" value="supplyPalletMilitaryA"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryTilePrefab"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="SortOrder2" value="0502"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="PassThroughDamage" value="false"/>
+	<property name="EconomicValue" value="690"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="supplyPalletMilitaryCRandomHelper">
+	<property name="Extends" value="supplyPalletMilitaryC"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="palletCartonMilitaryTile"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryTilePrefab"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder1" value="B400"/>
+	</block>
+
+<block name="supplyPalletMilitaryD">
+	<property name="CustomIcon" value="palletCartonMilitaryTileCovered"/>
+	<property name="CustomIconTint" value="86,255,109"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="supplyResources"/>
+	<property name="Extends" value="supplyPalletMilitaryA"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryTileCoveredPrefab"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="PassThroughDamage" value="false"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="EconomicValue" value="690"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="supplyPalletMilitaryDRandomHelper">
+	<property name="Extends" value="supplyPalletMilitaryD"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="palletCartonMilitaryTileCovered"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryTileCoveredPrefab"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder1" value="B400"/>
+	</block>
+			
+</append>
+</stallionsden>

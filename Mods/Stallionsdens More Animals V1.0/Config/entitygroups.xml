@@ -1,0 +1,122 @@
+<stallionsden>
+<remove xpath="/entitygroups/entitygroup[@name='WildGameForest']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='WildGameForestNight']" ></remove>
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestAny']" ></remove>
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestNight']" ></remove>
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesertNight']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnowNight']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWastelandNight']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='WildGameStagNight']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='WolfPack']" ></remove>
+
+<insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesCave']">	
+	<entitygroup name="WildGameForest">
+		animalRabbit, 15
+		animalChicken, 15		
+		animalStag, 15
+		animalDoe, 15
+		animalBoar, 10
+		animalZombieDog, 5		
+		animalMountainLion, 5
+		animalWolf, 5		
+		animalBear, 5
+		animalZombieVulture, 5
+		none, 5
+	</entitygroup>
+	
+	<entitygroup name="WildGameForestNight">
+		animalRabbit, 15
+		animalChicken, 15		
+		animalStag, 20
+		animalDoe, 20
+		animalBoar, 20		
+		none, 10
+	</entitygroup>
+		
+	<entitygroup name="EnemyAnimalsForest">
+		animalSnake, 15
+		animalZombieDog, 15		
+		animalMountainLion, 15
+		animalWolf, 15		
+		animalBear, 15
+		animalZombieVulture, 15
+		none, 10
+	</entitygroup>
+	
+	<entitygroup name="EnemyAnimalsBurntForestAny">
+		animalZombieDog, 20
+		animalZombieBear, 20
+		animalDireWolf, 20
+		animalZombieVulture, 15
+		animalWolf, 10
+		animalSnake, 10
+		none, 5
+	</entitygroup>
+	
+	<entitygroup name="EnemyAnimalsBurntForestNight">
+		animalZombieVulture, 15
+		animalCoyote, 10
+		none, 75
+	</entitygroup>
+	
+	<entitygroup name="EnemyAnimalsDesert">
+		animalCoyote, 30
+		animalZombieVulture, 30
+		animalSnake, 30
+		none, 20
+	</entitygroup>
+	
+		<!-- *** ENEMY_ANIMAL_DESERT_NIGHT-->
+	<entitygroup name="EnemyAnimalsDesertNight">
+		animalBoar, 10
+		animalWolf, 15
+		animalMountainLion, 10
+		none, 65
+	</entitygroup>
+	
+	<entitygroup name="EnemyAnimalsSnow">
+		animalMountainLion, 15
+		animalDireWolf, 15
+		animalBear, 15		
+		animalWolf, 15
+		animalSnake, 15
+		animalCoyote, 15
+		none, 10
+	</entitygroup>	
+	
+	<entitygroup name="EnemyAnimalsSnowNight">
+		animalDireWolf, 10
+		animalZombieDog, 10
+		none, 80
+	</entitygroup>
+	
+    <entitygroup name="EnemyAnimalsWasteland" >
+		animalDireWolf, 10
+		animalSnake, 10
+		animalZombieVulture, 30
+		animalZombieDog, 20
+		animalZombieBear, 20
+		animalWolf, 10
+	</entitygroup>
+	
+	<entitygroup name="EnemyAnimalsWastelandNight">
+		animalDireWolf, 25
+		animalZombieBear, 25
+		none, 50
+	</entitygroup>
+	
+	<entitygroup name="WildGameStagNight">
+		animalStag,10
+		none, 90
+	</entitygroup>
+	
+	<entitygroup name="WolfPack"> 
+		animalWolf, 5
+		animalDireWolf, 10
+	</entitygroup>
+</insertAfter>
+</stallionsden>

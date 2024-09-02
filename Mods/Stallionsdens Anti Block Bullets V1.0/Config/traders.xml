@@ -1,0 +1,30 @@
+<stallionsden>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoAll']">
+		<item name="9mmBulletBall" count="1,2" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="1,2" prob="0.1"/>
+		<item name="762mmBulletBall" count="1,2" prob="0.1"/>
+		<item name="shotgunShell" count="1,2" prob="0.1"/>
+		<item name="junkTurretAmmo" count="1,2" prob="0.1"/>
+		<item name="arrowFlaming" count="1,2" prob="0.1"/>
+		<item name="arrowStone" count="1,2" prob="0.1"/>
+		<item name="crossbowBoltStone" count="1,2" prob="0.1"/>
+		<item name="9mmBulletHP" count="1,2" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="1,2" prob="0.1"/>
+		<item name="762mmBulletHP" count="1,2" prob="0.1"/>
+		<item name="shotgunSlug" count="1,2" prob="0.1"/>
+		<item name="junkTurretShellammo" count="1,2" prob="0.1"/>
+		<item name="arrowIron" count="1,2" prob="0.1"/>
+		<item name="crossbowBoltFlaming" count="1,2" prob="0.1"/>
+		<item name="crossbowBoltIron" count="1,2" prob="0.1"/>
+		<item name="dartIron" count="1,2" prob="0.1"/>
+		<item name="9mmBulletAP" count="1,2" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="1,2" prob="0.1"/>
+		<item name="762mmBulletAP" count="1,2" prob="0.1"/>
+		<item name="shotgunBreachingSlug" count="1,2" prob="0.1"/>
+		<item name="junkTurretAPammo" count="1,2" prob="0.1"/>
+		<item name="arrowExploding" count="1,2" prob="0.1"/>
+		<item name="crossbowBoltExploding" count="1,2" prob="0.1"/>
+		<item name="rocketFrag" count="1,2" prob="0.1"/>
+		<item name="rocketHE" count="1,2" prob="0.1"/>
+</append>
+</stallionsden>

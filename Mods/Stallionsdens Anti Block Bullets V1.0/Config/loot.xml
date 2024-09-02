@@ -1,0 +1,120 @@
+<stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='group9mmSmall']" >
+		<item name="9mmBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		</append>		
+	<append xpath="/lootcontainers/lootgroup[@name='group9mmMedium']" >
+		<item name="9mmBulletBall" count="5,7" loot_prob_template="veryLow"/>
+		</append> 		
+	<append xpath="/lootcontainers/lootgroup[@name='group9mmLarge']" >
+		<item name="9mmBulletBall" count="10,20" loot_prob_template="veryLow"/>
+		</append>
+		
+	<append xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']" >
+		<item name="44MagnumBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		</append>		
+	<append xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']" >
+		<item name="44MagnumBulletBall" count="5,7" loot_prob_template="veryLow"/>
+		</append>		
+	<append xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']" >
+		<item name="44MagnumBulletBall" count="10,20" loot_prob_template="veryLow"/>
+		</append>
+		
+	<append xpath="/lootcontainers/lootgroup[@name='group762mmSmall']" >
+		<item name="762mmBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		</append> 		
+	<append xpath="/lootcontainers/lootgroup[@name='group762mmMedium']" >
+		<item name="762mmBulletBall" count="5,7" loot_prob_template="veryLow"/>
+		</append>		
+	<append xpath="/lootcontainers/lootgroup[@name='group762mmLarge']" >
+		<item name="762mmBulletBall" count="10,20" loot_prob_template="veryLow"/>
+		</append>
+		
+	<append xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']" >
+		<item name="shotgunShell" count="0,2" loot_prob_template="veryLow"/>
+		</append>		
+	<append xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']" >
+		<item name="shotgunShell" count="5,7" loot_prob_template="veryLow"/>
+		</append>		
+	<append xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']" >
+		<item name="shotgunShell" count="10,20" loot_prob_template="veryLow"/>
+		</append>
+		
+	<append xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']" >
+		<item name="shotgunShell" count="0,2" loot_prob_template="veryLow"/>
+		</append>		
+	<append xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']" >
+		<item name="shotgunShell" count="5,7" loot_prob_template="veryLow"/>
+		</append>		
+	<append xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']" >
+		<item name="shotgunShell" count="10,20" loot_prob_template="veryLow"/>
+		</append>
+		
+		<append xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']" >
+		<item name="9mmBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		<item name="9mmBulletHP" count="0,2" loot_prob_template="veryLow"/>		
+		<item name="9mmBulletAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="44MagnumBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		<item name="44MagnumBulletHP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="44MagnumBulletAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="762mmBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		<item name="762mmBulletHP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="762mmBulletAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="shotgunShell" count="0,2" loot_prob_template="veryLow"/>
+		<item name="shotgunSlug" count="0,2" loot_prob_template="veryLow"/>
+		<item name="shotgunBreachingSlug" count="0,2" loot_prob_template="veryLow"/>
+		<item name="junkTurretAmmo" count="0,2" loot_prob_template="veryLow"/>
+		<item name="junkTurretShellammo" count="0,2" loot_prob_template="veryLow"/>
+		<item name="junkTurretAPammo" count="0,2" loot_prob_template="veryLow"/>	
+		<item name="arrowFlaming" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowExploding" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowIron" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowSteelAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowStone" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltFlaming" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltExploding" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltIron" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltSteelAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltStone" count="0,2" loot_prob_template="veryLow"/>
+		<item name="dartIron" count="0,2" loot_prob_template="veryLow"/>
+		<item name="rocketFrag" count="0,2" loot_prob_template="veryLow"/>
+		<item name="rocketHE" count="0,2" loot_prob_template="veryLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackReg']" >
+		<item name="9mmBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		<item name="44MagnumBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		<item name="762mmBulletBall" count="0,2" loot_prob_template="veryLow"/>
+		<item name="shotgunShell" count="0,2" loot_prob_template="veryLow"/>
+		<item name="junkTurretAmmo" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowIron" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowStone" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltStone" count="0,2" loot_prob_template="veryLow"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong01']" >
+		<item name="9mmBulletHP" count="0,2" loot_prob_template="veryLow"/>		
+		<item name="44MagnumBulletHP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="762mmBulletHP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="shotgunSlug" count="0,2" loot_prob_template="veryLow"/>
+		<item name="junkTurretShellammo" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowFlaming" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltFlaming" count="0,2" loot_prob_template="veryLow"/>
+		<item name="dartIron" count="0,2" loot_prob_template="veryLow"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong03']" >
+		<item name="9mmBulletAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="44MagnumBulletAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="762mmBulletAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="shotgunBreachingSlug" count="0,2" loot_prob_template="veryLow"/>
+		<item name="junkTurretAPammo" count="0,2" loot_prob_template="veryLow"/>	
+		<item name="arrowExploding" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowIron" count="0,2" loot_prob_template="veryLow"/>
+		<item name="arrowSteelAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltExploding" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltIron" count="0,2" loot_prob_template="veryLow"/>
+		<item name="crossbowBoltSteelAP" count="0,2" loot_prob_template="veryLow"/>
+		<item name="rocketFrag" count="0,2" loot_prob_template="veryLow"/>
+		<item name="rocketHE" count="0,2" loot_prob_template="veryLow"/>
+	</append>
+</stallionsden>

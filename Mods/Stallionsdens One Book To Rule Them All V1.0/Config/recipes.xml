@@ -1,0 +1,19 @@
+<stallionsden>
+<append xpath="/recipes">
+<recipe name="theOneBook" count="1" craft_area="campfire" craft_tool="toolBeaker" tags="learnable" >
+	<ingredient name="resourcePaper" count="2000"/>
+	<ingredient name="resourceCoal" count="2000"/>
+	<ingredient name="medicalBloodBag" count="200"/>
+	<ingredient name="resourceGlue" count="100"/>
+	<ingredient name="resourceLeather" count="1125"/>
+	</recipe>
+	
+<recipe name="theOneBookSchematic" count="1" craft_area="campfire" craft_tool="toolBeaker" tags="learnable" >
+	<ingredient name="resourcePaper" count="1000"/>
+	<ingredient name="resourceCoal" count="1000"/>
+	<ingredient name="medicalBloodBag" count="150"/>	
+	<ingredient name="resourceBone" count="150"/>
+	<ingredient name="resourceLeather" count="1000"/>
+	</recipe>
+</append>
+</stallionsden>

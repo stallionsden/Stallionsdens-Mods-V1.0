@@ -1,0 +1,51 @@
+<stallionsden>
+<remove xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='WildGameForestNight']"></remove>
+<remove xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='EnemyAnimalsForest']"></remove>
+
+<remove xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='EnemyAnimalsBurntForestAny']"></remove>
+<remove xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='WildGameForestNight']"></remove>
+<remove xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='EnemyAnimalsBurntForestNight']"></remove>
+
+<remove xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='EnemyAnimalsDesert']"></remove>
+<remove xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='EnemyAnimalsDesertNight']"></remove>
+
+<remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='WildGameStagNight']"></remove>
+<remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='EnemyAnimalsSnow']"></remove>
+<remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='EnemyAnimalsSnowNight']"></remove>
+
+<remove xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='EnemyAnimalsWasteland']"></remove>
+<remove xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WildGameStagNight']"></remove>
+<remove xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='EnemyAnimalsWastelandNight']"></remove>
+
+<insertAfter xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForestNight" spawnDeadChance="0"/>
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0"/>
+		</insertAfter>
+<insertAfter xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesDowntown']">
+		<spawn maxcount="5" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		<spawn maxcount="5" respawndelay="1" time="Any" entitygroup="EnemyAnimalsBurntForestAny" spawnDeadChance="0"/>
+		<spawn maxcount="5" respawndelay="1" time="Any" entitygroup="WildGameForestNight" spawnDeadChance="0"/>
+		<spawn maxcount="5" respawndelay="1" time="Any" entitygroup="EnemyAnimalsBurntForestNight" spawnDeadChance="0"/>
+		</insertAfter>
+<insertAfter xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="3" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		<spawn maxcount="3" respawndelay="1" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0"/>
+		<spawn maxcount="3" respawndelay="1" time="Any" entitygroup="EnemyAnimalsDesertNight" spawnDeadChance="0"/>
+		</insertAfter>	
+<insertAfter xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="6" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		<spawn maxcount="6" respawndelay="1" time="Any" entitygroup="WildGameStagNight" spawnDeadChance="0"/>
+		<spawn maxcount="6" respawndelay="1" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0"/>
+		<spawn maxcount="6" respawndelay="1" time="Any" entitygroup="EnemyAnimalsSnowNight" spawnDeadChance="0"/>
+		</insertAfter>		
+<insertAfter xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesWastelandNight']">
+		<spawn maxcount="4" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0"/>
+		<spawn maxcount="4" respawndelay="1" time="Any" entitygroup="WildGameStagNight" spawnDeadChance="0"/>
+		<spawn maxcount="4" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWastelandNight" spawnDeadChance="0"/>
+		</insertAfter>	
+</stallionsden>
