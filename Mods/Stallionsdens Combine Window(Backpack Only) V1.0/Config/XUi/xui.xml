@@ -1,0 +1,6 @@
+<stallionsden>
+	<append xpath="/xui/ruleset/window_group[@name='backpack']">
+		<window name="windowCombine" />
+	</append>	
+	
+</stallionsden>
