@@ -36,7 +36,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<!-- Stealth settings -->
@@ -120,7 +120,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
@@ -153,7 +153,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<!-- Gameplay -->
@@ -198,7 +198,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<!-- Gameplay -->
@@ -255,7 +255,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<property name="SurfaceCategory" value="organic"/>
@@ -351,7 +351,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<property name="SoundHurt" value="Animals/Bear/bearpain"/>
@@ -404,7 +404,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<property name="SoundHurt" value="Animals/Bear/bearpain"/>
@@ -464,7 +464,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 		
 	<property name="SoundRandom" value="wolfroam"/>
@@ -595,7 +595,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<!-- Gameplay -->
@@ -635,7 +635,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 
 	<property name="SoundRandom" value="coyoteroam"/>
@@ -694,7 +694,7 @@
 	<property name="AITask-7" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 
 	<!-- Gameplay -->
@@ -749,7 +749,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 	
 	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -809,7 +809,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 
 	<property name="MoveSpeed" value=".7"/>
@@ -849,16 +849,17 @@
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="PhysicsBody" value="zombieDog"/>
 	
-	<property name="SoundRandomTime" value="45.0"/>
-	<property name="SoundAlertTime" value="25.0"/>
-	<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>
-	<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert"/>
-	<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain"/>
-	<property name="SoundDeath" value="Enemies/Zombie_Dogs/zombiedogdeath"/>
-	<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack"/>
-	<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
-	<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
+	<property name="SoundRandomTime" value="20"/>
+	<property name="SoundRandom" value="zombiedogroam"/>
+	<property name="SoundAlertTime" value="10"/>
+	<property name="SoundAlert" value="zombiedogalert"/>
+	<property name="SoundHurt" value="zombiedogpain"/>
+	<property name="SoundDeath" value="zombiedogdeath"/>
+	<property name="SoundAttack" value="zombiedogattack"/>
+	<property name="SoundSense" value="zombiedogsense"/>
+	<property name="SoundGiveUp" value="zombiedoggiveup"/>
 
+	<property name="AIFeralSense" value="1.6"/>
 	<property name="AITask-1" value="Territorial"/>
 	<property name="AITask-2" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,30,EntityBandit,25,EntityZombie,50,EntityZombieCop,50"/>
 	<property name="AITask-3" value="ApproachSpot"/>
@@ -867,7 +868,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 
 	<!-- Stealth -->
@@ -931,16 +932,16 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 
 	<property name="WalkType" value="7"/>
-	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
-	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
-	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
-	<property name="SoundSense" value="Animals/Snake/snakesense"/>
-	<property name="SoundAlert" value="Animals/Snake/snakealert"/>
-	<property name="SoundAttack" value="Animals/Snake/snakeattack"/>
+	<property name="SoundHurt" value="snakepain"/>
+	<property name="SoundDeath" value="snakedeath"/>
+	<property name="SoundRandom" value="snakeroam"/>
+	<property name="SoundSense" value="snakesense"/>
+	<property name="SoundAlert" value="snakealert"/>
+	<property name="SoundAttack" value="snakeattack"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 
@@ -1012,7 +1013,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 
 	<!-- Gameplay -->
@@ -1081,7 +1082,7 @@
 	<property name="AITask-6" value=""/>
 	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,16,10,EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemyAnimal,16,10,EntityBandit,16,10,EntityZombie,16,10,EntityZombieCop,16,10"/>
 	<property name="AITarget-4" value=""/>
 
 	<property name="HandItem" value="meleeHandAnimalMissPiggy"/>
