@@ -1,5 +1,0 @@
-<stallionsden>
-	<append xpath="/xui/ruleset/window_group[@name='workstation_workbench']">
-		<window name="windowCombine" />
-	</append>
-</stallionsden>
