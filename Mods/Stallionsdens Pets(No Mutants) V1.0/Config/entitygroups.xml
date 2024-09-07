@@ -1,0 +1,20 @@
+<stallionsden>
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']" ><entity name="sirHiss" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']" ><entity name="wileyCoyote" prob="0.05" /></append>
+
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ><entity name="bugsBunny" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ><entity name="yogiBear" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ><entity name="Luca" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ><entity name="MrFox" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='WildGameForest']" ><entity name="Buck" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='WildGameForest']" ><entity name="Bambi" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='WildGameForest']" ><entity name="foghornLeghorn" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='WildGameForest']" ><entity name="bugsBunny" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='WildGameForest']" ><entity name="porkyPig" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="sirHiss" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWastelandNight']" ><entity name="sirHiss" prob="0.05" /></append> 
+
+</stallionsden>
