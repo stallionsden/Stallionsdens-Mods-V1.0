@@ -1,0 +1,1635 @@
+<stallionsden>
+<append xpath="/blocks">
+<!-- LOOTABLE PALLET INSERTION START -->
+<!-- BROWN BOXES -->
+<block name="palletBrownBoxesBaseFull">
+			<property name="Extends" value="palletBrownBoxesBase"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrown"/>
+		</block>
+		<block name="palletBrownBoxesBaseEmpty">
+			<property name="Extends" value="palletBrownBoxesBase"/>
+		</block>
+
+	<block name="palletBrownBoxesTileFull">
+			<property name="Extends" value="palletBrownBoxesTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrown"/>
+		</block>
+		<block name="palletBrownBoxesTileEmpty">
+			<property name="Extends" value="palletBrownBoxesTile"/>
+		</block>
+	
+	<block name="palletBrownBoxesTopFull">
+			<property name="Extends" value="palletBrownBoxesTop"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrown"/>
+		</block>
+		<block name="palletBrownBoxesTopEmpty">
+			<property name="Extends" value="palletBrownBoxesTop"/>
+		</block>
+		
+		<block name="palletBrownBoxesSmallFull">
+			<property name="Extends" value="palletBrownBoxesTopSmall"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrown"/>
+		</block>
+		<block name="palletBrownBoxesSmallEmpty">
+			<property name="Extends" value="palletBrownBoxesTopSmall"/>
+		</block>
+	
+	<block name="palletBrownBoxesLooseFull">
+			<property name="Extends" value="palletBrownBoxesLoose"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrown"/>
+		</block>
+		<block name="palletBrownBoxesLooseEmpty">
+			<property name="Extends" value="palletBrownBoxesLoose"/>
+		</block>
+<!-- BROWN BOXES -->
+<!-- BRICKS -->	
+	<block name="palletBricksBaseFull">
+			<property name="Extends" value="palletBricksBase"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksBaseEmpty">
+			<property name="Extends" value="palletBricksBase"/>
+		</block>
+	
+	<block name="palletBricksTileFull">
+			<property name="Extends" value="palletBricksTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksTileEmpty">
+			<property name="Extends" value="palletBricksTile"/>
+		</block>
+	
+	<block name="palletBricksPartial1Full">
+			<property name="Extends" value="palletBricksPartial1"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksPartial1Empty">
+			<property name="Extends" value="palletBricksPartial1"/>
+		</block>
+		
+	<block name="palletBricksTopFull">
+			<property name="Extends" value="palletBricksTop"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksTopEmpty">
+			<property name="Extends" value="palletBricksTop"/>
+		</block>
+	
+	<block name="palletBricksPartial2Full">
+			<property name="Extends" value="palletBricksPartial2"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksPartial2Empty">
+			<property name="Extends" value="palletBricksPartial2"/>
+		</block>
+	
+	<block name="palletBricksLooseFull">
+			<property name="Extends" value="palletBricksLoose"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksLooseEmpty">
+			<property name="Extends" value="palletBricksLoose"/>
+		</block>
+<!-- BRICKS -->
+<!-- BRICKS BROWN-->	
+	<block name="palletBricksBaseBrownFull">
+			<property name="Extends" value="palletBricksBaseBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksBaseBrownEmpty">
+			<property name="Extends" value="palletBricksBaseBrown"/>
+		</block>
+	
+	<block name="palletBricksTileBrownFull">
+			<property name="Extends" value="palletBricksTileBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksTileBrownEmpty">
+			<property name="Extends" value="palletBricksTileBrown"/>
+		</block>
+		
+	<block name="palletBricksPartial1BrownFull">
+			<property name="Extends" value="palletBricksPartial1Brown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksPartial1BrownEmpty">
+			<property name="Extends" value="palletBricksPartial1Brown"/>
+		</block>
+		
+	<block name="palletBricksTopBrownFull">
+			<property name="Extends" value="palletBricksTopBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksTopBrownEmpty">
+			<property name="Extends" value="palletBricksTopBrown"/>
+		</block>	
+	
+	<block name="palletBricksPartial2BrownFull">
+			<property name="Extends" value="palletBricksPartial2Brown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksPartial2BrownEmpty">
+			<property name="Extends" value="palletBricksPartial2Brown"/>
+		</block>
+	
+	<block name="palletBricksLooseBrownFull">
+			<property name="Extends" value="palletBricksLooseBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksLooseBrownEmpty">
+			<property name="Extends" value="palletBricksLooseBrown"/>
+		</block>
+<!-- BRICKS BROWN-->
+<!-- BRICKS RED-->	
+	<block name="palletBricksBaseRedFull">
+			<property name="Extends" value="palletBricksBaseRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksBaseRedEmpty">
+			<property name="Extends" value="palletBricksBaseRed"/>
+		</block>
+	
+	<block name="palletBricksTileRedFull">
+			<property name="Extends" value="palletBricksTileRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksTileRedEmpty">
+			<property name="Extends" value="palletBricksTileRed"/>
+		</block>
+		
+	<block name="palletBricksPartial1RedFull">
+			<property name="Extends" value="palletBricksPartial1Red"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksPartial1RedEmpty">
+			<property name="Extends" value="palletBricksPartial1Red"/>
+		</block>
+		
+	<block name="palletBricksTopRedFull">
+			<property name="Extends" value="palletBricksTopRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksTopRedEmpty">
+			<property name="Extends" value="palletBricksTopRed"/>
+		</block>	
+	
+	<block name="palletBricksPartial2RedFull">
+			<property name="Extends" value="palletBricksPartial2Red"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksPartial2RedEmpty">
+			<property name="Extends" value="palletBricksPartial2Red"/>
+		</block>
+	
+	<block name="palletBricksLooseRedFull">
+			<property name="Extends" value="palletBricksLooseRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksLooseRedEmpty">
+			<property name="Extends" value="palletBricksLooseRed"/>
+		</block>
+<!-- BRICKS RED-->
+<!-- BRICKS ORANGE-->	
+	<block name="palletBricksBaseOrangeFull">
+			<property name="Extends" value="palletBricksBaseOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksBaseOrangeEmpty">
+			<property name="Extends" value="palletBricksBaseOrange"/>
+		</block>
+	
+	<block name="palletBricksTileOrangeFull">
+			<property name="Extends" value="palletBricksTileOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksTileOrangeEmpty">
+			<property name="Extends" value="palletBricksTileOrange"/>
+		</block>
+		
+	<block name="palletBricksPartial1OrangeFull">
+			<property name="Extends" value="palletBricksPartial1Orange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksPartial1OrangeEmpty">
+			<property name="Extends" value="palletBricksPartial1Orange"/>
+		</block>
+		
+	<block name="palletBricksTopOrangeFull">
+			<property name="Extends" value="palletBricksTopOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksTopOrangeEmpty">
+			<property name="Extends" value="palletBricksTopOrange"/>
+		</block>	
+	
+	<block name="palletBricksPartial2OrangeFull">
+			<property name="Extends" value="palletBricksPartial2Orange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksPartial2OrangeEmpty">
+			<property name="Extends" value="palletBricksPartial2Orange"/>
+		</block>
+	
+	<block name="palletBricksLooseOrangeFull">
+			<property name="Extends" value="palletBricksLooseOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletBrick"/>
+		</block>
+		<block name="palletBricksLooseOrangeEmpty">
+			<property name="Extends" value="palletBricksLooseOrange"/>
+		</block>
+<!-- BRICKS ORANGE-->
+<!-- TARP WHITE-->	
+	<block name="palletTarpBaseWhiteFull">
+			<property name="Extends" value="palletTarpBaseWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseWhiteEmpty">
+			<property name="Extends" value="palletTarpBaseWhite"/>
+		</block>
+	
+	<block name="palletTarpTileWhiteFull">
+			<property name="Extends" value="palletTarpTileWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileWhiteEmpty">
+			<property name="Extends" value="palletTarpTileWhite"/>
+		</block>
+<!-- TARP WHITE -->
+<!-- TARP BROWN-->	
+	<block name="palletTarpBaseBrownFull">
+			<property name="Extends" value="palletTarpBaseBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseBrownEmpty">
+			<property name="Extends" value="palletTarpBaseBrown"/>
+		</block>
+	
+	<block name="palletTarpTileBrownFull">
+			<property name="Extends" value="palletTarpTileBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileBrownEmpty">
+			<property name="Extends" value="palletTarpTileBrown"/>
+		</block>
+<!-- TARP BROWN -->
+<!-- TARP RED-->	
+	<block name="palletTarpBaseRedFull">
+			<property name="Extends" value="palletTarpBaseRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseRedEmpty">
+			<property name="Extends" value="palletTarpBaseRed"/>
+		</block>
+	
+	<block name="palletTarpTileRedFull">
+			<property name="Extends" value="palletTarpTileRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileRedEmpty">
+			<property name="Extends" value="palletTarpTileRed"/>
+		</block>
+<!-- TARP RED -->
+<!-- TARP ORANGE-->	
+	<block name="palletTarpBaseOrangeFull">
+			<property name="Extends" value="palletTarpBaseOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseOrangeEmpty">
+			<property name="Extends" value="palletTarpBaseOrange"/>
+		</block>
+	
+	<block name="palletTarpTileOrangeFull">
+			<property name="Extends" value="palletTarpTileOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileOrangeEmpty">
+			<property name="Extends" value="palletTarpTileOrange"/>
+		</block>
+<!-- TARP ORANGE -->
+<!-- TARP YELLOW-->	
+	<block name="palletTarpBaseYellowFull">
+			<property name="Extends" value="palletTarpBaseYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseYellowEmpty">
+			<property name="Extends" value="palletTarpBaseYellow"/>
+		</block>
+	
+	<block name="palletTarpTileYellowFull">
+			<property name="Extends" value="palletTarpTileYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileYellowEmpty">
+			<property name="Extends" value="palletTarpTileYellow"/>
+		</block>
+<!-- TARP YELLOW -->
+<!-- TARP GREEN-->	
+	<block name="palletTarpBaseGreenFull">
+			<property name="Extends" value="palletTarpBaseGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseGreenEmpty">
+			<property name="Extends" value="palletTarpBaseGreen"/>
+		</block>
+	
+	<block name="palletTarpTileGreenFull">
+			<property name="Extends" value="palletTarpTileGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileGreenEmpty">
+			<property name="Extends" value="palletTarpTileGreen"/>
+		</block>
+<!-- TARP GREEN -->
+<!-- TARP BLUE-->	
+	<block name="palletTarpBaseBlueFull">
+			<property name="Extends" value="palletTarpBaseBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseBlueEmpty">
+			<property name="Extends" value="palletTarpBaseBlue"/>
+		</block>
+	
+	<block name="palletTarpTileBlueFull">
+			<property name="Extends" value="palletTarpTileBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileBlueEmpty">
+			<property name="Extends" value="palletTarpTileBlue"/>
+		</block>
+<!-- TARP BLUE -->
+<!-- TARP PURPLE-->	
+	<block name="palletTarpBasePurpleFull">
+			<property name="Extends" value="palletTarpBasePurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBasePurpleEmpty">
+			<property name="Extends" value="palletTarpBasePurple"/>
+		</block>
+	
+	<block name="palletTarpTilePurpleFull">
+			<property name="Extends" value="palletTarpTilePurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTilePurpleEmpty">
+			<property name="Extends" value="palletTarpTilePurple"/>
+		</block>
+<!-- TARP PURPLE -->
+<!-- TARP GREY-->	
+	<block name="palletTarpBaseGreyFull">
+			<property name="Extends" value="palletTarpBaseGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseGreyEmpty">
+			<property name="Extends" value="palletTarpBaseGrey"/>
+		</block>
+	
+	<block name="palletTarpTileGreyFull">
+			<property name="Extends" value="palletTarpTileGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileGreyEmpty">
+			<property name="Extends" value="palletTarpTileGrey"/>
+		</block>
+<!-- TARP GREY -->
+<!-- TARP BLACK-->	
+	<block name="palletTarpBaseBlackFull">
+			<property name="Extends" value="palletTarpBaseBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseBlackEmpty">
+			<property name="Extends" value="palletTarpBaseBlack"/>
+		</block>
+	
+	<block name="palletTarpTileBlackFull">
+			<property name="Extends" value="palletTarpTileBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileBlackEmpty">
+			<property name="Extends" value="palletTarpTileBlack"/>
+		</block>
+<!-- TARP BLACK -->
+<!-- TARP PINK-->	
+	<block name="palletTarpBasePinkFull">
+			<property name="Extends" value="palletTarpBasePink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBasePinkEmpty">
+			<property name="Extends" value="palletTarpBasePink"/>
+		</block>
+	
+	<block name="palletTarpTilePinkFull">
+			<property name="Extends" value="palletTarpTilePink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTilePinkEmpty">
+			<property name="Extends" value="palletTarpTilePink"/>
+		</block>
+<!-- TARP PINK -->
+<!-- TARP ARMY GREEN-->	
+	<block name="palletTarpBaseArmyGreenFull">
+			<property name="Extends" value="palletTarpBaseArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpBaseArmyGreenEmpty">
+			<property name="Extends" value="palletTarpBaseArmyGreen"/>
+		</block>
+	
+	<block name="palletTarpTileArmyGreenFull">
+			<property name="Extends" value="palletTarpTileArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletTarp"/>
+		</block>
+		<block name="palletTarpTileArmyGreenEmpty">
+			<property name="Extends" value="palletTarpTileArmyGreen"/>
+		</block>
+<!-- TARP ARMY GREEN -->
+<!-- PALLET CANS-->	
+	<block name="palletCansFull">
+			<property name="Extends" value="palletCans"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletCan"/>
+		</block>
+		<block name="palletCansEmpty">
+			<property name="Extends" value="palletCans"/>
+		</block>	
+<!-- PALLET CANS-->
+<!-- PALLETS MILITARY AMMO CANS-->	
+	<block name="palletCartonMilitaryBaseFull">
+			<property name="Extends" value="palletCartonMilitaryBase"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletMilitary"/>
+		</block>
+		<block name="palletCartonMilitaryBaseEmpty">
+			<property name="Extends" value="palletCartonMilitaryBase"/>
+		</block>
+		
+	<block name="palletCartonMilitaryCapFull">
+			<property name="Extends" value="palletCartonMilitaryCap"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletMilitary"/>
+		</block>
+		<block name="palletCartonMilitaryCapEmpty">
+			<property name="Extends" value="palletCartonMilitaryCap"/>
+		</block>
+	
+	<block name="palletCartonMilitaryTileFull">
+			<property name="Extends" value="palletCartonMilitaryTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletMilitary"/>
+		</block>
+		<block name="palletCartonMilitaryTileEmpty">
+			<property name="Extends" value="palletCartonMilitaryTile"/>
+		</block>
+		
+	<block name="palletCartonMilitaryTileCoveredFull">
+			<property name="Extends" value="palletCartonMilitaryTileCovered"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletMilitary"/>
+		</block>
+		<block name="palletCartonMilitaryTileCoveredEmpty">
+			<property name="Extends" value="palletCartonMilitaryTileCovered"/>
+		</block>
+<!-- PALLETS MILITARY AMMO CANS-->
+<!-- COW_FEED -->	
+	<block name="palletBagCowFeedBase01Full">
+			<property name="Extends" value="palletBagCowFeedBaseFull"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletCowFeed"/>
+		</block>
+		<block name="palletBagCowFeedBase01Empty">
+			<property name="Extends" value="palletBagCowFeedBaseFull"/>
+		</block>
+		
+	<block name="palletBagCowFeedTileFull">
+			<property name="Extends" value="palletBagCowFeedTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletCowFeed"/>
+		</block>
+		<block name="palletBagCowFeedTileEmpty">
+			<property name="Extends" value="palletBagCowFeedTile"/>
+		</block>
+	
+	<block name="palletBagCowFeedBaseMedFull">
+			<property name="Extends" value="palletBagCowFeedBaseMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletCowFeed"/>
+		</block>
+		<block name="palletBagCowFeedBaseMedEmpty">
+			<property name="Extends" value="palletBagCowFeedBaseMed"/>
+		</block>
+		
+	<block name="palletBagCowFeedCapMedFull">
+			<property name="Extends" value="palletBagCowFeedCapMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletCowFeed"/>
+		</block>
+		<block name="palletBagCowFeedCapMedEmpty">
+			<property name="Extends" value="palletBagCowFeedCapMed"/>
+		</block>
+		
+	<block name="palletBagCowFeedCapSmlFull">
+			<property name="Extends" value="palletBagCowFeedCapSml"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletCowFeed"/>
+		</block>
+		<block name="palletBagCowFeedCapSmlEmpty">
+			<property name="Extends" value="palletBagCowFeedCapSml"/>
+		</block>
+		
+	<block name="palletBagCowFeedSingleBentFull">
+			<property name="Extends" value="palletBagCowFeedSingleBent"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletCowFeed"/>
+		</block>
+		<block name="palletBagCowFeedSingleBentEmpty">
+			<property name="Extends" value="palletBagCowFeedSingleBent"/>
+		</block>
+		
+	<block name="palletBagCowFeedSingleFlatFull">
+			<property name="Extends" value="palletBagCowFeedSingleFlat"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletCowFeed"/>
+		</block>
+		<block name="palletBagCowFeedSingleFlatEmpty">
+			<property name="Extends" value="palletBagCowFeedSingleFlat"/>
+		</block>	
+<!-- COW_FEED-->
+<!-- FLOUR -->	
+	<block name="palletBagFlourBase01Full">
+			<property name="Extends" value="palletBagFlourBaseFull"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFlour"/>
+		</block>
+		<block name="palletBagFlourBase01Empty">
+			<property name="Extends" value="palletBagFlourBaseFull"/>
+		</block>
+		
+	<block name="palletBagFlourTileFull">
+			<property name="Extends" value="palletBagFlourTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFlour"/>
+		</block>
+		<block name="palletBagFlourTileEmpty">
+			<property name="Extends" value="palletBagFlourTile"/>
+		</block>
+	
+	<block name="palletBagFlourBaseMedFull">
+			<property name="Extends" value="palletBagFlourBaseMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFlour"/>
+		</block>
+		<block name="palletBagFlourBaseMedEmpty">
+			<property name="Extends" value="palletBagFlourBaseMed"/>
+		</block>
+		
+	<block name="palletBagFlourCapMedFull">
+			<property name="Extends" value="palletBagFlourCapMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFlour"/>
+		</block>
+		<block name="palletBagFlourCapMedEmpty">
+			<property name="Extends" value="palletBagFlourCapMed"/>
+		</block>
+		
+	<block name="palletBagFlourCapSmlFull">
+			<property name="Extends" value="palletBagFlourCapSml"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFlour"/>
+		</block>
+		<block name="palletBagFlourCapSmlEmpty">
+			<property name="Extends" value="palletBagFlourCapSml"/>
+		</block>
+		
+	<block name="palletBagFlourSingleBentFull">
+			<property name="Extends" value="palletBagFlourSingleBent"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFlour"/>
+		</block>
+		<block name="palletBagFlourSingleBentEmpty">
+			<property name="Extends" value="palletBagFlourSingleBent"/>
+		</block>
+		
+	<block name="palletBagFlourSingleFlatFull">
+			<property name="Extends" value="palletBagFlourSingleFlat"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFlour"/>
+		</block>
+		<block name="palletBagFlourSingleFlatEmpty">
+			<property name="Extends" value="palletBagFlourSingleFlat"/>
+		</block>	
+<!-- FLOUR-->
+<!-- SAND -->	
+	<block name="palletBagSandBase01Full">
+			<property name="Extends" value="palletBagSandBaseFull"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletSand"/>
+		</block>
+		<block name="palletBagSandBase01Empty">
+			<property name="Extends" value="palletBagSandBaseFull"/>
+		</block>
+		
+	<block name="palletBagSandTileFull">
+			<property name="Extends" value="palletBagSandTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletSand"/>
+		</block>
+		<block name="palletBagSandTileEmpty">
+			<property name="Extends" value="palletBagSandTile"/>
+		</block>
+	
+	<block name="palletBagSandBaseMedFull">
+			<property name="Extends" value="palletBagSandBaseMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletSand"/>
+		</block>
+		<block name="palletBagSandBaseMedEmpty">
+			<property name="Extends" value="palletBagSandBaseMed"/>
+		</block>
+		
+	<block name="palletBagSandCapMedFull">
+			<property name="Extends" value="palletBagSandCapMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletSand"/>
+		</block>
+		<block name="palletBagSandCapMedEmpty">
+			<property name="Extends" value="palletBagSandCapMed"/>
+		</block>
+		
+	<block name="palletBagSandCapSmlFull">
+			<property name="Extends" value="palletBagSandCapSml"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletSand"/>
+		</block>
+		<block name="palletBagSandCapSmlEmpty">
+			<property name="Extends" value="palletBagSandCapSml"/>
+		</block>
+		
+	<block name="palletBagSandSingleBentFull">
+			<property name="Extends" value="palletBagSandSingleBent"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletSand"/>
+		</block>
+		<block name="palletBagSandSingleBentEmpty">
+			<property name="Extends" value="palletBagSandSingleBent"/>
+		</block>
+		
+	<block name="palletBagSandSingleFlatFull">
+			<property name="Extends" value="palletBagSandSingleFlat"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletSand"/>
+		</block>
+		<block name="palletBagSandSingleFlatEmpty">
+			<property name="Extends" value="palletBagSandSingleFlat"/>
+		</block>	
+<!-- SAND-->
+<!-- CONCRETE -->	
+	<block name="palletBagConcreteBase01Full">
+			<property name="Extends" value="palletBagConcreteBaseFull"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletConcrete"/>
+		</block>
+		<block name="palletBagConcreteBase01Empty">
+			<property name="Extends" value="palletBagConcreteBaseFull"/>
+		</block>
+		
+	<block name="palletBagConcreteTileFull">
+			<property name="Extends" value="palletBagConcreteTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletConcrete"/>
+		</block>
+		<block name="palletBagConcreteTileEmpty">
+			<property name="Extends" value="palletBagConcreteTile"/>
+		</block>
+	
+	<block name="palletBagConcreteBaseMedFull">
+			<property name="Extends" value="palletBagConcreteBaseMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletConcrete"/>
+		</block>
+		<block name="palletBagConcreteBaseMedEmpty">
+			<property name="Extends" value="palletBagConcreteBaseMed"/>
+		</block>
+		
+	<block name="palletBagConcreteCapMedFull">
+			<property name="Extends" value="palletBagConcreteCapMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletConcrete"/>
+		</block>
+		<block name="palletBagConcreteCapMedEmpty">
+			<property name="Extends" value="palletBagConcreteCapMed"/>
+		</block>
+		
+	<block name="palletBagConcreteCapSmlFull">
+			<property name="Extends" value="palletBagConcreteCapSml"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletConcrete"/>
+		</block>
+		<block name="palletBagConcreteCapSmlEmpty">
+			<property name="Extends" value="palletBagConcreteCapSml"/>
+		</block>
+		
+	<block name="palletBagConcreteSingleBentFull">
+			<property name="Extends" value="palletBagConcreteSingleBent"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletConcrete"/>
+		</block>
+		<block name="palletBagConcreteSingleBentEmpty">
+			<property name="Extends" value="palletBagConcreteSingleBent"/>
+		</block>
+		
+	<block name="palletBagConcreteSingleFlatFull">
+			<property name="Extends" value="palletBagConcreteSingleFlat"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletConcrete"/>
+		</block>
+		<block name="palletBagConcreteSingleFlatEmpty">
+			<property name="Extends" value="palletBagConcreteSingleFlat"/>
+		</block>	
+<!-- CONCRETE-->
+<!-- FERTILIZER -->	
+	<block name="palletBagFertilizerBase01Full">
+			<property name="Extends" value="palletBagFertilizerBaseFull"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFertilizer"/>
+		</block>
+		<block name="palletBagFertilizerBase01Empty">
+			<property name="Extends" value="palletBagFertilizerBaseFull"/>
+		</block>
+		
+	<block name="palletBagFertilizerTileFull">
+			<property name="Extends" value="palletBagFertilizerTile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFertilizer"/>
+		</block>
+		<block name="palletBagFertilizerTileEmpty">
+			<property name="Extends" value="palletBagFertilizerTile"/>
+		</block>
+	
+	<block name="palletBagFertilizerBaseMedFull">
+			<property name="Extends" value="palletBagFertilizerBaseMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFertilizer"/>
+		</block>
+		<block name="palletBagFertilizerBaseMedEmpty">
+			<property name="Extends" value="palletBagFertilizerBaseMed"/>
+		</block>
+		
+	<block name="palletBagFertilizerCapMedFull">
+			<property name="Extends" value="palletBagFertilizerCapMed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFertilizer"/>
+		</block>
+		<block name="palletBagFertilizerCapMedEmpty">
+			<property name="Extends" value="palletBagFertilizerCapMed"/>
+		</block>
+		
+	<block name="palletBagFertilizerCapSmlFull">
+			<property name="Extends" value="palletBagFertilizerCapSml"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFertilizer"/>
+		</block>
+		<block name="palletBagFertilizerCapSmlEmpty">
+			<property name="Extends" value="palletBagFertilizerCapSml"/>
+		</block>
+		
+	<block name="palletBagFertilizerSingleBentFull">
+			<property name="Extends" value="palletBagFertilizerSingleBent"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFertilizer"/>
+		</block>
+		<block name="palletBagFertilizerSingleBentEmpty">
+			<property name="Extends" value="palletBagFertilizerSingleBent"/>
+		</block>
+		
+	<block name="palletBagFertilizerSingleFlatFull">
+			<property name="Extends" value="palletBagFertilizerSingleFlat"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletFertilizer"/>
+		</block>
+		<block name="palletBagFertilizerSingleFlatEmpty">
+			<property name="Extends" value="palletBagFertilizerSingleFlat"/>
+		</block>	
+<!-- FERTILIZER-->
+<!-- BLANK WHITE -->	
+	<block name="palletBagBlankBaseWhiteFull">
+			<property name="Extends" value="palletBagBlankBaseFullWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseWhiteEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullWhite"/>
+		</block>
+		
+	<block name="palletBagBlankTileWhiteFull">
+			<property name="Extends" value="palletBagBlankTileWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileWhiteEmpty">
+			<property name="Extends" value="palletBagBlankTileWhite"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedWhiteFull">
+			<property name="Extends" value="palletBagBlankBaseMedWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedWhiteEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedWhite"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedWhiteFull">
+			<property name="Extends" value="palletBagBlankCapMedWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedWhiteEmpty">
+			<property name="Extends" value="palletBagBlankCapMedWhite"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlWhiteFull">
+			<property name="Extends" value="palletBagBlankCapSmlWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlWhiteEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlWhite"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentWhiteFull">
+			<property name="Extends" value="palletBagBlankSingleBentWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentWhiteEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentWhite"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatWhiteFull">
+			<property name="Extends" value="palletBagBlankSingleFlatWhite"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatWhiteEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatWhite"/>
+		</block>	
+<!-- BLANK WHITE -->
+<!-- BLANK BROWN -->	
+	<block name="palletBagBlankBaseBrownFull">
+			<property name="Extends" value="palletBagBlankBaseFullBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseBrownEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullBrown"/>
+		</block>
+		
+	<block name="palletBagBlankTileBrownFull">
+			<property name="Extends" value="palletBagBlankTileBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileBrownEmpty">
+			<property name="Extends" value="palletBagBlankTileBrown"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedBrownFull">
+			<property name="Extends" value="palletBagBlankBaseMedBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedBrownEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedBrown"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedBrownFull">
+			<property name="Extends" value="palletBagBlankCapMedBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedBrownEmpty">
+			<property name="Extends" value="palletBagBlankCapMedBrown"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlBrownFull">
+			<property name="Extends" value="palletBagBlankCapSmlBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlBrownEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlBrown"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentBrownFull">
+			<property name="Extends" value="palletBagBlankSingleBentBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentBrownEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentBrown"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatBrownFull">
+			<property name="Extends" value="palletBagBlankSingleFlatBrown"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatBrownEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatBrown"/>
+		</block>	
+<!-- BLANK BROWN -->
+<!-- BLANK RED -->	
+	<block name="palletBagBlankBaseRedFull">
+			<property name="Extends" value="palletBagBlankBaseFullRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseRedEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullRed"/>
+		</block>
+		
+	<block name="palletBagBlankTileRedFull">
+			<property name="Extends" value="palletBagBlankTileRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileRedEmpty">
+			<property name="Extends" value="palletBagBlankTileRed"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedRedFull">
+			<property name="Extends" value="palletBagBlankBaseMedRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedRedEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedRed"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedRedFull">
+			<property name="Extends" value="palletBagBlankCapMedRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedRedEmpty">
+			<property name="Extends" value="palletBagBlankCapMedRed"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlRedFull">
+			<property name="Extends" value="palletBagBlankCapSmlRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlRedEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlRed"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentRedFull">
+			<property name="Extends" value="palletBagBlankSingleBentRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentRedEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentRed"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatRedFull">
+			<property name="Extends" value="palletBagBlankSingleFlatRed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatRedEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatRed"/>
+		</block>	
+<!-- BLANK RED -->
+<!-- BLANK ORANGE -->	
+	<block name="palletBagBlankBaseOrangeFull">
+			<property name="Extends" value="palletBagBlankBaseFullOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseOrangeEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullOrange"/>
+		</block>
+		
+	<block name="palletBagBlankTileOrangeFull">
+			<property name="Extends" value="palletBagBlankTileOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileOrangeEmpty">
+			<property name="Extends" value="palletBagBlankTileOrange"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedOrangeFull">
+			<property name="Extends" value="palletBagBlankBaseMedOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedOrangeEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedOrange"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedOrangeFull">
+			<property name="Extends" value="palletBagBlankCapMedOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedOrangeEmpty">
+			<property name="Extends" value="palletBagBlankCapMedOrange"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlOrangeFull">
+			<property name="Extends" value="palletBagBlankCapSmlOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlOrangeEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlOrange"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentOrangeFull">
+			<property name="Extends" value="palletBagBlankSingleBentOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentOrangeEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentOrange"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatOrangeFull">
+			<property name="Extends" value="palletBagBlankSingleFlatOrange"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatOrangeEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatOrange"/>
+		</block>	
+<!-- BLANK ORANGE -->
+<!-- BLANK YELLOW -->	
+	<block name="palletBagBlankBaseYellowFull">
+			<property name="Extends" value="palletBagBlankBaseFullYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseYellowEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullYellow"/>
+		</block>
+		
+	<block name="palletBagBlankTileYellowFull">
+			<property name="Extends" value="palletBagBlankTileYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileYellowEmpty">
+			<property name="Extends" value="palletBagBlankTileYellow"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedYellowFull">
+			<property name="Extends" value="palletBagBlankBaseMedYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedYellowEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedYellow"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedYellowFull">
+			<property name="Extends" value="palletBagBlankCapMedYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedYellowEmpty">
+			<property name="Extends" value="palletBagBlankCapMedYellow"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlYellowFull">
+			<property name="Extends" value="palletBagBlankCapSmlYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlYellowEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlYellow"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentYellowFull">
+			<property name="Extends" value="palletBagBlankSingleBentYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentYellowEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentYellow"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatYellowFull">
+			<property name="Extends" value="palletBagBlankSingleFlatYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatYellowEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatYellow"/>
+		</block>	
+<!-- BLANK YELLOW -->
+<!-- BLANK GREEN -->	
+	<block name="palletBagBlankBaseGreenFull">
+			<property name="Extends" value="palletBagBlankBaseFullGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseGreenEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullGreen"/>
+		</block>
+		
+	<block name="palletBagBlankTileGreenFull">
+			<property name="Extends" value="palletBagBlankTileGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileGreenEmpty">
+			<property name="Extends" value="palletBagBlankTileGreen"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedGreenFull">
+			<property name="Extends" value="palletBagBlankBaseMedGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedGreenEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedGreen"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedGreenFull">
+			<property name="Extends" value="palletBagBlankCapMedGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedGreenEmpty">
+			<property name="Extends" value="palletBagBlankCapMedGreen"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlGreenFull">
+			<property name="Extends" value="palletBagBlankCapSmlGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlGreenEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlGreen"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentGreenFull">
+			<property name="Extends" value="palletBagBlankSingleBentGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentGreenEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentGreen"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatGreenFull">
+			<property name="Extends" value="palletBagBlankSingleFlatGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatGreenEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatGreen"/>
+		</block>	
+<!-- BLANK GREEN -->
+<!-- BLANK BLUE -->	
+	<block name="palletBagBlankBaseBlueFull">
+			<property name="Extends" value="palletBagBlankBaseFullBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseBlueEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullBlue"/>
+		</block>
+		
+	<block name="palletBagBlankTileBlueFull">
+			<property name="Extends" value="palletBagBlankTileBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileBlueEmpty">
+			<property name="Extends" value="palletBagBlankTileBlue"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedBlueFull">
+			<property name="Extends" value="palletBagBlankBaseMedBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedBlueEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedBlue"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedBlueFull">
+			<property name="Extends" value="palletBagBlankCapMedBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedBlueEmpty">
+			<property name="Extends" value="palletBagBlankCapMedBlue"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlBlueFull">
+			<property name="Extends" value="palletBagBlankCapSmlBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlBlueEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlBlue"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentBlueFull">
+			<property name="Extends" value="palletBagBlankSingleBentBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentBlueEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentBlue"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatBlueFull">
+			<property name="Extends" value="palletBagBlankSingleFlatBlue"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatBlueEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatBlue"/>
+		</block>	
+<!-- BLANK BLUE -->
+<!-- BLANK PURPLE -->	
+	<block name="palletBagBlankBasePurpleFull">
+			<property name="Extends" value="palletBagBlankBaseFullPurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBasePurpleEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullPurple"/>
+		</block>
+		
+	<block name="palletBagBlankTilePurpleFull">
+			<property name="Extends" value="palletBagBlankTilePurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTilePurpleEmpty">
+			<property name="Extends" value="palletBagBlankTilePurple"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedPurpleFull">
+			<property name="Extends" value="palletBagBlankBaseMedPurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedPurpleEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedPurple"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedPurpleFull">
+			<property name="Extends" value="palletBagBlankCapMedPurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedPurpleEmpty">
+			<property name="Extends" value="palletBagBlankCapMedPurple"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlPurpleFull">
+			<property name="Extends" value="palletBagBlankCapSmlPurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlPurpleEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlPurple"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentPurpleFull">
+			<property name="Extends" value="palletBagBlankSingleBentPurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentPurpleEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentPurple"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatPurpleFull">
+			<property name="Extends" value="palletBagBlankSingleFlatPurple"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatPurpleEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatPurple"/>
+		</block>	
+<!-- BLANK PURPLE -->
+<!-- BLANK GREY -->	
+	<block name="palletBagBlankBaseGreyFull">
+			<property name="Extends" value="palletBagBlankBaseFullGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseGreyEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullGrey"/>
+		</block>
+		
+	<block name="palletBagBlankTileGreyFull">
+			<property name="Extends" value="palletBagBlankTileGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileGreyEmpty">
+			<property name="Extends" value="palletBagBlankTileGrey"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedGreyFull">
+			<property name="Extends" value="palletBagBlankBaseMedGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedGreyEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedGrey"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedGreyFull">
+			<property name="Extends" value="palletBagBlankCapMedGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedGreyEmpty">
+			<property name="Extends" value="palletBagBlankCapMedGrey"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlGreyFull">
+			<property name="Extends" value="palletBagBlankCapSmlGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlGreyEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlGrey"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentGreyFull">
+			<property name="Extends" value="palletBagBlankSingleBentGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentGreyEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentGrey"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatGreyFull">
+			<property name="Extends" value="palletBagBlankSingleFlatGrey"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatGreyEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatGrey"/>
+		</block>	
+<!-- BLANK GREY -->
+<!-- BLANK BLACK -->	
+	<block name="palletBagBlankBaseBlackFull">
+			<property name="Extends" value="palletBagBlankBaseFullBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseBlackEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullBlack"/>
+		</block>
+		
+	<block name="palletBagBlankTileBlackFull">
+			<property name="Extends" value="palletBagBlankTileBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileBlackEmpty">
+			<property name="Extends" value="palletBagBlankTileBlack"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedBlackFull">
+			<property name="Extends" value="palletBagBlankBaseMedBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedBlackEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedBlack"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedBlackFull">
+			<property name="Extends" value="palletBagBlankCapMedBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedBlackEmpty">
+			<property name="Extends" value="palletBagBlankCapMedBlack"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlBlackFull">
+			<property name="Extends" value="palletBagBlankCapSmlBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlBlackEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlBlack"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentBlackFull">
+			<property name="Extends" value="palletBagBlankSingleBentBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentBlackEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentBlack"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatBlackFull">
+			<property name="Extends" value="palletBagBlankSingleFlatBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatBlackEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatBlack"/>
+		</block>	
+<!-- BLANK BLACK -->
+<!-- BLANK PINK -->	
+	<block name="palletBagBlankBasePinkFull">
+			<property name="Extends" value="palletBagBlankBaseFullPink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBasePinkEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullPink"/>
+		</block>
+		
+	<block name="palletBagBlankTilePinkFull">
+			<property name="Extends" value="palletBagBlankTilePink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTilePinkEmpty">
+			<property name="Extends" value="palletBagBlankTilePink"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedPinkFull">
+			<property name="Extends" value="palletBagBlankBaseMedPink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedPinkEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedPink"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedPinkFull">
+			<property name="Extends" value="palletBagBlankCapMedPink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedPinkEmpty">
+			<property name="Extends" value="palletBagBlankCapMedPink"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlPinkFull">
+			<property name="Extends" value="palletBagBlankCapSmlPink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlPinkEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlPink"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentPinkFull">
+			<property name="Extends" value="palletBagBlankSingleBentPink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentPinkEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentPink"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatPinkFull">
+			<property name="Extends" value="palletBagBlankSingleFlatPink"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatPinkEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatPink"/>
+		</block>	
+<!-- BLANK PINK -->
+<!-- BLANK ARMY GREEN -->	
+	<block name="palletBagBlankBaseArmyGreenFull">
+			<property name="Extends" value="palletBagBlankBaseFullArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseArmyGreenEmpty">
+			<property name="Extends" value="palletBagBlankBaseFullArmyGreen"/>
+		</block>
+		
+	<block name="palletBagBlankTileArmyGreenFull">
+			<property name="Extends" value="palletBagBlankTileArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankTileArmyGreenEmpty">
+			<property name="Extends" value="palletBagBlankTileArmyGreen"/>
+		</block>
+	
+	<block name="palletBagBlankBaseMedArmyGreenFull">
+			<property name="Extends" value="palletBagBlankBaseMedArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankBaseMedArmyGreenEmpty">
+			<property name="Extends" value="palletBagBlankBaseMedArmyGreen"/>
+		</block>
+		
+	<block name="palletBagBlankCapMedArmyGreenFull">
+			<property name="Extends" value="palletBagBlankCapMedArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapMedArmyGreenEmpty">
+			<property name="Extends" value="palletBagBlankCapMedArmyGreen"/>
+		</block>
+		
+	<block name="palletBagBlankCapSmlArmyGreenFull">
+			<property name="Extends" value="palletBagBlankCapSmlArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankCapSmlArmyGreenEmpty">
+			<property name="Extends" value="palletBagBlankCapSmlArmyGreen"/>
+		</block>
+		
+	<block name="palletBagBlankSingleBentArmyGreenFull">
+			<property name="Extends" value="palletBagBlankSingleBentArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleBentArmyGreenEmpty">
+			<property name="Extends" value="palletBagBlankSingleBentArmyGreen"/>
+		</block>
+		
+	<block name="palletBagBlankSingleFlatArmyGreenFull">
+			<property name="Extends" value="palletBagBlankSingleFlatArmyGreen"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="palletWhite"/>
+		</block>
+		<block name="palletBagBlankSingleFlatArmyGreenEmpty">
+			<property name="Extends" value="palletBagBlankSingleFlatArmyGreen"/>
+		</block>	
+<!-- BLANK ARMY GREEN -->
+<!-- LOOTABLE PALLET INSERTION END -->
+</append>
+</stallionsden>
