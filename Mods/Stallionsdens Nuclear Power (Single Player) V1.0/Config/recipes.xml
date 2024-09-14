@@ -1,74 +1,74 @@
 <Stallionsden>
 <append xpath="/recipes">
-<recipe name="nuclearGeneratorBank" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearGeneratorSchematic">
-	<ingredient name="resourceForgedSteel" count="100"/>
+<recipe name="nuclearGeneratorBank" count="1" craft_area="chemistryStation" craft_time="5000" tags="learnable,nuclearGeneratorSchematic">
+	<ingredient name="resourceForgedSteel" count="2000"/>
 	<ingredient name="modFuelTankLarge" count="4"/>
-	<ingredient name="generatorbank" count="2"/>
-	<ingredient name="nuclearPoweredEngine" count="2"/>
-	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="generatorbank" count="5"/>
+	<ingredient name="resourceElectricParts" count="160"/>
+	<ingredient name="resourceLegendaryParts" count="25"/>
 </recipe>
-<recipe name="nuclearPoweredEngine" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearGeneratorSchematic">
-	<ingredient name="resourceForgedSteel" count="12"/>
-	<ingredient name="resourceOil" count="50"/>
-	<ingredient name="smallEngine" count="2"/>
-	<ingredient name="resourceScrapBrass" count="12"/>
-	<ingredient name="resourceGoldNugget" count="6"/>
+<recipe name="nuclearPoweredEngine" count="1" craft_area="chemistryStation" craft_time="5000" tags="learnable,nuclearGeneratorSchematic">
+	<ingredient name="resourceForgedSteel" count="1200"/>
+	<ingredient name="resourceOil" count="150"/>
+	<ingredient name="smallEngine" count="4"/>
+	<ingredient name="resourceGoldNugget" count="60"/>
+	<ingredient name="resourceLegendaryParts" count="25"/>
 </recipe>
-<recipe name="nuclearBatteryBank" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearBatterySchematic">
-	<ingredient name="resourceForgedIron" count="100"/>
-	<ingredient name="resourceRawDiamond" count="12"/>
-	<ingredient name="batterybank" count="2"/>
-	<ingredient name="nuclearPoweredBattery" count="1"/>
-	<ingredient name="resourceElectricParts" count="3"/>
+<recipe name="nuclearBatteryBank" count="1" craft_area="chemistryStation" craft_time="5000" tags="learnable,nuclearBatterySchematic">
+	<ingredient name="resourceForgedIron" count="1500"/>
+	<ingredient name="resourceRawDiamond" count="120"/>
+	<ingredient name="batterybank" count="4"/>
+	<ingredient name="resourceElectricParts" count="300"/>
+	<ingredient name="resourceLegendaryParts" count="25"/>
 </recipe>
-<recipe name="nuclearPoweredBattery" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearBatterySchematic">
-	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceGoldNugget" count="8"/>
-	<ingredient name="resourceDuctTape" count="5"/>
-	<ingredient name="resourceScrapBrass" count="12"/>
-	<ingredient name="carBattery" count="4"/>
+<recipe name="nuclearPoweredBattery" count="1" craft_area="chemistryStation" craft_time="5000" tags="learnable,nuclearBatterySchematic">
+	<ingredient name="resourceForgedIron" count="2500"/>
+	<ingredient name="resourceGoldNugget" count="28"/>
+	<ingredient name="resourceScrapBrass" count="1200"/>
+	<ingredient name="carBattery" count="6"/>
+	<ingredient name="resourceLegendaryParts" count="25"/>
 </recipe>
-<recipe name="nuclearSolarBank" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearSolarSchematic">
-	<ingredient name="resourceForgedIron" count="100"/>
-	<ingredient name="resourceRawDiamond" count="12"/>
-	<ingredient name="solarbank" count="5"/>
-	<ingredient name="nuclearSolarCell" count="5"/>
-	<ingredient name="resourceMechanicalParts" count="3"/>
+<recipe name="nuclearSolarBank" count="1" craft_area="chemistryStation" craft_time="5000" tags="learnable,nuclearSolarSchematic">
+	<ingredient name="resourceForgedIron" count="2000"/>
+	<ingredient name="resourceRawDiamond" count="120"/>
+	<ingredient name="solarbank" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="300"/>
+	<ingredient name="resourceLegendaryParts" count="25"/>
 </recipe>
-<recipe name="nuclearSolarCell" count="1" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,nuclearSolarSchematic">
-	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceGoldNugget" count="8"/>
+<recipe name="nuclearSolarCell" count="1" craft_area="chemistryStation" craft_time="5000" tags="learnable,nuclearSolarSchematic">
+	<ingredient name="resourceForgedIron" count="5000"/>
+	<ingredient name="resourceGoldNugget" count="18"/>
 	<ingredient name="solarCell" count="5"/>
-	<ingredient name="resourceScrapBrass" count="12"/>
-	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapBrass" count="1200"/>
+	<ingredient name="resourceLegendaryParts" count="25"/>
 </recipe>
 <recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceBrokenGlass" count="18"/>
-	<ingredient name="resourceScrapBrass" count="10"/>
-	<ingredient name="resourceMetalPipe" count="12"/>
-	<ingredient name="resourceElectricParts" count="4"/>
-	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceBrokenGlass" count="2800"/>
+	<ingredient name="resourceScrapBrass" count="100"/>
+	<ingredient name="resourceElectricParts" count="95"/>
+	<ingredient name="resourceMechanicalParts" count="65"/>
+	<ingredient name="resourceLegendaryParts" count="25"/>
 	</recipe>
 <recipe name="carBattery" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceForgedSteel" count="3"/>
-	<ingredient name="resourceAcid" count="4"/>
-	<ingredient name="resourceScrapPolymers" count="12"/>
-	<ingredient name="resourceScrapBrass" count="10"/>
-	<ingredient name="resourceMechanicalParts" count="3"/>
+	<ingredient name="resourceForgedSteel" count="300"/>
+	<ingredient name="resourceAcid" count="140"/>
+	<ingredient name="resourceScrapPolymers" count="120"/>
+	<ingredient name="resourceScrapBrass" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="13"/>
 </recipe>
 <recipe name="smallEngine" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceForgedIron" count="15"/>
-	<ingredient name="resourceMetalPipe" count="4"/>
-	<ingredient name="resourceMechanicalParts" count="4"/>
-	<ingredient name="resourceDuctTape" count="4"/>
-	<ingredient name="resourceScrapLead" count="2"/>
+	<ingredient name="resourceForgedIron" count="1500"/>
+	<ingredient name="resourceMetalPipe" count="140"/>
+	<ingredient name="resourceMechanicalParts" count="240"/>
+	<ingredient name="resourceDuctTape" count="90"/>
+	<ingredient name="resourceScrapLead" count="2000"/>
 </recipe>
 <recipe name="solarCell" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceScrapBrass" count="10"/>
-	<ingredient name="resourceForgedIron" count="8"/>
-	<ingredient name="resourceBrokenGlass" count="4"/>
-	<ingredient name="resourceElectricParts" count="3"/>
-	<ingredient name="resourceRawDiamond" count="1"/>
+	<ingredient name="resourceScrapBrass" count="3000"/>
+	<ingredient name="resourceForgedIron" count="800"/>
+	<ingredient name="resourceBrokenGlass" count="4000"/>	
+	<ingredient name="resourceRawDiamond" count="100"/>
+	<ingredient name="resourceLegendaryParts" count="16"/>
 </recipe>
 </append>
 </Stallionsden>

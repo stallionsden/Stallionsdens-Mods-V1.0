@@ -8,7 +8,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,nuclearGeneratorSchematic"/>
+	<property name="UnlockedBy" value="nuclearGeneratorBankSchematic"/>
 	<property name="Model" value="Entities/Electrical/generatorPrefab"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -16,8 +16,8 @@
 	<property name="DescriptionKey" value="powerSourceDesc"/>
 	<property name="MaxFuel" value="30000"/>
 			<property name="OutputPerFuel" value="850000"/>
-			<property name="MaxPower" value="60000"/>
-			<property name="OutputPerStack" value="20000"/>
+			<property name="MaxPower" value="65500"/>
+			<property name="OutputPerStack" value="10833"/>
 	<property name="SlotItem" value="nuclearPoweredEngine"/>
 	<property name="Group" value="Science"/>
 	<property class="RepairItems">
@@ -51,12 +51,12 @@
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DescriptionKey" value="powerSourceDesc"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,nuclearBatterySchematic"/>
+	<property name="UnlockedBy" value="nuclearBatteryBankSchematic"/>
 	<property name="MaxPower" value="65500"/>
-	<property name="InputPerTick" value="12500"/>
-	<property name="ChargePerInput" value="12500"/>
-	<property name="OutputPerStack" value="12500"/>
-	<property name="OutputPerCharge" value="12500"/>
+	<property name="InputPerTick" value="10833"/>
+	<property name="ChargePerInput" value="10833"/>
+	<property name="OutputPerStack" value="10833"/>
+	<property name="OutputPerCharge" value="10833"/>
 	<property name="SlotItem" value="nuclearPoweredBattery"/>
 	<property name="Group" value="Science"/>
 	<property class="RepairItems">
@@ -95,10 +95,10 @@
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="ImposterExchange" value="imposterRamp" param1="18"/>
 	<property name="DescriptionKey" value="powerSourceDesc"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,nuclearSolarSchematic"/>
-	<property name="OutputPerStack" value="13500"/>
+	<property name="UnlockedBy" value="nuclearSolarBankSchematic"/>
+	<property name="OutputPerStack" value="10833"/>
 	<property name="SlotItem" value="nuclearSolarCell"/>
-	<property name="MaxPower" value="65000"/>
+	<property name="MaxPower" value="65500"/>
 	<property name="Group" value="Science"/>
 	<property name="ActivationDistance" value="600"/>
 	<property class="RepairItems">

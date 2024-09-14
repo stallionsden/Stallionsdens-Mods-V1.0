@@ -5,3 +5,9 @@ nuclearBatteryBank,blocks,Container,KgNone,nuclear Battery Bank
 nuclearPoweredBattery,items,Item,KgNone,nuclear Powered Battery
 nuclearSolarBank,blocks,Container,KgNone,nuclear Solar Bank
 nuclearSolarCell,items,Item,KgNone,nuclear Solar Cell
+nuclearGeneratorBankSchematic,items,Tool,,,Nuclear Generator Bank Schematic,,
+nuclearBatteryBankSchematic,items,Tool,,,Nuclear Battery Bank Schematic,,
+nuclearSolarBankSchematic,items,Tool,,,Nuclear Solar Bank Schematic,,
+nuclearPoweredEngineSchematic,items,Tool,,,Nuclear Powered Engine Schematic,,
+nuclearPoweredBatterySchematic,items,Tool,,,Nuclear Powered Battery Schematic,,
+nuclearSolarCellSchematic,items,Tool,,,Nuclear Solar Cell Schematic,,

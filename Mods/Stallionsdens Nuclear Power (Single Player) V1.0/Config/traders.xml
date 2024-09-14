@@ -6,8 +6,11 @@
 			<item name="nuclearPoweredBattery" count="1" prob="0.006"/>
 			<item name="nuclearSolarBank" count="1" prob="0.005"/>
 			<item name="nuclearSolarCell" count="1" prob="0.007"/>  
-			<item name="nuclearSolarSchematic" count="1" prob="0.007"/>  
-			<item name="nuclearBatterySchematic" count="1" prob="0.005"/>
-			<item name="nuclearGeneratorSchematic" count="1" prob="0.007"/>  
+			<item name="nuclearSolarBankSchematic" count="1" prob="0.007"/>  
+			<item name="nuclearBatteryBankSchematic" count="1" prob="0.005"/>
+			<item name="nuclearGeneratorBankSchematic" count="1" prob="0.007"/>
+			<item name="nuclearPoweredEngineSchematic" count="1" prob="0.007"/>  
+			<item name="nuclearPoweredBatterySchematic" count="1" prob="0.005"/>
+			<item name="nuclearSolarCellSchematic" count="1" prob="0.007"/>  
 			</append>
 </Stallionsden>
