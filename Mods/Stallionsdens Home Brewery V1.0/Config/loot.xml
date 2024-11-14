@@ -33,15 +33,15 @@
 
 <!-- LOOTCONTAINER INSERTION START -->
 
-	<lootcontainer id="218" name="wineBarrelFull" count="0,1" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
+	<lootcontainer name="wineBarrelFull" count="0,1" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
 	<item group="wineBarrel" count="1"/>
 </lootcontainer>
 
-<lootcontainer id="219" count="0,1" name="wineBarrelSetFull" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
+<lootcontainer  name="wineBarrelSetFull" count="0,1" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
 	<item group="wineBarrelSet" count="1"/>
 </lootcontainer>
 
-<lootcontainer id="220" count="0,1" name="wineBarrelPlainFull" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
+<lootcontainer name="wineBarrelPlainFull"  count="0,1" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
 	<item group="wineBarrelPlain" count="1"/>
 </lootcontainer>
 
