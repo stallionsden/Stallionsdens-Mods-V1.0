@@ -1,0 +1,39 @@
+﻿<blockplaceholders>
+	<!-- *************************************************************
+            Zombie Tents - Tents that spawn zombies.
+    ************************************************************** -->
+	<append xpath="/blockplaceholders/placeholder[@name='cntCampingTentDomeRandomHelper']">
+			<block name="Stallion_CampingTentDomeRainCoverRed" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeRed" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeDamagedRed" prob="0.02"/>
+			<block name="Stallion_CampingTentDomeRainCoverOrange" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeOrange" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeDamagedOrange" prob="0.02"/>
+			<block name="Stallion_CampingTentDomeRainCoverBlue" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeBlue" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeDamagedBlue" prob="0.02"/>
+			<block name="Stallion_CampingTentDomeRainCoverBlack" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeBlack" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeDamagedBlack" prob="0.02"/>
+			<block name="Stallion_CampingTentDomeRainCoverArmyGreen" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeArmyGreen" prob="0.002"/>
+			<block name="Stallion_CampingTentDomeDamagedArmyGreen" prob="0.02"/>
+		</append>
+		<append xpath="/blockplaceholders/placeholder[@name='cntCampingTentAngularRandomHelper']">
+			<block name="Stallion_CampingTentAngularRainCoverRed" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularRed" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularDamagedRed" prob="0.02"/>
+			<block name="Stallion_CampingTentAngularRainCoverOrange" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularOrange" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularDamagedOrange" prob="0.02"/>
+			<block name="Stallion_CampingTentAngularRainCoverBlue" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularBlue" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularDamagedBlue" prob="0.02"/>
+			<block name="Stallion_CampingTentAngularRainCoverBlack" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularBlack" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularDamagedBlack" prob="0.02"/>
+			<block name="Stallion_CampingTentAngularRainCoverArmyGreen" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularArmyGreen" prob="0.002"/>
+			<block name="Stallion_CampingTentAngularDamagedArmyGreen" prob="0.02"/>
+		</append>
+</blockplaceholders>

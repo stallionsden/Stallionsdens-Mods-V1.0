@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="Stallionsdens_World_Chaos_V1.1" />
+    <Author value="Stallionsden" />
+    <Description value="Adds a random chance of tents in the world to spawn zs" />
+    <DisplayName value="World Chaos" />
+    <Version value="1.1.1.0" />  
+    <Website value="" />    
+</xml>
+

@@ -1,0 +1,409 @@
+﻿<Stallionsden>
+	<append xpath="/blocks">
+		<!-- ************************************************************************* 
+            Tents as Game Events: This turns the tents into Game events ie: player unzips tent to loot but there were zs inside
+        ************************************************************************** -->
+		<!-- *** CAMPING_TENT_DOME_WHITE -->
+		<block name="Stallion_CampingTentDomeRainCoverWhite">
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="GameEvent"/>
+			<property name="ActivateEvent" value="test_zombie_spawn_block"/>
+			<property name="CustomIcon" value="cntCampingTentDomeRainCoverWhite"/>
+			<property name="CustomIconTint" value="6441A5"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Material" value="MtwitchHordeStone"/>
+			<property name="Material" value="Mstone"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeRainCoverPrefab"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="DestroyOnEvent" value="false"/>
+		</block>		
+		
+		<block name="Stallion_CampingTentDomeWhite">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CustomIcon" value="cntCampingTentDomeWhite"/>
+			<property name="CanPickup" value="false"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomePrefab"/>
+			<property name="SortOrder2" value="5001"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeDamagedWhite">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CustomIcon" value="cntCampingTentDomeDamagedWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeDamagedPrefab"/>
+			<property name="SortOrder2" value="5002"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_ANGULAR_WHITE -->
+		<block name="Stallion_CampingTentAngularRainCoverWhite">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CustomIcon" value="cntCampingTentAngularRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularRaincoverPrefab"/>
+			<property name="SortOrder2" value="5003"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularWhite">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CustomIcon" value="cntCampingTentAngularWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularPrefab"/>
+			<property name="SortOrder2" value="5004"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularDamagedWhite">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CustomIcon" value="cntCampingTentAngularDamagedWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularDamagedPrefab"/>
+			<property name="SortOrder2" value="5005"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_DOME_RED -->
+		<block name="Stallion_CampingTentDomeRainCoverRed">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeRainCoverWhite"/>
+			<property name="CustomIconTint" value="902F2F"/>
+			<property name="TintColor" value="902F2F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeRainCoverPrefab"/>
+			<property name="SortOrder2" value="5020"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeRed">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeWhite"/>
+			<property name="CustomIconTint" value="902F2F"/>
+			<property name="TintColor" value="902F2F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomePrefab"/>
+			<property name="SortOrder2" value="5021"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeDamagedRed">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeDamagedWhite"/>
+			<property name="CustomIconTint" value="902F2F"/>
+			<property name="TintColor" value="902F2F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeDamagedPrefab"/>
+			<property name="SortOrder2" value="5022"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_ANGULAR_RED -->
+		<block name="Stallion_CampingTentAngularRainCoverRed">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularRaincoverWhite"/>
+			<property name="CustomIconTint" value="902F2F"/>
+			<property name="TintColor" value="902F2F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularRaincoverPrefab"/>
+			<property name="SortOrder2" value="5023"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularRed">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularWhite"/>
+			<property name="CustomIconTint" value="902F2F"/>
+			<property name="TintColor" value="902F2F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularPrefab"/>
+			<property name="SortOrder2" value="5024"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularDamagedRed">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularDamagedWhite"/>
+			<property name="CustomIconTint" value="902F2F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="TintColor" value="902F2F"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularDamagedPrefab"/>
+			<property name="SortOrder2" value="5025"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_DOME_ORANGE -->
+		<block name="Stallion_CampingTentDomeRainCoverOrange">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeRainCoverWhite"/>
+			<property name="CustomIconTint" value="90632F"/>
+			<property name="TintColor" value="90632F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeRainCoverPrefab"/>
+			<property name="SortOrder2" value="5030"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeOrange">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeWhite"/>
+			<property name="CustomIconTint" value="90632F"/>
+			<property name="TintColor" value="90632F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomePrefab"/>
+			<property name="SortOrder2" value="5031"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeDamagedOrange">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeDamagedWhite"/>
+			<property name="CustomIconTint" value="90632F"/>
+			<property name="TintColor" value="90632F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeDamagedPrefab"/>
+			<property name="SortOrder2" value="5032"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_ANGULAR_ORANGE -->
+		<block name="Stallion_CampingTentAngularRainCoverOrange">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularRaincoverWhite"/>
+			<property name="CustomIconTint" value="90632F"/>
+			<property name="TintColor" value="90632F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularRaincoverPrefab"/>
+			<property name="SortOrder2" value="5033"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularOrange">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularWhite"/>
+			<property name="CustomIconTint" value="90632F"/>
+			<property name="TintColor" value="90632F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularPrefab"/>
+			<property name="SortOrder2" value="5034"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularDamagedOrange">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularDamagedWhite"/>
+			<property name="CustomIconTint" value="90632F"/>
+			<property name="TintColor" value="90632F"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularDamagedPrefab"/>
+			<property name="SortOrder2" value="5035"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_DOME_BLUE -->
+		<block name="Stallion_CampingTentDomeRainCoverBlue">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeRainCoverWhite"/>
+			<property name="CustomIconTint" value="3D5965"/>
+			<property name="TintColor" value="3D5965"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeRainCoverPrefab"/>
+			<property name="SortOrder2" value="5060"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeBlue">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeWhite"/>
+			<property name="CustomIconTint" value="3D5965"/>
+			<property name="TintColor" value="3D5965"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomePrefab"/>
+			<property name="SortOrder2" value="5061"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeDamagedBlue">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeDamagedWhite"/>
+			<property name="CustomIconTint" value="3D5965"/>
+			<property name="TintColor" value="3D5965"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeDamagedPrefab"/>
+			<property name="SortOrder2" value="5062"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_ANGULAR_BLUE -->
+		<block name="Stallion_CampingTentAngularRainCoverBlue">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularRaincoverWhite"/>
+			<property name="CustomIconTint" value="3D5965"/>
+			<property name="TintColor" value="3D5965"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularRaincoverPrefab"/>
+			<property name="SortOrder2" value="5063"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularBlue">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularWhite"/>
+			<property name="CustomIconTint" value="3D5965"/>
+			<property name="TintColor" value="3D5965"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularPrefab"/>
+			<property name="SortOrder2" value="5064"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularDamagedBlue">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularDamagedWhite"/>
+			<property name="CustomIconTint" value="3D5965"/>
+			<property name="TintColor" value="3D5965"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularDamagedPrefab"/>
+			<property name="SortOrder2" value="5065"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_DOME_BLACK -->
+		<block name="Stallion_CampingTentDomeRainCoverBlack">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeRainCoverWhite"/>
+			<property name="CustomIconTint" value="222222"/>
+			<property name="TintColor" value="222222"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeRainCoverPrefab"/>
+			<property name="SortOrder2" value="5100"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeBlack">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeWhite"/>
+			<property name="CustomIconTint" value="222222"/>
+			<property name="TintColor" value="222222"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomePrefab"/>
+			<property name="SortOrder2" value="5101"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeDamagedBlack">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeDamagedWhite"/>
+			<property name="CustomIconTint" value="222222"/>
+			<property name="TintColor" value="222222"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeDamagedPrefab"/>
+			<property name="SortOrder2" value="5102"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_ANGULAR_BLACK -->
+		<block name="Stallion_CampingTentAngularRainCoverBlack">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularRaincoverWhite"/>
+			<property name="CustomIconTint" value="222222"/>
+			<property name="TintColor" value="222222"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularRaincoverPrefab"/>
+			<property name="SortOrder2" value="5103"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularBlack">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularWhite"/>
+			<property name="CustomIconTint" value="222222"/>
+			<property name="TintColor" value="222222"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularPrefab"/>
+			<property name="SortOrder2" value="5104"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularDamagedBlack">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularDamagedWhite"/>
+			<property name="CustomIconTint" value="222222"/>
+			<property name="TintColor" value="222222"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularDamagedPrefab"/>
+			<property name="SortOrder2" value="5105"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_DOME_ARMY_GREEN -->
+		<block name="Stallion_CampingTentDomeRainCoverArmyGreen">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeRainCoverWhite"/>
+			<property name="CustomIconTint" value="4D564B"/>
+			<property name="TintColor" value="4D564B"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeRainCoverPrefab"/>
+			<property name="SortOrder2" value="5200"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeArmyGreen">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeWhite"/>
+			<property name="CustomIconTint" value="4D564B"/>
+			<property name="TintColor" value="4D564B"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomePrefab"/>
+			<property name="SortOrder2" value="5201"/>
+		</block>
+
+		<block name="Stallion_CampingTentDomeDamagedArmyGreen">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentDomeDamagedWhite"/>
+			<property name="CustomIconTint" value="4D564B"/>
+			<property name="TintColor" value="4D564B"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentDomeDamagedPrefab"/>
+			<property name="SortOrder2" value="5202"/>
+		</block>
+
+			<!-- *** CAMPING_TENT_ANGULAR_BLUE -->
+		<block name="Stallion_CampingTentAngularRainCoverArmyGreen">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularRaincoverWhite"/>
+			<property name="CustomIconTint" value="4D564B"/>
+			<property name="TintColor" value="4D564B"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularRaincoverPrefab"/>
+			<property name="SortOrder2" value="5203"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularArmyGreen">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularWhite"/>
+			<property name="CustomIconTint" value="4D564B"/>
+			<property name="TintColor" value="4D564B"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularPrefab"/>
+			<property name="SortOrder2" value="5204"/>
+		</block>
+
+		<block name="Stallion_CampingTentAngularDamagedArmyGreen">
+			<property name="Extends" value="Stallion_CampingTentDomeRainCoverWhite"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="cntCampingTentAngularDamagedWhite"/>
+			<property name="CustomIconTint" value="4D564B"/>
+			<property name="TintColor" value="4D564B"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="Entities/OutdoorDecor/campingTentAngularDamagedPrefab"/>
+			<property name="SortOrder2" value="5205"/>
+		</block>
+</append>	
+</Stallionsden>
