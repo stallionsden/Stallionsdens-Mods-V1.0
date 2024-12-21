@@ -12,7 +12,7 @@
 		<item name="resourceScrapPolymers" count="0,30" loot_prob_template="veryLow" />
 		<item name="resourceLockPick" count="0,30" loot_prob_template="veryLow" />
 		<item name="resourceSewingKit" count="0,30" loot_prob_template="veryLow" />		 
-        <item name="resourceScrapIron" count="0,30" loot_prob_template="veryLow" />
+        <item name="resourceScrapIronBundle" count="0,3" loot_prob_template="veryLow" />
         <item name="resourceRockSmallBundle" count="0,1" loot_prob_template="veryLow" />
 		<item name="resourceWoodBundle" count="0,1" loot_prob_template="veryLow" />
 		<item name="resourcePotassiumNitratePowderBundle" count="0,1" loot_prob_template="veryLow" />

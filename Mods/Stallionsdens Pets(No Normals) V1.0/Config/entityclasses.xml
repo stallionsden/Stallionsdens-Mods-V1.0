@@ -329,7 +329,7 @@
 	<property name="SizeScale" value="1"/>
 	<property name="IsEntityAnimal" value="true"/>
 	<property name="IsEnemyEntity" value="false"/>
-	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
+	<property name="Prefab" value="/Entities/Animals/Vulture/animalBirdVulturePrefab"/>
 	
 	<property name="AITask-1" value="Territorial"/>
 	<property name="AITask-2" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,30,EntityBandit,25,EntityZombie,50,EntityZombieCop,50"/>

@@ -172,12 +172,14 @@
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='Bambi']" >
 <entity_class name="bugsBunny" extends="petsTemplate">
+	<property name="Class" value="EntityAnimalRabbit"/>
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="Tags" value="entity,animal,rabbit"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
-	<property name="Class" value="EntityAnimalRabbit"/>
-	<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>	
+	<property name="ModelType" value="Standard"/>
+	<property name="Prefab" value="/Entities/Animals/Rabbit/animalRabbitPrefab"/>
 	<property name="Parent" value="Animals"/>
 	<property name="Faction" value="animals"/>
 	<property name="PhysicsBody" value="rabbit"/>
@@ -444,10 +446,14 @@
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='MrFox']" >
 <entity_class name="foghornLeghorn" extends="animalTemplateHostilePets">
+	<property name="Class" value="EntityAnimalRabbit"/>
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
-	<property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab"/>
-	<property name="Class" value="EntityAnimalRabbit"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="Prefab" value="/Entities/Animals/Bird/animalBirdChickenPrefab"/>	
 	<property name="Parent" value="Animals"/>
 	<property name="Faction" value="animals"/>
 	<property name="PhysicsBody" value="chicken"/>

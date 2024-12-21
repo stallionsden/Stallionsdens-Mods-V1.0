@@ -172,12 +172,14 @@
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='Bambi']" >
 <entity_class name="bugsBunny" extends="petsTemplate">
+	<property name="Class" value="EntityAnimalRabbit"/>
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="Tags" value="entity,animal,rabbit"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
-	<property name="Class" value="EntityAnimalRabbit"/>
-	<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="Prefab" value="/Entities/Animals/Rabbit/animalRabbitPrefab"/>
 	<property name="Parent" value="Animals"/>
 	<property name="Faction" value="animals"/>
 	<property name="PhysicsBody" value="rabbit"/>
@@ -567,10 +569,14 @@
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='bigBadWolf']" >
 <entity_class name="foghornLeghorn" extends="animalTemplateHostilePets">
+	<property name="Class" value="EntityAnimalRabbit"/>
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
-	<property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab"/>
-	<property name="Class" value="EntityAnimalRabbit"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="Prefab" value="/Entities/Animals/Bird/animalBirdChickenPrefab"/>	
 	<property name="Parent" value="Animals"/>
 	<property name="Faction" value="animals"/>
 	<property name="PhysicsBody" value="chicken"/>
@@ -724,13 +730,13 @@
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='Luca']" >
 <entity_class name="Tweety" extends="animalTemplateHostilePets">
+	<property name="Class" value="EntityVulture"/>
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="EntityFlags" value="animal"/>
+	<property name="EntityType" value="Zombie"/>
 	<property name="Tags" value="entity,animal,vulture"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
-	<property name="TrackerIcon" value="ui_game_symbol_tracking_mountain_lion"/>
-	<property name="Class" value="EntityVulture"/>
-	<property name="EntityType" value="Zombie"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_mountain_lion"/>	
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>
@@ -739,7 +745,7 @@
 	<property name="SizeScale" value="1"/>
 	<property name="IsEntityAnimal" value="true"/>
 	<property name="IsEnemyEntity" value="false"/>
-	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
+	<property name="Prefab" value="/Entities/Animals/Vulture/animalBirdVulturePrefab"/>
 	
 	<property name="AITask-1" value="Territorial"/>
 	<property name="AITask-2" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,30,EntityBandit,25,EntityZombie,50,EntityZombieCop,50"/>
