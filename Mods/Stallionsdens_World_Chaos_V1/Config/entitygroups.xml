@@ -1,0 +1,449 @@
+<Stallionsden>
+<append xpath="/entitygroups">
+
+	<entitygroup name="TentHordeGroup">
+		zombieBoe
+		zombieJoe
+		zombieSteve
+		zombieTomClark
+		zombieMoe
+		zombieYo
+		zombieBusinessMan
+		zombieArlene
+		zombieDarlene
+		zombieMarlene
+		zombieSkateboarder
+		zombieBiker, .3
+		zombiePartyGirl, .3
+		zombieUtilityWorker, .3
+		zombieJanitor, .2
+		zombieNurse, .3
+		zombieSteveCrawler
+		zombieFatHawaiian, .3
+		zombieBowler, .3
+	</entitygroup>
+	<entitygroup name="TentHordeGroupGS1">
+		zombieBoe
+		zombieJoe
+		zombieSteve
+		zombieTomClark
+		zombieMoe
+		zombieYo
+		zombieBusinessMan
+		zombieArlene
+		zombieDarlene
+		zombieMarlene
+		zombieSkateboarder
+		zombieBiker, .3
+		zombiePartyGirl, .3
+		zombieUtilityWorker, .3
+		zombieJanitor, .2
+		zombieNurse, .3
+		zombieSteveCrawler
+		zombieFatHawaiian, .3
+		zombieBowler, .3
+	</entitygroup>
+	<entitygroup name="TentHordeGroupGS50">
+		zombieBoe
+		zombieJoe
+		zombieSteve
+		zombieTomClark
+		zombieMoe
+		zombieYo
+		zombieBusinessMan
+		zombieArlene
+		zombieDarlene
+		zombieMarlene
+		zombieSkateboarder
+		zombieBiker, .3
+		zombiePartyGirl, .3
+		zombieUtilityWorker, .3
+		zombieJanitor, .2
+		zombieNurse, .3
+		zombieSteveCrawler
+		zombieFatHawaiian, .3
+		zombieBowler, .3
+	</entitygroup>
+	<entitygroup name="TentHordeGroupGS100">
+		zombieBoe
+		zombieJoe
+		zombieSteve
+		zombieTomClark
+		zombieMoe
+		zombieYo
+		zombieBusinessMan
+		zombieArlene
+		zombieDarlene
+		zombieMarlene
+		zombieSkateboarder
+		zombieBiker, .3
+		zombiePartyGirl, .3
+		zombieUtilityWorker, .3
+		zombieJanitor, .2
+		zombieNurse, .3
+		zombieSteveCrawler
+		zombieFatHawaiian, .3
+		zombieBowler, .3
+	</entitygroup>
+	<entitygroup name="TentHordeGroupGS200">
+		zombieBoe
+		zombieJoe
+		zombieSteve
+		zombieTomClark
+		zombieMoe
+		zombieYo
+		zombieBusinessMan
+		zombieArlene
+		zombieDarlene
+		zombieMarlene
+		zombieSkateboarder
+		zombieBiker, .3
+		zombiePartyGirl, .3
+		zombieUtilityWorker, .3
+		zombieJanitor, .2
+		zombieNurse, .3
+		zombieSteveCrawler
+		zombieFatHawaiian, .3
+		zombieBowler, .3
+	</entitygroup>
+	<entitygroup name="TentHordeGroupGS400">
+		zombieBoe
+		zombieJoe
+		zombieSteve
+		zombieTomClark
+		zombieMoe
+		zombieYo
+		zombieBusinessMan
+		zombieArlene
+		zombieDarlene
+		zombieMarlene
+		zombieSkateboarder
+		zombieBiker, .3
+		zombiePartyGirl, .3
+		zombieUtilityWorker, .3
+		zombieJanitor, .2
+		zombieNurse, .3
+		zombieSteveCrawler
+		zombieFatHawaiian, .3
+		zombieBowler, .3
+	</entitygroup>
+	<entitygroup name="TentHordeGroupGS600">
+		zombieBoe
+		zombieJoe
+		zombieSteve
+		zombieTomClark
+		zombieMoe
+		zombieYo
+		zombieBusinessMan
+		zombieArlene
+		zombieDarlene
+		zombieMarlene
+		zombieSkateboarder
+		zombieBiker, .3
+		zombiePartyGirl, .3
+		zombieUtilityWorker, .3
+		zombieJanitor, .2
+		zombieNurse, .3
+		zombieSteveCrawler
+		zombieFatHawaiian, .3
+		zombieBowler, .3
+	</entitygroup>
+	<entitygroup name="TentHordeGroupGS800">
+		zombieBoe
+		zombieJoe
+		zombieSteve
+		zombieTomClark
+		zombieMoe
+		zombieYo
+		zombieBusinessMan
+		zombieArlene
+		zombieDarlene
+		zombieMarlene
+		zombieSkateboarder
+		zombieBiker, .3
+		zombiePartyGirl, .3
+		zombieUtilityWorker, .3
+		zombieJanitor, .2
+		zombieNurse, .3
+		zombieSteveCrawler
+		zombieFatHawaiian, .3
+		zombieBowler, .3
+	</entitygroup>
+		
+	<entitygroup name="TerrariumHordeGroup">
+		animalSnake		
+	</entitygroup>
+	<entitygroup name="TerrariumHordeGroupGS1">
+		animalSnake
+	</entitygroup>
+	<entitygroup name="TerrariumHordeGroupGS50">
+		animalSnake
+	</entitygroup>
+	<entitygroup name="TerrariumHordeGroupGS100">
+		animalSnake
+	</entitygroup>
+	<entitygroup name="TerrariumHordeGroupGS200">
+		animalSnake
+	</entitygroup>
+	<entitygroup name="TerrariumHordeGroupGS400">
+		animalSnake
+	</entitygroup>
+	<entitygroup name="TerrariumHordeGroupGS600">
+		animalSnake
+	</entitygroup>
+	<entitygroup name="TerrariumHordeGroupGS800">
+		animalSnake
+	</entitygroup>
+	
+	<entitygroup name="KennelHordeGroup">
+		animalZombieDog		
+	</entitygroup>
+	<entitygroup name="KennelHordeGroupGS1">
+		animalZombieDog
+	</entitygroup>
+	<entitygroup name="KennelHordeGroupGS50">
+		animalZombieDog
+	</entitygroup>
+	<entitygroup name="KennelHordeGroupGS100">
+		animalZombieDog
+	</entitygroup>
+	<entitygroup name="KennelHordeGroupGS200">
+		animalZombieDog
+	</entitygroup>
+	<entitygroup name="KennelHordeGroupGS400">
+		animalZombieDog
+	</entitygroup>
+	<entitygroup name="KennelHordeGroupGS600">
+		animalZombieDog
+	</entitygroup>
+	<entitygroup name="KennelHordeGroupGS800">
+		animalZombieDog
+	</entitygroup>
+	
+	<entitygroup name="PetHordeGroup">
+		animalStag
+		animalDoe
+		animalRabbit
+		animalChicken
+		animalBear
+		animalBearSmall
+		animalZombieBear
+		animalWolf
+		animalDireWolf
+		animalChickenHostile
+		animalCoyote
+		animalMountainLion
+		animalZombieVulture
+		animalZombieVultureRadiated		
+		animalZombieDog		
+		animalSnake
+		animalBoar
+		animalBossGrace
+	</entitygroup>
+	<entitygroup name="PetHordeGroupGS1">
+		animalStag
+		animalDoe
+		animalRabbit
+		animalChicken
+		animalBear
+		animalBearSmall
+		animalZombieBear
+		animalWolf
+		animalDireWolf
+		animalChickenHostile
+		animalCoyote
+		animalMountainLion
+		animalZombieVulture
+		animalZombieVultureRadiated		
+		animalZombieDog		
+		animalSnake
+		animalBoar
+		animalBossGrace
+	</entitygroup>
+	<entitygroup name="PetHordeGroupGS50">
+		animalStag
+		animalDoe
+		animalRabbit
+		animalChicken
+		animalBear
+		animalBearSmall
+		animalZombieBear
+		animalWolf
+		animalDireWolf
+		animalChickenHostile
+		animalCoyote
+		animalMountainLion
+		animalZombieVulture
+		animalZombieVultureRadiated		
+		animalZombieDog		
+		animalSnake
+		animalBoar
+		animalBossGrace
+	</entitygroup>
+	<entitygroup name="PetHordeGroupGS100">
+		animalStag
+		animalDoe
+		animalRabbit
+		animalChicken
+		animalBear
+		animalBearSmall
+		animalZombieBear
+		animalWolf
+		animalDireWolf
+		animalChickenHostile
+		animalCoyote
+		animalMountainLion
+		animalZombieVulture
+		animalZombieVultureRadiated		
+		animalZombieDog		
+		animalSnake
+		animalBoar
+		animalBossGrace
+	</entitygroup>
+	<entitygroup name="PetHordeGroupGS200">
+		animalStag
+		animalDoe
+		animalRabbit
+		animalChicken
+		animalBear
+		animalBearSmall
+		animalZombieBear
+		animalWolf
+		animalDireWolf
+		animalChickenHostile
+		animalCoyote
+		animalMountainLion
+		animalZombieVulture
+		animalZombieVultureRadiated		
+		animalZombieDog		
+		animalSnake
+		animalBoar
+		animalBossGrace
+	</entitygroup>
+	<entitygroup name="PetHordeGroupGS400">
+		animalStag
+		animalDoe
+		animalRabbit
+		animalChicken
+		animalBear
+		animalBearSmall
+		animalZombieBear
+		animalWolf
+		animalDireWolf
+		animalChickenHostile
+		animalCoyote
+		animalMountainLion
+		animalZombieVulture
+		animalZombieVultureRadiated		
+		animalZombieDog		
+		animalSnake
+		animalBoar
+		animalBossGrace
+	</entitygroup>
+	<entitygroup name="PetHordeGroupGS600">
+		animalStag
+		animalDoe
+		animalRabbit
+		animalChicken
+		animalBear
+		animalBearSmall
+		animalZombieBear
+		animalWolf
+		animalDireWolf
+		animalChickenHostile
+		animalCoyote
+		animalMountainLion
+		animalZombieVulture
+		animalZombieVultureRadiated		
+		animalZombieDog		
+		animalSnake
+		animalBoar
+		animalBossGrace
+	</entitygroup>
+	<entitygroup name="PetHordeGroupGS800">
+		animalStag
+		animalDoe
+		animalRabbit
+		animalChicken
+		animalBear
+		animalBearSmall
+		animalZombieBear
+		animalWolf
+		animalDireWolf
+		animalChickenHostile
+		animalCoyote
+		animalMountainLion
+		animalZombieVulture
+		animalZombieVultureRadiated		
+		animalZombieDog		
+		animalSnake
+		animalBoar
+		animalBossGrace
+	</entitygroup>
+	
+	<entitygroup name="MeterMaidHordeGroup">
+		zombieFatCop
+		zombieFatCopFeral
+		zombieFatCopRadiated
+		zombiePartyGirl
+		zombiePartyGirlFeral
+		zombiePartyGirlRadiated	
+	</entitygroup>
+	<entitygroup name="MeterMaidHordeGroupGS1">
+		zombieFatCop
+		zombieFatCopFeral
+		zombieFatCopRadiated
+		zombiePartyGirl
+		zombiePartyGirlFeral
+		zombiePartyGirlRadiated
+	</entitygroup>
+	<entitygroup name="MeterMaidHordeGroupGS50">
+		zombieFatCop
+		zombieFatCopFeral
+		zombieFatCopRadiated
+		zombiePartyGirl
+		zombiePartyGirlFeral
+		zombiePartyGirlRadiated
+	</entitygroup>
+	<entitygroup name="MeterMaidHordeGroupGS100">
+		zombieFatCop
+		zombieFatCopFeral
+		zombieFatCopRadiated
+		zombiePartyGirl
+		zombiePartyGirlFeral
+		zombiePartyGirlRadiated
+	</entitygroup>
+	<entitygroup name="MeterMaidHordeGroupGS200">
+		zombieFatCop
+		zombieFatCopFeral
+		zombieFatCopRadiated
+		zombiePartyGirl
+		zombiePartyGirlFeral
+		zombiePartyGirlRadiated
+	</entitygroup>
+	<entitygroup name="MeterMaidHordeGroupGS400">
+		zombieFatCop
+		zombieFatCopFeral
+		zombieFatCopRadiated
+		zombiePartyGirl
+		zombiePartyGirlFeral
+		zombiePartyGirlRadiated
+	</entitygroup>
+	<entitygroup name="MeterMaidHordeGroupGS600">
+		zombieFatCop
+		zombieFatCopFeral
+		zombieFatCopRadiated
+		zombiePartyGirl
+		zombiePartyGirlFeral
+		zombiePartyGirlRadiated
+	</entitygroup>
+	<entitygroup name="MeterMaidHordeGroupGS800">
+		zombieFatCop
+		zombieFatCopFeral
+		zombieFatCopRadiated
+		zombiePartyGirl
+		zombiePartyGirlFeral
+		zombiePartyGirlRadiated
+	</entitygroup>
+</append>
+</Stallionsden>

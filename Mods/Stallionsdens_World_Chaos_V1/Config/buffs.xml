@@ -1,0 +1,53 @@
+<Stallionsden>
+
+<append xpath="/buffs">
+	<buff name="TentHorde" hidden="true"> 
+        <stack_type value="ignore"/>
+        <update_rate value="1"/>
+        <duration value="2"/>
+        <effect_group>
+            <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="Tent_zombie_spawns"/>	
+        </effect_group>
+	</buff>
+	<buff name="TerrariumHorde" hidden="true"> 
+        <stack_type value="ignore"/>
+        <update_rate value="1"/>
+        <duration value="2"/>
+        <effect_group>
+            <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="Terrarium_zombie_spawns"/>	
+        </effect_group>
+	</buff>
+	<buff name="KennelHorde" hidden="true"> 
+        <stack_type value="ignore"/>
+        <update_rate value="1"/>
+        <duration value="2"/>
+        <effect_group>
+            <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="Kennel_zombie_spawns"/>	
+        </effect_group>
+	</buff>
+	<buff name="PetHorde" hidden="true"> 
+        <stack_type value="ignore"/>
+        <update_rate value="1"/>
+        <duration value="2"/>
+        <effect_group>
+            <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="Pet_zombie_spawns"/>	
+        </effect_group>
+	</buff>
+	<buff name="MeterHordeAlarm" hidden="true"> 
+        <stack_type value="ignore"/>
+        <update_rate value="1"/>
+        <duration value="2"/>
+        <effect_group>
+            <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="Meter_zombie_spawns"/>	
+        </effect_group>
+	</buff>
+</append>
+
+
+
+</Stallionsden>

@@ -1,4 +1,4 @@
-﻿<blockplaceholders>
+﻿<Stallionsden>
 	<!-- *************************************************************
             Zombie Tents - Tents that spawn zombies.
     ************************************************************** -->
@@ -36,4 +36,4 @@
 			<block name="Stallion_CampingTentAngularArmyGreen" prob="0.002"/>
 			<block name="Stallion_CampingTentAngularDamagedArmyGreen" prob="0.02"/>
 		</append>
-</blockplaceholders>
+</Stallionsden>

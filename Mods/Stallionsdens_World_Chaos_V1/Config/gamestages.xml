@@ -1,0 +1,116 @@
+<Stallionsden>
+<insertAfter xpath="/gamestages/group[@name='2GroupTestChamberDecoy']" >	
+	<group name="GroupTent" spawner="TentHorde"/>
+	<group name="GroupTerrarium" spawner="TerrariumHorde"/>
+	<group name="GroupKennel" spawner="KennelHorde"/>
+	<group name="GroupPet" spawner="PetHorde"/>
+	<group name="GroupMeterMaid" spawner="MeterMaidHorde"/>
+</insertAfter>
+<insertAfter xpath="/gamestages/spawner[@name='ZombieBurntHorde']" >
+	<spawner name="TentHorde">
+		<gamestage stage="1">
+			<spawn group="TentHordeGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="50">
+			<spawn group="TentHordeGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="100">
+			<spawn group="TentHordeGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="200">
+			<spawn group="TentHordeGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="400">
+			<spawn group="TentHordeGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>				
+		<gamestage stage="800">
+			<spawn group="TentHordeGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>		
+	</spawner>
+	
+	<spawner name="TerrariumHorde">
+		<gamestage stage="1">
+			<spawn group="TerrariumHordeGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="50">
+			<spawn group="TerrariumHordeGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="100">
+			<spawn group="TerrariumHordeGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="200">
+			<spawn group="TerrariumHordeGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="400">
+			<spawn group="TerrariumHordeGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>				
+		<gamestage stage="800">
+			<spawn group="TerrariumHordeGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>		
+	</spawner>
+	
+	<spawner name="KennelHorde">
+		<gamestage stage="1">
+			<spawn group="KennelHordeGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="50">
+			<spawn group="KennelHordeGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="100">
+			<spawn group="KennelHordeGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="200">
+			<spawn group="KennelHordeGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="400">
+			<spawn group="KennelHordeGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>				
+		<gamestage stage="800">
+			<spawn group="KennelHordeGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>		
+	</spawner>
+	
+	<spawner name="PetHorde">
+		<gamestage stage="1">
+			<spawn group="PetHordeGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="50">
+			<spawn group="PetHordeGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="100">
+			<spawn group="PetHordeGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="200">
+			<spawn group="PetHordeGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="400">
+			<spawn group="PetHordeGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>				
+		<gamestage stage="800">
+			<spawn group="PetHordeGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>		
+	</spawner>
+	
+	<spawner name="MeterMaidHorde">
+		<gamestage stage="1">
+			<spawn group="MeterMaidHordeGroupGS1" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="50">
+			<spawn group="MeterMaidHordeGroupGS50" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="100">
+			<spawn group="MeterMaidHordeGroupGS100" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="200">
+			<spawn group="MeterMaidHordeGroupGS200" num="1" maxAlive="1" duration="1"/>
+		</gamestage>			
+		<gamestage stage="400">
+			<spawn group="MeterMaidHordeGroupGS400" num="1" maxAlive="1" duration="1"/>
+		</gamestage>				
+		<gamestage stage="800">
+			<spawn group="MeterMaidHordeGroupGS800" num="1" maxAlive="1" duration="1"/>
+		</gamestage>		
+	</spawner>
+</insertAfter>
+
+</Stallionsden>
