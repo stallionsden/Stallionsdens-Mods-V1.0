@@ -4,13 +4,13 @@
 	<item group="groupCampingTents"/>
 </lootcontainer>
 <lootcontainer name="TerrariumMadness" count="1" size="6,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template" ignore_loot_abundance="true" buff="TerrariumHorde">
-	<item group="groupCampingTents"/>
+	<item group="groupJunk"/>
 </lootcontainer>
 <lootcontainer name="KennelMadness" count="1" size="6,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template" ignore_loot_abundance="true" buff="KennelHorde">
-	<item group="groupCampingTents"/>
+	<item group="groupJunk"/>
 </lootcontainer>
 <lootcontainer name="PetMadness" count="1" size="6,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template" ignore_loot_abundance="true" buff="PetHorde">
-	<item group="groupCampingTents"/>
+	<item group="groupJunk"/>
 </lootcontainer>
 <lootcontainer name="MeterMaid" count="1" size="6,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template" ignore_loot_abundance="true" buff="MeterHordeAlarm">
 	<item name="casinoCoin" count="10,350" />

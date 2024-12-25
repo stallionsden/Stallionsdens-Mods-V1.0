@@ -13,12 +13,12 @@
 					 
 			<action class="SpawnEntity">
 					<property name="entity_group" value="TentHorde"/>
-					<property name="spawn_count" value="2"/>
+					<property name="spawn_count" value="4"/>
 					<property name="air_spawn" value="false"/>
 					<property name="add_to_group" value="zombies"/>
 					<property name="safe_spawn" value="true"/>
-					<property name="min_distance" value="2"/>
-					<property name="max_distance" value="4"/>
+					<property name="min_distance" value="5"/>
+					<property name="max_distance" value="10"/>
 			</action>
 
 			</action_sequence>
@@ -39,8 +39,8 @@
 					<property name="air_spawn" value="false"/>
 					<property name="add_to_group" value="zombies"/>
 					<property name="safe_spawn" value="true"/>
-					<property name="min_distance" value="2"/>
-					<property name="max_distance" value="4"/>
+					<property name="min_distance" value="5"/>
+					<property name="max_distance" value="7"/>
 			</action>
 
 			</action_sequence>
@@ -61,8 +61,8 @@
 					<property name="air_spawn" value="false"/>
 					<property name="add_to_group" value="zombies"/>
 					<property name="safe_spawn" value="true"/>
-					<property name="min_distance" value="2"/>
-					<property name="max_distance" value="4"/>
+					<property name="min_distance" value="8"/>
+					<property name="max_distance" value="10"/>
 			</action>
 
 			</action_sequence>
@@ -83,8 +83,8 @@
 					<property name="air_spawn" value="false"/>
 					<property name="add_to_group" value="zombies"/>
 					<property name="safe_spawn" value="true"/>
-					<property name="min_distance" value="2"/>
-					<property name="max_distance" value="4"/>
+					<property name="min_distance" value="10"/>
+					<property name="max_distance" value="15"/>
 			</action>
 
 			</action_sequence>			
@@ -105,8 +105,8 @@
 					<property name="air_spawn" value="false"/>
 					<property name="add_to_group" value="zombies"/>
 					<property name="safe_spawn" value="true"/>
-					<property name="min_distance" value="2"/>
-					<property name="max_distance" value="4"/>
+					<property name="min_distance" value="8"/>
+					<property name="max_distance" value="14"/>
 			</action>
 
 			</action_sequence>
