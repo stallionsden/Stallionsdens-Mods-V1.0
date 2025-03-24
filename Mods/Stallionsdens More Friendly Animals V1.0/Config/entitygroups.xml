@@ -1,0 +1,37 @@
+<stallionsden>
+<remove xpath="/entitygroups/entitygroup[@name='WildGameForest']" ></remove> 
+<remove xpath="/entitygroups/entitygroup[@name='WildGameForestNight']" ></remove>
+<remove xpath="/entitygroups/entitygroup[@name='WildGameStagNight']" ></remove> 
+
+<insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesCave']">	
+	<entitygroup name="WildGameForest">
+		animalRabbit, 7.5
+		animalChicken, 7.5		
+		animalStag, 7.5
+		animalDoe, 7.5
+		animalBoar, 7.5
+		animalZombieDog, 2		
+		animalMountainLion, 2
+		animalWolf, 2		
+		animalBear, 2
+		animalZombieVulture, 2
+		none, 001
+	</entitygroup>
+	
+	<entitygroup name="WildGameForestNight">
+		animalRabbit, 7.5
+		animalChicken, 7.5		
+		animalStag, 7.5
+		animalDoe, 7.5
+		animalBoar, 7.5		
+		none, 001
+	</entitygroup>	
+	
+	<entitygroup name="WildGameStagNight">
+		animalStag,5
+		animalDoe, 5
+		none, 001
+	</entitygroup>	
+	
+</insertAfter>
+</stallionsden>

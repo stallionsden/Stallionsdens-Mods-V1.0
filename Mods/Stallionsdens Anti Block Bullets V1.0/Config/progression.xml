@@ -1,27 +1,27 @@
 <Stallionsden>
-<append xpath="/progression/perks/book[@name='perkPistolPeteHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammo9mmBulletHP')]/@tags">,9mmBulletHP</append>
-<append xpath="/progression/perks/book[@name='perkPistolPeteAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammo9mmBulletAP')]/@tags">,9mmBulletAP</append>
-<append xpath="/progression/perks/book[@name='perkEnforcerAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammo44MagnumBulletAP')]/@tags">,44MagnumBulletAP</append>
-<append xpath="/progression/perks/book[@name='perkEnforcerHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammo44MagnumBulletHP')]/@tags">,44MagnumBulletHP</append>
-<append xpath="/progression/perks/book[@name='perkSniperAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammo762mmBulletAP')]/@tags">,ammo762mmBulletAP</append>
-<append xpath="/progression/perks/book[@name='perkSniperHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammo762mmBulletHP')]/@tags">,ammo762mmBulletHP</append>
-<append xpath="/progression/perks/book[@name='perkShotgunMessiahBreachingSlugs']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoShotgunBreachingSlug')]/@tags">,shotgunBreachingSlug</append>
-<append xpath="/progression/perks/book[@name='perkShotgunMessiahSlugs']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoShotgunSlug')]/@tags">,shotgunSlug</append>
-<append xpath="/progression/perks/book[@name='perkRangersExplodingBolts']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoArrowExploding')]/@tags">,arrowExploding,crossbowBoltExploding</append>
-<append xpath="/progression/perks/book[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoCrossbowBoltFlaming')]/@tags">,arrowFlaming,crossbowBoltFlaming</append>
-<append xpath="/progression/perks/book[@name='perkRangersAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoCrossbowBoltSteelAP')]/@tags">,arrowExploding,crossbowBoltExploding</append>
-<append xpath="/progression/perks/book[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoCrossbowBoltFlaming')]/@tags">,arrowSteelAP,crossbowBoltSteelAP</append>
-<append xpath="/progression/perks/book[@name='perkRangersAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoCrossbowBoltSteelAP')]/@tags">,arrowExploding,crossbowBoltExploding</append>
-<append xpath="/progression/perks/book[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoCrossbowBoltFlaming')]/@tags">,arrowSteelAP,crossbowBoltSteelAP</append>
-<append xpath="/progression/perks/book[@name='perkTechJunkie4Shells']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoJunkTurretShell')]/@tags">,junkTurretShellammo</append>
-<append xpath="/progression/perks/book[@name='perkTechJunkie3APAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoJunkTurretAP')]/@tags">,junkTurretAPammo</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'mineCookingPot')]/@tags">,cookingPotMine</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'thrownAmmoPipeBomb')]/@tags">,pipeBomb</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'mineHubcap')]/@tags">,hubcapMine</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'thrownDynamite')]/@tags">,dynamite</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'ammoRocketHE')]/@tags">,rocketHE,rocketFrag</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'thrownGrenade')]/@tags">,grenade</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'mineAirFilter')]/@tags">,airFilterMine</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'thrownGrenadeContact')]/@tags">,grenadeContact</append>
-<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'thrownTimedCharge')]/@tags">,timedCharge</append>
+<append xpath="/progression/perks/book[@name='perkPistolPeteHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,9mmBulletHP</append>
+<append xpath="/progression/perks/book[@name='perkPistolPeteAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,9mmBulletAP</append>
+<append xpath="/progression/perks/book[@name='perkEnforcerAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,44MagnumBulletAP</append>
+<append xpath="/progression/perks/book[@name='perkEnforcerHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,44MagnumBulletHP</append>
+<append xpath="/progression/perks/book[@name='perkSniperAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,ammo762mmBulletAP</append>
+<append xpath="/progression/perks/book[@name='perkSniperHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,ammo762mmBulletHP</append>
+<append xpath="/progression/perks/book[@name='perkShotgunMessiahBreachingSlugs']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,shotgunBreachingSlug</append>
+<append xpath="/progression/perks/book[@name='perkShotgunMessiahSlugs']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,shotgunSlug</append>
+<append xpath="/progression/perks/book[@name='perkRangersExplodingBolts']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,arrowExploding,crossbowBoltExploding</append>
+<append xpath="/progression/perks/book[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,arrowFlaming,crossbowBoltFlaming</append>
+<append xpath="/progression/perks/book[@name='perkRangersAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,arrowExploding,crossbowBoltExploding</append>
+<append xpath="/progression/perks/book[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,arrowSteelAP,crossbowBoltSteelAP</append>
+<append xpath="/progression/perks/book[@name='perkRangersAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,arrowExploding,crossbowBoltExploding</append>
+<append xpath="/progression/perks/book[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,arrowSteelAP,crossbowBoltSteelAP</append>
+<append xpath="/progression/perks/book[@name='perkTechJunkie4Shells']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,junkTurretShellammo</append>
+<append xpath="/progression/perks/book[@name='perkTechJunkie3APAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,junkTurretAPammo</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,cookingPotMine</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,pipeBomb</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,hubcapMine</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,dynamite</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,rocketHE,rocketFrag</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,grenade</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,airFilterMine</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,grenadeContact</append>
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,timedCharge</append>
 </Stallionsden>

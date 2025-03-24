@@ -21,8 +21,6 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
 	</effect_group>	
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='9mmBulletBall']">
 <item name="9mmBulletHP">
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -40,8 +38,6 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='9mmBulletHP']">
 <item name="9mmBulletAP">
 	<property name="CustomIcon" value="ammo9mmBulletAP"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -73,8 +69,6 @@
 	</effect_group>
 </item>
 <!-- 9MM AMMO -->
-</insertAfter>
-<insertAfter xpath="/items/item[@name='9mmBulletAP']">
 <!-- 44 MAGNUM AMMO -->
 <item name="44MagnumBulletBall">
 	<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
@@ -94,8 +88,6 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='44MagnumBulletBall']">
 <item name="44MagnumBulletHP">
 	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -115,8 +107,6 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='44MagnumBulletHP']">
 <item name="44MagnumBulletAP">
 	<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -148,8 +138,6 @@
 	</effect_group>
 </item>
 <!-- 44 MAGNUM AMMO -->
-</insertAfter>
-<insertAfter xpath="/items/item[@name='44MagnumBulletAP']">
 <!-- 7.62MM AMMO -->
 <item name="762mmBulletBall">
 	<property name="Extends" value="9mmBulletBall"/>
@@ -165,8 +153,6 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='762mmBulletBall']">
 <item name="762mmBulletHP">
 	<property name="Extends" value="762mmBulletBall"/>
 	<property name="CustomIcon" value="ammo762mmBulletHP"/>
@@ -186,8 +172,6 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='762mmBulletHP']">
 <item name="762mmBulletAP">
 	<property name="Extends" value="762mmBulletBall"/>
 	<property name="CustomIcon" value="ammo762mmBulletAP"/>
@@ -222,13 +206,10 @@
 	</effect_group>
 </item>
 <!-- 7.62MM AMMO -->
-</insertAfter>
-<insertAfter xpath="/items/item[@name='762mmBulletAP']">
 <!-- SHOTGUN AMMO -->
 <item name="shotgunShell">
 	<property name="CustomIcon" value="ammoShotgunShell"/>
-	<property name="CustomIconTint" value="b0ffb0"/>
-	<property name="Tags" value="ammo,shotgun"/>
+	<property name="Tags" value="ammo,shotgun,ammoShells"/>
 	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
@@ -236,7 +217,10 @@
 	<property name="Material" value="Mlead_scrap"/>
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="11"/>
-	<property name="Group" value="Ammo/Weapons"/>
+	<property name="TraderStageTemplate" value="ammoTier1"/><!-- ammoShotgunShell -->
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons"/>
+	<property name="SoundPickup" value="shotgunshells_grab"/>
+	<property name="SoundPlace" value="shotgunshells_place"/>
 	<effect_group name="shotgunShell" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="10.1" tags="perkBoomstick"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="0" tags="perkBoomstick"/>
@@ -244,22 +228,21 @@
 		<passive_effect name="MaxRange" operation="base_set" value="10" tags="perkBoomstick"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="4" tags="perkBoomstick"/>
 		<passive_effect name="EntityPenetrationCount" operation="base_set" value="2" tags="perkBoomstick"/>
-		<passive_effect name="BlockPenetrationFactor" operation="base_set" value="0" tags="perkBoomstick"/>
+		<passive_effect name="BlockPenetrationFactor" operation="base_set" value="51" tags="perkBoomstick"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4.5" tags="perkBoomstick"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4.5" tags="perkBoomstick"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.13" tags="perkBoomstick"/>
 		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05" tags="perkBoomstick"/>
 		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15" tags="perkBoomstick"/>
 		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3" tags="perkBoomstick"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='shotgunShell']">
+
 <item name="shotgunSlug">
 	<property name="CustomIcon" value="ammoShotgunSlug"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
-	<property name="Tags" value="ammo,shotgun"/>
+	<property name="Tags" value="ammo,shotgun,ammoShells"/>
 	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
@@ -283,8 +266,10 @@
 		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3" tags="perkBoomstick"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="earth"/>
 
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkBoomstick"/><display_value name="dTargetArmor" value="-.5"/>
-		<passive_effect name="EntityPenetrationCount" operation="base_set" value="2" tags="perkBoomstick"/><display_value name="dTargetPenetration" value="2"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkBoomstick"/>
+		<display_value name="dTargetArmor" value="-.5"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="2" tags="perkBoomstick"/>
+		<display_value name="dTargetPenetration" value="2"/>
 	</effect_group>
 
 	<effect_group name="perkPenetrator" tiered="false">
@@ -298,8 +283,7 @@
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='shotgunSlug']">
+
 <item name="shotgunBreachingSlug">
 	<property name="CustomIcon" value="ammoShotgunBreachingSlug"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -331,8 +315,6 @@
 	</effect_group>
 </item>
 <!-- SHOTGUN AMMO -->
-</insertAfter>
-<insertAfter xpath="/items/item[@name='shotgunBreachingSlug']">
 <!-- JUNK TURRET AMMO -->
 <item name="junkTurretAmmo">
 	<property name="CustomIcon" value="ammoJunkTurretRegular"/>
@@ -387,7 +369,6 @@
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="7" tags="perkTurrets"/>
 	</effect_group>
 </item>
-
 <item name="junkTurretAPammo">
 	<property name="UnlockedBy" value="perkTechJunkie3APAmmo"/>
 	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
@@ -429,8 +410,6 @@
 	</effect_group>
 </item>
 <!-- JUNK TURRET AMMO -->
-</insertAfter>
-<insertAfter xpath="/items/item[@name='junkTurretAmmo']">
 <!-- ROCKET AMMO -->
 <item name="rocketHE">
 	<property name="CustomIcon" value="ammoRocketHE"/>
@@ -463,8 +442,6 @@
 		<display_value name="dExRadius" value="5"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='rocketHE']">
 <item name="rocketFrag">
 	<property name="CustomIcon" value="ammoRocketHE"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -481,8 +458,6 @@
 	</effect_group>
 </item>
 <!-- ROCKET AMMO -->
-</insertAfter>
-<insertAfter xpath="/items/item[@name='rocketFrag']">
 <!-- BOW AMMO -->
 <item name="arrowStone">
 	<property name="CustomIcon" value="ammoArrowStone"/>
@@ -519,8 +494,6 @@
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="45" tags="perkArchery"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='arrowStone']">
 <item name="arrowIron">
 	<property name="CustomIcon" value="ammoArrowIron"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -553,8 +526,6 @@
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='arrowIron']">
 <item name="arrowSteelAP">
 	<property name="CustomIcon" value="ammoArrowSteelAP"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -584,8 +555,6 @@
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='arrowSteelAP']">
 <item name="arrowFlaming">
 	<property name="CustomIcon" value="ammoArrowFlaming"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -649,8 +618,6 @@
 
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='arrowFlaming']">
 <item name="arrowExploding">
 	<property name="CustomIcon" value="ammoArrowExploding"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -695,8 +662,6 @@
 	</effect_group>
 </item>
 <!-- BOW AMMO -->
-</insertAfter>
-<insertAfter xpath="/items/item[@name='arrowExploding']">
 <!-- CROSSBOW AMMO -->
 <item name="crossbowBoltStone">
 	<property name="CustomIcon" value="ammoCrossbowBoltStone"/>
@@ -737,8 +702,6 @@
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="67.5" tags="perkArchery"/>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='crossbowBoltStone']">
 <item name="crossbowBoltIron">
 	<property name="CustomIcon" value="ammoCrossbowBoltIron"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -788,8 +751,6 @@
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='crossbowBoltIron']">
 <item name="crossbowBoltSteelAP">
 	<property name="CustomIcon" value="ammoCrossbowBoltSteelAP"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -822,8 +783,6 @@
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='crossbowBoltSteelAP']">
 <item name="crossbowBoltFlaming">
 	<property name="CustomIcon" value="ammoCrossbowBoltFlaming"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -876,8 +835,6 @@
 		</triggered_effect>
 	</effect_group>
 </item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='crossbowBoltFlaming']">
 <item name="crossbowBoltExploding">
 	<property name="CustomIcon" value="ammoCrossbowBoltExploding"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
@@ -1262,7 +1219,7 @@
 <append xpath="/items/item[@name='gunHandgunT1Pistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
 <append xpath="/items/item[@name='gunHandgunT3SMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
 <append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@class='Action0']/property[@name='Magazine_items']/@value">,44MagnumBulletBall,44MagnumBulletHP,44MagnumBulletAP</append>
-<append xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
+<append xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Magazine_items']/@value">,44MagnumBulletBall,44MagnumBulletHP,44MagnumBulletAP</append>
 <append xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@class='Action0']/property[@name='Magazine_items']/@value">,shotgunShell,shotgunSlug,shotgunBreachingSlug</append>
 <append xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,shotgunShell,shotgunSlug,shotgunBreachingSlug</append>
 <append xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,shotgunShell,shotgunSlug,shotgunBreachingSlug</append>
